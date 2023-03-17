@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Комментарии к публикации «URI — сложно о простом (Часть 1)»</title>
+    <link>https://habr.com/ru/post/232385/</link>
+    <description><![CDATA[Комментарии к публикации «URI — сложно о простом (Часть 1)»]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:08:41 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+
+
+
+            <item>
+      <title>20.07.2015 08:38:22 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8506651</guid>
+      <link>https://habr.com/post/232385/#comment_8506651</link>
+      <description><![CDATA[как раз это одна из глав второй части, которую я еще даже не сел пейсать Т_Т]]></description>
+      <pubDate>Mon, 20 Jul 2015 08:38:22 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>20.07.2015 08:37:18 zlyoha</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8506649</guid>
+      <link>https://habr.com/post/232385/#comment_8506649</link>
+      <description><![CDATA[СПасибо, будет интересно, если о них в продолжении упомянете]]></description>
+      <pubDate>Mon, 20 Jul 2015 08:37:18 GMT</pubDate>
+      <dc:creator>zlyoha</dc:creator>
+    </item>
+    <item>
+      <title>20.07.2015 08:34:33 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8506643</guid>
+      <link>https://habr.com/post/232385/#comment_8506643</link>
+      <description><![CDATA[для доменов с национальными символами есть такая порнуха как IRI и IDN, там используется punycode шифрование, и к несчастью, это стандарт…]]></description>
+      <pubDate>Mon, 20 Jul 2015 08:34:33 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>17.07.2015 13:45:49 zlyoha</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8504337</guid>
+      <link>https://habr.com/post/232385/#comment_8504337</link>
+      <description><![CDATA[В FF помогает установка browser.fixup.alternate.enabled = false<br/>
+При этом имя декодирует, но все равно выдает ошибку. После перезагрузки страницы все ок.<br/>
+Если кому интересно — принцип работы <a href="http://www-archive.mozilla.org/docs/end-user/domain-guessing.html">domain guessing</a>]]></description>
+      <pubDate>Fri, 17 Jul 2015 13:45:49 GMT</pubDate>
+      <dc:creator>zlyoha</dc:creator>
+    </item>
+    <item>
+      <title>17.07.2015 09:42:56 zlyoha</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8503691</guid>
+      <link>https://habr.com/post/232385/#comment_8503691</link>
+      <description><![CDATA[Opera 30.0 открывает]]></description>
+      <pubDate>Fri, 17 Jul 2015 09:42:56 GMT</pubDate>
+      <dc:creator>zlyoha</dc:creator>
+    </item>
+    <item>
+      <title>17.07.2015 09:34:23 zlyoha</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8503681</guid>
+      <link>https://habr.com/post/232385/#comment_8503681</link>
+      <description><![CDATA[<blockquote>Синтаксис регистрационного имени позволяет использование процентно-кодированных символов, для представления не-ASCII символов</blockquote><br/>
+На chrome работает, IE11 не справляется, а в Firefox принудительно добавляет <i>www.</i>, так не должно быть?<br/>
+<pre>http://%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82.%D1%80%D1%84
+http://www.президент.рф/
+</pre>]]></description>
+      <pubDate>Fri, 17 Jul 2015 09:34:23 GMT</pubDate>
+      <dc:creator>zlyoha</dc:creator>
+    </item>
+    <item>
+      <title>14.07.2015 16:04:37 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8498635</guid>
+      <link>https://habr.com/post/232385/#comment_8498635</link>
+      <description><![CDATA[равно как и &quot;#&quot;<br/>
+&quot;&quot; — относительная ссылка, но путь пустой, поэтому тупо перезагрузится текущая страница, огрубляя, браузер делает так:<br/>
+«текущий uri» + &quot;&quot; -&gt; перезагрузить страницу]]></description>
+      <pubDate>Tue, 14 Jul 2015 16:04:37 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>14.07.2015 16:00:50 ivan386</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8498629</guid>
+      <link>https://habr.com/post/232385/#comment_8498629</link>
+      <description><![CDATA[Недавно узнал что пустой URI это ссылка на текщий документ.]]></description>
+      <pubDate>Tue, 14 Jul 2015 16:00:50 GMT</pubDate>
+      <dc:creator>ivan386</dc:creator>
+    </item>
+    <item>
+      <title>14.07.2015 00:50:40 negodnik</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8497351</guid>
+      <link>https://habr.com/post/232385/#comment_8497351</link>
+      <description><![CDATA[<blockquote>Но это чревато в случае использования из под https, ибо https есть не везде.</blockquote><br/>
+Но подключенный http из https все равно не заработает в адекватных браузерах.]]></description>
+      <pubDate>Tue, 14 Jul 2015 00:50:40 GMT</pubDate>
+      <dc:creator>negodnik</dc:creator>
+    </item>
+    <item>
+      <title>13.07.2015 09:55:28 gonzazoid</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8496157</guid>
+      <link>https://habr.com/post/232385/#comment_8496157</link>
+      <description><![CDATA[ага, вспомнил. Знатный был срач. Тем не менее я в свое время ссылочку на статью добавил в свой стек лист, есть ощущение что ряд задач, которые у меня маячат на горизонте ближе к Вашему формату, чем к json. Спасибо.]]></description>
+      <pubDate>Mon, 13 Jul 2015 09:55:28 GMT</pubDate>
+      <dc:creator>gonzazoid</dc:creator>
+    </item>
+    <item>
+      <title>13.07.2015 08:32:36 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8496033</guid>
+      <link>https://habr.com/post/232385/#comment_8496033</link>
+      <description><![CDATA[у mailto:, magnet: и иже с ними нет части authority, есть path, query и т.д., но authority нету.<br/>
+//относится именно к компоненте authority.<br/>
+<br/>
+Если, например посмотреть RFC по mailto, то можно увидеть вот такой момент:<br/>
+<blockquote> mailto:addr1%2C%20addr2<br/>
+<br/>
+is equivalent to<br/>
+<br/>
+mailto:?to=addr1%2C%20addr2<br/>
+<br/>
+is equivalent to<br/>
+<br/>
+mailto:addr1?to=addr2<br/>
+</blockquote><br/>
+Таким образом, mailto:addr@gmail.com это всего лишь специфичный для mailto синтаксис аналогичный mailto:?to=addr@gmail.com, т.е. для схемы mailto путь, если он задан, в конечном итоге преобразуется в хедер «to».]]></description>
+      <pubDate>Mon, 13 Jul 2015 08:32:36 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 20:05:39 vintage</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495663</guid>
+      <link>https://habr.com/post/232385/#comment_8495663</link>
+      <description><![CDATA[<a href="http://www.theinquirer.net/inquirer/news/1558680/berners-lee-regrets-double-slash">«Тогда это казалось хорошей идеей»</a> :-)]]></description>
+      <pubDate>Sun, 12 Jul 2015 20:05:39 GMT</pubDate>
+      <dc:creator>vintage</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 19:58:35 Egor3f</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495661</guid>
+      <link>https://habr.com/post/232385/#comment_8495661</link>
+      <description><![CDATA[Мне ещё любопытно – почему в схемах http://, ftp://, file:// используются слэши, а в схемах mailto:, tel:, magnet: – их нет?]]></description>
+      <pubDate>Sun, 12 Jul 2015 19:58:35 GMT</pubDate>
+      <dc:creator>Egor3f</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 19:21:09 vintage</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495635</guid>
+      <link>https://habr.com/post/232385/#comment_8495635</link>
+      <description><![CDATA[Она описана в <a href="http://habrahabr.ru/post/248147/">статье про формат Tree</a>.<br/>
+<br/>
+<div class="spoiler"><b class="spoiler_title">Выглядит грамматика, например, так</b><div class="spoiler_text"><img src="https://habrastorage.org/getpro/habr/post_images/e4b/437/e05/e4b437e050062dec5d4e06eaf214cd8d.png" alt="image"/><br/>
+</div></div>]]></description>
+      <pubDate>Sun, 12 Jul 2015 19:21:09 GMT</pubDate>
+      <dc:creator>vintage</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 19:17:55 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495631</guid>
+      <link>https://habr.com/post/232385/#comment_8495631</link>
+      <description><![CDATA[Для абсолютного URI схема обязательна, все остальное опционально.<br/>
+Для относительного URI вообще все опционально, но при этом схема отсутствует.<br/>
+<br/>
+Как-то так, завтра по-утру на свежую голову поправлю.]]></description>
+      <pubDate>Sun, 12 Jul 2015 19:17:55 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 19:12:12 vintage</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495627</guid>
+      <link>https://habr.com/post/232385/#comment_8495627</link>
+      <description><![CDATA[Должно быть так: схема обязательна, всё остальное опционально.]]></description>
+      <pubDate>Sun, 12 Jul 2015 19:12:12 GMT</pubDate>
+      <dc:creator>vintage</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 15:34:04 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495497</guid>
+      <link>https://habr.com/post/232385/#comment_8495497</link>
+      <description><![CDATA[Истолковать можно следующим образом:<br/>
+схема — file<br/>
+хост — нулевой, т.е. локалхост<br/>
+путь — /C:/test.htm, т.е. здесь путь отсчитывается от корня, вот и получается 3 слеша<br/>
+<br/>
+Я это планировал включить в следующую часть.]]></description>
+      <pubDate>Sun, 12 Jul 2015 15:34:04 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 15:31:20 noxwell</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495485</guid>
+      <link>https://habr.com/post/232385/#comment_8495485</link>
+      <description><![CDATA[Кстати, меня все время мучил вопрос, почему в ссылке на локальный файл три слеша, например, file:///C:/test.htm. Думал в этой статье найти ответ, но нет, пришлось гуглить. Оказывается если в URI опущен host, то подразумевается localhost, то есть ссылка выше будет приравнена к file://localhost/C:/test.htm. Интересно, это особенность только схемы file, или это правило универсально?]]></description>
+      <pubDate>Sun, 12 Jul 2015 15:31:20 GMT</pubDate>
+      <dc:creator>noxwell</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 15:06:50 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495461</guid>
+      <link>https://habr.com/post/232385/#comment_8495461</link>
+      <description><![CDATA[Я бы тоже с удовольствием почитал :3]]></description>
+      <pubDate>Sun, 12 Jul 2015 15:06:50 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 15:05:42 gonzazoid</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495455</guid>
+      <link>https://habr.com/post/232385/#comment_8495455</link>
+      <description><![CDATA[&gt;Кроме того мною разработана нотация лишённая основных недостатков BNF<br/>
+Не поделитесь? Если сильно непричесано — то хотя бы приватно.]]></description>
+      <pubDate>Sun, 12 Jul 2015 15:05:42 GMT</pubDate>
+      <dc:creator>gonzazoid</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 13:14:48 pansa</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495379</guid>
+      <link>https://habr.com/post/232385/#comment_8495379</link>
+      <description><![CDATA[А про зависимость от ФС сервера можно где-то в RFC ссылку? Я понимаю о чем речь, но это особенности реализации конкретных http-серверов, и обсуждаемые RFC тут ни при чем. Повторюсь, например, у меня реализация какого-нибудь REST-API, и там не будет никаких подкаталогов и файлов, иерархия PATH будет чисто виртуальной. И вообще без разницы на какой ФС работает сервер.]]></description>
+      <pubDate>Sun, 12 Jul 2015 13:14:48 GMT</pubDate>
+      <dc:creator>pansa</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 12:53:06 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495361</guid>
+      <link>https://habr.com/post/232385/#comment_8495361</link>
+      <description><![CDATA[Переводится как «предполагается что должны быть регистрозависимыми». Короче конечная инстанция в данном вопросе — спецификация схемы.]]></description>
+      <pubDate>Sun, 12 Jul 2015 12:53:06 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 12:49:15 pansa</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495355</guid>
+      <link>https://habr.com/post/232385/#comment_8495355</link>
+      <description><![CDATA[Согласен, но почти =) Читаем:<br/>
+<br/>
+6.2.2. Syntax-Based Normalization<br/>
+…<br/>
+When a URI uses components of the generic syntax, the component<br/>
+ syntax equivalence rules always apply; namely, that the scheme and<br/>
+ host are case-insensitive and therefore should be normalized to<br/>
+ lowercase. For example, the URI &lt;HTTP://www.EXAMPLE.com/&gt; is<br/>
+ equivalent to &lt;www.example.com&gt;. The other generic syntax<br/>
+ components are assumed to be case-sensitive unless specifically<br/>
+ defined otherwise by the scheme (see Section 6.2.3).<br/>
+<br/>
+Я это понимаю, так, что компоненты предполагаются регистрозависимыми, ЕСЛИ некоторая схема явно не отменяет это.<br/>
+Т.е они могут быть регистроНЕзависимыми. Раз уж мы так трепетны к букве RFC :) <br/>
+]]></description>
+      <pubDate>Sun, 12 Jul 2015 12:49:15 GMT</pubDate>
+      <dc:creator>pansa</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 12:34:12 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495341</guid>
+      <link>https://habr.com/post/232385/#comment_8495341</link>
+      <description><![CDATA[Они <u>не должны быть</u> регистронезависимы, они <u>могут быть</u> регистронезависимы.<br/>
+<br/>
+Спецификация допускает использование как верхнего так и нижнего регистров, остальное зависит от:<br/>
+а) Спецификации схемы, которая может наложить эти ограничения, т.е. у HTTP нормализация URI производится таковым образом, что схема и хост — регистронезависимы, а все остальное нормализуется как регистрозависимое;<br/>
+б) Реализации, тут уже кто на что способен, как говорится. ]]></description>
+      <pubDate>Sun, 12 Jul 2015 12:34:12 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 12:23:26 vintage</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495327</guid>
+      <link>https://habr.com/post/232385/#comment_8495327</link>
+      <description><![CDATA[С чего вы решили, что «Должно быть — регистрозависимо»?]]></description>
+      <pubDate>Sun, 12 Jul 2015 12:23:26 GMT</pubDate>
+      <dc:creator>vintage</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 12:15:42 pansa</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495317</guid>
+      <link>https://habr.com/post/232385/#comment_8495317</link>
+      <description><![CDATA[&gt; scheme и host регистронезависимы<br/>
+Да, это есть в статье и с этим никто не спорил вроде бы. А вот про регистрозависимость остальных частей сказано расплывчато, что я и хотел подчеркнуть.<br/>
+<br/>
+&gt; Остальные компоненты — в зависимости от реализации.<br/>
+Обсуждается не реализация, которая может (не)соответствовать RFC, а как это задумано, как должно быть. Должно быть — регистрозависимо. Хотя, конечно, в большистве случаев это не нужно и принудительно можно отключить. В том числе могут влиять и ФС, но это всего одна из возможных причин. Никаких файлов может не быть вовсе.<br/>
+<br/>
+]]></description>
+      <pubDate>Sun, 12 Jul 2015 12:15:42 GMT</pubDate>
+      <dc:creator>pansa</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 12:08:49 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495313</guid>
+      <link>https://habr.com/post/232385/#comment_8495313</link>
+      <description><![CDATA[Был дурак, исправился…<br/>
+<br/>
+Только щас понял что действительно неверно было написано, пост подправил, должно быть так:<br/>
+<blockquote>либо scheme+authority+path,<br/>
+либо sheme+path,<br/>
+либо только path.</blockquote><br/>
+<br/>
+Искренние извинения, сказывается недостаток сна (╥_╥)]]></description>
+      <pubDate>Sun, 12 Jul 2015 12:08:49 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 11:53:30 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495305</guid>
+      <link>https://habr.com/post/232385/#comment_8495305</link>
+      <description><![CDATA[<blockquote>P.S. Да, еще я бы акцентировал, что PATH и QUERY регистрозависимы, в отличие от HOST.</blockquote><br/>
+scheme — регистронезависим<br/>
+host — регистронезависим<br/>
+path — в зависимости от имплементации файловой системы сервера<br/>
+query — регистрозависим<br/>
+fragment — в зависимости от браузера]]></description>
+      <pubDate>Sun, 12 Jul 2015 11:53:30 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 11:47:41 Keyten</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495299</guid>
+      <link>https://habr.com/post/232385/#comment_8495299</link>
+      <description><![CDATA[Сам только недавно узнал про октоторп, но вообще Вики <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%BD%D0%B0%D0%BA_%D1%80%D0%B5%D1%88%D1%91%D1%82%D0%BA%D0%B8">говорит</a>:<br/>
+<blockquote>иные варианты названия: «решётка», «хеш», «знак номера», «диез» (или «шарп» (англ. sharp), из-за внешнего сходства этих двух символов), «знак фунта» </blockquote>]]></description>
+      <pubDate>Sun, 12 Jul 2015 11:47:41 GMT</pubDate>
+      <dc:creator>Keyten</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 11:40:20 vintage</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495285</guid>
+      <link>https://habr.com/post/232385/#comment_8495285</link>
+      <description><![CDATA[base не authority переопределяет, а base-uri, который по умолчанию равен uri, по которому эта страница получена.<br/>
+<br/>
+scheme и host регистронезависимы. Остальные компоненты — в зависимости от реализации. Как правило регистрозависимость path зависит от регистрозависимости файловой системы, где ищутся соответствующие файлы.]]></description>
+      <pubDate>Sun, 12 Jul 2015 11:40:20 GMT</pubDate>
+      <dc:creator>vintage</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 11:33:31 vintage</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495275</guid>
+      <link>https://habr.com/post/232385/#comment_8495275</link>
+      <description><![CDATA[Как всё запущено…<br/>
+<br/>
+<blockquote>ABNF вы читать не умеете и мне пытаетесь предъявить, что я пишу глупости.</blockquote><br/>
+Умею и читать, и писать. Писал парсеры на основе BNF. Кроме того мною разработана нотация лишённая основных недостатков BNF.<br/>
+<br/>
+<blockquote>Читается как URI и/или relative-ref</blockquote><br/>
+Не «и/или», а только «или».<br/>
+<br/>
+<blockquote>Что есть hier-part?</blockquote><blockquote> hier-part = &quot;//&quot; authority path-abempty / path-absolute / path-rootless / path-empty<br/>
+<br/>
+path-abempty = *( &quot;/&quot; segment )<br/>
+path-absolute = &quot;/&quot; [ segment-nz *( &quot;/&quot; segment ) ]<br/>
+path-rootless = segment-nz *( &quot;/&quot; segment )<br/>
+path-empty = 0&lt;pchar&gt;<br/>
+</blockquote><br/>
+… а не то, что вы написали.<br/>
+<br/>
+И authority и собственно path — опциональны. Разница между «компонент есть, но он пустой» и «компонента нет» — есть только в BNF нотации. Семантической разницы тут нет. <br/>
+<br/>
+]]></description>
+      <pubDate>Sun, 12 Jul 2015 11:33:31 GMT</pubDate>
+      <dc:creator>vintage</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 11:10:39 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495263</guid>
+      <link>https://habr.com/post/232385/#comment_8495263</link>
+      <description><![CDATA[Ну, это уже в больше степени браузерные аспекты и особенности HTTP, тем не менее, я планировал отметить эти моменты во второй главе =)]]></description>
+      <pubDate>Sun, 12 Jul 2015 11:10:39 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 11:05:43 pansa</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495261</guid>
+      <link>https://habr.com/post/232385/#comment_8495261</link>
+      <description><![CDATA[Пара дополнений на которые сам когда-то наткнулся:<br/>
+1) #fragment НЕ передается в HTTP-запросе на сервер, а используется только самим браузером. <br/>
+2) существует HTML-тэг base — которым можно переопределить часть authority для всех относительных URI на данной странице. Это иногда может сбивать с толку.<br/>
+<br/>
+Вдруг кто не знает. :) <br/>
+<br/>
+P.S. Да, еще я бы акцентировал, что PATH и QUERY регистрозависимы, в отличие от HOST.]]></description>
+      <pubDate>Sun, 12 Jul 2015 11:05:43 GMT</pubDate>
+      <dc:creator>pansa</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 10:37:02 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495243</guid>
+      <link>https://habr.com/post/232385/#comment_8495243</link>
+      <description><![CDATA[Т.е. ABNF вы читать не умеете и мне пытаетесь предъявить, что я пишу глупости. Ну тогда поехали.<br/>
+<br/>
+<blockquote>URI-reference = URI / relative-ref</blockquote>Читается как <code>URI и/или relative-ref</code><br/>
+<br/>
+<blockquote>URI = scheme &quot;:&quot; hier-part [ &quot;?&quot; query ] [ &quot;#&quot; fragment ]</blockquote>Читается как <code>scheme и &quot;:&quot; и hier-part и/или [ &quot;?&quot; и query ] и/или  [ &quot;#&quot; и fragment ]</code><br/>
+<br/>
+<blockquote>relative-ref = relative-part [ &quot;?&quot; query ] [ &quot;#&quot; fragment ]</blockquote>Читается как <code>relative-part и/или [ &quot;?&quot; и query ] и/или  [ &quot;#&quot; и fragment ]</code><br/>
+<br/>
+Что есть <code>hier-part</code>? Это <code>authority + path</code>, но <code>path</code> может быть нулевым, то есть <code>hier-part = authority [ &quot;/&quot; path ]</code>, или если так не нравится, то можно не оборачивать в квадратные скобки, но тогда учитывать что отсутствие <code>path</code> это тоже <code>path</code>.<br/>
+<br/>
+Что есть <code>relative-part</code>? Это <code>&quot;/&quot; path / path</code>, то есть <code>relative-part = [&quot;/&quot;] path</code><br/>
+<br/>
+То есть, резюмируя получаем следующую ABNF формулу:<br/>
+<blockquote><code>
+URI-reference = scheme &quot;:&quot; authority [ &quot;/&quot; path ] [ &quot;?&quot; query ] [ &quot;#&quot; fragment ] / [&quot;/&quot;] path [ &quot;?&quot; query ] [ &quot;#&quot; fragment ]
+</code></blockquote><br/>
+То есть всегда обязательны либо <code>scheme &quot;:&quot; authority и любой набор оставшихся компонент</code> и тогда это <i>абсолютный URI</i>, либо любой набор компонент при отсутствующей <code>scheme &quot;:&quot; authority</code> и тогда это <i>относительный URI</i>.<br/>
+Ссылки сетевого пути в расчет не берутся ибо это специфичный вариант, разряда «исключение из общих правил».<br/>
+<br/>
+Таким образом, ничего противоречащего спецификации в приведенном вами отрывке статьи нет.<br/>
+<br/>
+Так кто из нас тут глупости то пишет?]]></description>
+      <pubDate>Sun, 12 Jul 2015 10:37:02 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 10:15:39 vintage</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495237</guid>
+      <link>https://habr.com/post/232385/#comment_8495237</link>
+      <description><![CDATA[В том моменте написаны глупости не соответствующие спецификации. <br/>
+<br/>
+<blockquote>URI-reference = URI / relative-ref<br/>
+URI = scheme &quot;:&quot; hier-part [ &quot;?&quot; query ] [ &quot;#&quot; fragment ]<br/>
+relative-ref = relative-part [ &quot;?&quot; query ] [ &quot;#&quot; fragment ]</blockquote><br/>
+В URI схема обязательная, всё остальное — нет.<br/>
+В relative-ref вообще нет ничего обязательного.]]></description>
+      <pubDate>Sun, 12 Jul 2015 10:15:39 GMT</pubDate>
+      <dc:creator>vintage</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 10:09:38 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495225</guid>
+      <link>https://habr.com/post/232385/#comment_8495225</link>
+      <description><![CDATA[А в том моменте разве шла вообще речь об относительных и абсолютных URI?<br/>
+<br/>
+Там указаны все комбинации при которых ссылка = URI, про относительность и абсолютность ни слова, про это более чем подробно рассказано в разделе 2.1]]></description>
+      <pubDate>Sun, 12 Jul 2015 10:09:38 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 10:04:42 vintage</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495219</guid>
+      <link>https://habr.com/post/232385/#comment_8495219</link>
+      <description><![CDATA[<blockquote>Для того чтобы ссылка считалась URI необходимо наличие:<br/>
+либо scheme+authority+path,<br/>
+либо sheme+authority,<br/>
+либо только path.</blockquote><br/>
+Глупости какие-то. В абсолютном uri схема обязательна.<br/>
+<blockquote>The scheme and path components are required, though the path may be<br/>
+ empty (no characters). When authority is present, the path must<br/>
+ either be empty or begin with a slash (&quot;/&quot;) character. When<br/>
+ authority is not present, the path cannot begin with two slash<br/>
+ characters (&quot;//&quot;). These restrictions result in five different ABNF<br/>
+ rules for a path (Section 3.3), only one of which will match any<br/>
+ given URI reference.</blockquote><br/>
+А вот в относительном URI любые компоненты слева могут быть обрезаны. Так что «только path» — это относительный URI, «только query» и «только fragment» — тоже. ]]></description>
+      <pubDate>Sun, 12 Jul 2015 10:04:42 GMT</pubDate>
+      <dc:creator>vintage</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 09:43:12 xobotyi</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495203</guid>
+      <link>https://habr.com/post/232385/#comment_8495203</link>
+      <description><![CDATA[Да, конкретно скрипты из CDN гугла так и подключаются, все ссылки которые оттуда копируются идут в формате ссылок сетевого пути, на хабрасторадже так же.<br/>
+<br/>
+Но это чревато в случае использования из под https, ибо https есть не везде.]]></description>
+      <pubDate>Sun, 12 Jul 2015 09:43:12 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 09:36:35 Vindicar</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495197</guid>
+      <link>https://habr.com/post/232385/#comment_8495197</link>
+      <description><![CDATA[Интересно! То есть, хотя разнообразные подключаемые внешние JS-скрипты обычно делают что-то вроде:<br/>
+ <pre><code class="javascript">url = (is_https?'https://':'http://')+host+path;</code></pre> на самом деле они могли бы просто опустить схему? Как-то так:<br/>
+<pre><code class="javascript">url = '//'+host+path;</code></pre>]]></description>
+      <pubDate>Sun, 12 Jul 2015 09:36:35 GMT</pubDate>
+      <dc:creator>Vindicar</dc:creator>
+    </item>
+    <item>
+      <title>12.07.2015 09:00:10 grumbler66rus</title>
+      <guid isPermaLink="true">https://habr.com/post/232385/#comment_8495139</guid>
+      <link>https://habr.com/post/232385/#comment_8495139</link>
+      <description><![CDATA[А это есть в Законе Мерфи, вот неточная цитата: даже если высказывание исключает неверное толкование, всегда найдётся тот, кто поймёт его неправильно. :)<br/>
+]]></description>
+      <pubDate>Sun, 12 Jul 2015 09:00:10 GMT</pubDate>
+      <dc:creator>grumbler66rus</dc:creator>
+    </item>
+
+
+
+  </channel>
+</rss>

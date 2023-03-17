@@ -22,6 +22,10 @@ package main
 	4. Код должен проходить проверки go vet и golint.
 */
 
+type Application struct {
+	server MyServer
+}
+
 func main() {
 
 }

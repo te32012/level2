@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Результаты поиска по запросу «[URL]»</title>
+    <link>https://habr.com/ru/</link>
+    <description><![CDATA[Результаты поиска по запросу «[URL]»]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:18:44 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+          
+
+	<item>
+		<title><![CDATA[Выявлена уязвимость PHP 7, которая помогает перехватывать контроль над NGINX-серверами]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/473414/</guid>
+		<link>https://habr.com/ru/post/473414/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<img src="https://habrastorage.org/webt/qb/nq/8f/qbnq8fosn7wvlmb9kl3wpdt4ulg.jpeg" alt="image"><br>
+<br>
+Эксперты <a href="https://bugs.php.net/bug.php?id=78599">обнаружили в ветке PHP 7 уязвимость CVE-2019-11043</a>, которая позволяет хакерам выполнять команды на сервере с помощью специально сформированного URL с добавлением '?a='.<br>
+<br>
+Данный баг активно применяется при атаках, так как его просто эксплуатировать. Проблему усугубило то, что в октябре на GitHub <a href="https://github.com/neex/phuip-fpizdam">появился PoC-код для определения уязвимых серверов</a>. Он отправляет специально сформированные запросы, чтобы выяснить, уязвим ли тот или иной сервер. При этом атаки возможны только в отношении NGINX-серверов с включенным PHP-FPM (программным пакетом для обработки скриптов на языке PHP). <a href="https://habr.com/ru/post/473414/#habracut">Читать дальше →</a>]]></description>
+		
+		<pubDate>Mon, 28 Oct 2019 12:27:52 GMT</pubDate>
+    <dc:creator>maybe_elf</dc:creator>
+		<category><![CDATA[Информационная безопасность]]></category><category><![CDATA[PHP]]></category><category><![CDATA[Серверное администрирование]]></category>
+		<category><![CDATA[php 7]]></category><category><![CDATA[баги]]></category><category><![CDATA[серверы]]></category><category><![CDATA[url]]></category><category><![CDATA[nginx]]></category>
+	</item>
+
+
+
+
+
+  
+
+	<item>
+		<title><![CDATA[Google Chrome начал тестировать функцию отображения поискового запроса в адресной строке]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/486786/</guid>
+		<link>https://habr.com/ru/post/486786/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<img src="https://habrastorage.org/webt/up/cu/e7/upcue7upwumlciftyy--qlef5ji.jpeg" alt="image"><sub><font color="grey"><i>Фото: <a href="http://www.bleepingcomputer.com">www.bleepingcomputer.com</a></i></font></sub><br>
+<br>
+Google <a href="https://www.bleepingcomputer.com/news/google/google-chrome-tests-replacing-urls-with-search-queries-in-address-bar/">начал тестировать функцию</a>, которая будет отображать поисковый запрос в адресной строке Chrome, а не URL реальной страницы при выполнении поиска. Эта экспериментальная функция называется «Query in Omnibox» и доступна в виде флага, начиная с версии Chrome 71, но по умолчанию отключена.<br>
+<br>
+В ходе теста функция включается и позволяет отображать ключевое слово поиска в адресной строке браузера, а не URL. <a href="https://habr.com/ru/post/486786/#habracut">Читать дальше &rarr;</a>]]></description>
+		
+		<pubDate>Mon, 03 Feb 2020 14:40:29 GMT</pubDate>
+    <dc:creator>maybe_elf</dc:creator>
+		<category><![CDATA[Google Chrome]]></category><category><![CDATA[Браузеры]]></category><category><![CDATA[Поисковая оптимизация]]></category>
+		<category><![CDATA[google chrome]]></category><category><![CDATA[url]]></category><category><![CDATA[поиск]]></category><category><![CDATA[адресная строка]]></category><category><![CDATA[запросы]]></category>
+	</item>
+
+
+
+
+
+  
+
+	<item>
+		<title><![CDATA[Ошибка ПО за пять лет привела к утечке данных 1,26 млн граждан Дании. Это около ⅕ населения]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/487904/</guid>
+		<link>https://habr.com/ru/post/487904/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<img src="https://habrastorage.org/webt/ax/rk/ta/axrktaqoxjsn9m47mtwvwtxrsvo.jpeg" alt="image"><br>
+<br>
+Ошибка программного обеспечения, которое использовали на государственном налоговом портале Дании, <a href="https://www.zdnet.com/article/software-error-exposes-the-id-numbers-for-1-26-million-danish-citizens/" rel="nofollow">сделала доступными персональные идентификационные номера 1,26 млн датских граждан</a> или пятой части населения страны. <a href="https://habr.com/ru/post/487904/#habracut">Читать дальше &rarr;</a>]]></description>
+		
+		<pubDate>Tue, 11 Feb 2020 09:32:52 GMT</pubDate>
+    <dc:creator>maybe_elf</dc:creator>
+		<category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Софт]]></category>
+		<category><![CDATA[утечки данных]]></category><category><![CDATA[программное обеспечение]]></category><category><![CDATA[ошибки]]></category><category><![CDATA[url]]></category><category><![CDATA[дания]]></category>
+	</item>
+
+
+
+
+
+  
+
+	<item>
+		<title><![CDATA[Google начнет скрывать полный URL из адресной строки в Chrome 85]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/506714/</guid>
+		<link>https://habr.com/ru/post/506714/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<img src="https://www.androidpolice.com/wp-content/uploads/2020/06/12/image.png" alt="image"/><br/>
+<br/>
+Google предпримет очередную попытку скрыть полные URL-адреса в адресной строке Chrome. В каналах Dev и Canary (V85) Chrome появилось несколько новых флагов функций, которые управляют видом веб-адресов.  <a href="https://habr.com/ru/post/506714/#habracut"></a>]]></description>
+		
+		<pubDate>Mon, 15 Jun 2020 09:32:58 GMT</pubDate>
+    <dc:creator>maybe_elf</dc:creator>
+		<category><![CDATA[Google Chrome]]></category><category><![CDATA[Браузеры]]></category>
+		<category><![CDATA[google chrome]]></category><category><![CDATA[url]]></category><category><![CDATA[amp]]></category><category><![CDATA[адресная строка]]></category><category><![CDATA[веб-сайты]]></category>
+	</item>
+
+
+
+
+
+  
+
+	<item>
+		<title><![CDATA[Google меняет ссылки в отправленных письмах при их скачивании по IMAP]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/524770/</guid>
+		<link>https://habr.com/ru/post/524770/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<img src="https://habrastorage.org/webt/b7/gq/ny/b7gqnyvft-tjwmgybee7bu6a2qe.png" alt="image"><br>
+<br>
+Пользователь G Suite Джеффри Пол <a href="https://twitter.com/sneakdotberlin/status/1317734739537653760" rel="nofollow">обнаружил</a>, что URL-адреса во входящей электронной почте изменяются службой Google при получении писем через протокол доступа к сообщениям в Интернете (IMAP). <a href="https://habr.com/ru/post/524770/#habracut">Читать дальше &rarr;</a>]]></description>
+		
+		<pubDate>Fri, 23 Oct 2020 11:35:44 GMT</pubDate>
+    <dc:creator>maybe_elf</dc:creator>
+		<category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Криптография]]></category><category><![CDATA[IT-компании]]></category>
+		<category><![CDATA[google]]></category><category><![CDATA[g suite]]></category><category><![CDATA[gmail]]></category><category><![CDATA[imap]]></category><category><![CDATA[url]]></category><category><![CDATA[редактирование]]></category>
+	</item>
+
+
+
+
+
+  
+
+	<item>
+		<title><![CDATA[Приложение Go SMS Pro раскрывает данные миллионов пользователей по ссылкам]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/529202/</guid>
+		<link>https://habr.com/ru/post/529202/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<img src="https://habrastorage.org/webt/tl/m4/9m/tlm49mjytz3wxvpfddtf-e7jbiy.png" alt="image"><br>
+<br>
+В компании Trustwave <a href="https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/go-sms-pro-vulnerable-to-media-file-theft/?=go-sms-pro-vulnerability-to-media-file-theft" rel="nofollow">обнаружили</a> уязвимость в Android-приложении GO SMS Pro. Баг раскрывает мультимедийные данные, которыми обмениваются пользователи. Само приложение насчитывает более 100 миллионов установок. <a href="https://habr.com/ru/post/529202/#habracut">Читать дальше &rarr;</a>]]></description>
+		
+		<pubDate>Sat, 21 Nov 2020 12:20:19 GMT</pubDate>
+    <dc:creator>maybe_elf</dc:creator>
+		<category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Разработка под Android]]></category><category><![CDATA[Аналитика мобильных приложений]]></category>
+		<category><![CDATA[приложение для android]]></category><category><![CDATA[утечки данных]]></category><category><![CDATA[личные данные]]></category><category><![CDATA[url]]></category><category><![CDATA[cdn]]></category>
+	</item>
+
+
+
+
+
+  
+
+	<item>
+		<title><![CDATA[Google отказался от экспериментов с сокращением URL-адресов в адресной строке]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/562468/</guid>
+		<link>https://habr.com/ru/post/562468/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<p>Google <a href="https://chromium.googlesource.com/chromium/src/+/180e57971e7cabc0a15c76112f8d37a942bc8d61" rel="noopener noreferrer nofollow">объявил</a>, что отказывается от экспериментов с адресной строкой браузера Chrome. Ранее компания начала сокращать URL-адреса, показывая только имена доменов.</p> <a href="https://habr.com/ru/post/562468/#habracut">Читать далее</a>]]></description>
+		
+		<pubDate>Sat, 12 Jun 2021 11:51:53 GMT</pubDate>
+    <dc:creator>maybe_elf</dc:creator>
+		<category><![CDATA[Google Chrome]]></category><category><![CDATA[Интерфейсы]]></category><category><![CDATA[Браузеры]]></category><category><![CDATA[Поисковая оптимизация]]></category>
+		<category><![CDATA[google chrome]]></category><category><![CDATA[url]]></category><category><![CDATA[адресная строка]]></category><category><![CDATA[безопасность]]></category>
+	</item>
+
+
+
+
+
+  
+
+	<item>
+		<title><![CDATA[Opera начала поддерживать URL-адреса только с эмодзи]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/651533/</guid>
+		<link>https://habr.com/ru/post/651533/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<p>Разработчики браузера Opera <a href="https://www.theverge.com/2022/2/14/22932918/opera-browser-emoji-only-web-addresses-urls-yat" rel="noopener noreferrer nofollow">объявили</a>, что он будет поддерживать веб-адреса, содержащие только эмодзи. Команда отметила, что это нужно, «чтобы вывести Интернет на новый уровень творчества».&nbsp;</p> <a href="https://habr.com/ru/post/651533/#habracut">Читать далее</a>]]></description>
+		
+		<pubDate>Mon, 14 Feb 2022 16:57:50 GMT</pubDate>
+    <dc:creator>maybe_elf</dc:creator>
+		<category><![CDATA[Администрирование доменных имен]]></category><category><![CDATA[Браузеры]]></category>
+		<category><![CDATA[opera]]></category><category><![CDATA[url]]></category><category><![CDATA[домены]]></category><category><![CDATA[эмодзи]]></category><category><![CDATA[смайлики]]></category><category><![CDATA[браузеры]]></category><category><![CDATA[адресная строка]]></category><category><![CDATA[nft]]></category>
+	</item>
+
+
+
+
+
+  
+
+	<item>
+		<title><![CDATA[Ghacks: Facebook** начала шифровать ссылки в попытке обойти браузерные системы защиты от слежки за пользователями]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/677996/</guid>
+		<link>https://habr.com/ru/post/677996/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<p>Facebook** начала шифровать ссылки на сайты. Соцсеть пытается таким образом бороться с браузерными системами предотвращения отслеживания пользователей, <a href="https://www.ghacks.net/2022/07/17/facebook-has-started-to-encrypt-links-to-counter-privacy-improving-url-stripping/" rel="noopener noreferrer nofollow">полагает</a> портал Ghacks.</p> <a href="https://habr.com/ru/post/677996/#habracut">Читать далее</a>]]></description>
+		
+		<pubDate>Wed, 20 Jul 2022 16:50:56 GMT</pubDate>
+    <dc:creator>AnnieBronson</dc:creator>
+		<category><![CDATA[Браузеры]]></category><category><![CDATA[Социальные сети и сообщества]]></category><category><![CDATA[IT-компании]]></category>
+		<category><![CDATA[реклама]]></category><category><![CDATA[отслеживание]]></category><category><![CDATA[url]]></category><category><![CDATA[ссылки]]></category><category><![CDATA[facebook]]></category><category><![CDATA[соцсети]]></category>
+	</item>
+
+
+
+
+
+      <item>
+      <title><![CDATA[недочетик в адресной строке]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/54/</guid>
+      <link>https://habr.com/ru/post/54/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[пример: находимся на странице<br/>
+<a href="http://www.habrahabr.ru/blog/72/#comments">www.habrahabr.ru/blog/72/#comments</a><br/>
+жмем <i>логин</i> — попадаем на <br/>
+<a href="http://www.habrahabr.ru/login?url=/blog/72/comments/#comment">www.habrahabr.ru/login?url=/blog/72/comments/#comment</a><br/>
+а после логина переадресует на <br/>
+<a href="http://www.habrahabr.ru//blog/72/#comments">www.habrahabr.ru//blog/72/#comments</a><br/>
+<br/>
+.....ru//b…<br/>
+<br/>
+вот так вот. <a href="https://habr.com/ru/post/54/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Mon, 07 Aug 2006 13:44:59 GMT</pubDate>
+      <dc:creator>Lev_in</dc:creator>
+      <category><![CDATA[Habr]]></category>
+      <category><![CDATA[url]]></category><category><![CDATA[bug]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Идентификация URL]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/6816/</guid>
+      <link>https://habr.com/ru/post/6816/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Заметил интересную особенность: если в комментарии написать урл, а сразу после него запятую (http://habrahabr.ru, ), то при предварительном просмотре урл подсвечивается правильно, а после постинга к нему <a href="http://www.habrahabr.ru/blog/arbeit/8956.html#comment92119">приклеивается запятая</a>. Неужели там разные функции поиска URL? В хабратопиках все корректно. <a href="https://habr.com/ru/post/6816/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Sat, 14 Apr 2007 14:04:07 GMT</pubDate>
+      <dc:creator>glader</dc:creator>
+      <category><![CDATA[Habr]]></category>
+      <category><![CDATA[URL]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Кириллические УРЛы на BlogSpot.com]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/13675/</guid>
+      <link>https://habr.com/ru/post/13675/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Поводом для написания статьи послужил этот <a href="http://p1lot.habrahabr.ru/blog/24105.html">топик</a>, после его прочтения у меня возникло желание поэкспериментировать – я зарегистрировал себе аккаунт на Хабре с кириллицей в имени, однако, мое любопытство не угасло, более того, у меня возникла идея выбрать какой-нибудь популярный блоговый ресурс и проверить его на возможность регистрации кириллических имен. Первое что пришло в голову – <a href="http://www.blogspot.com">BlogSpot.com</a>, на котором я когда-то пытался завести свой блог, однако, руки до его ведения у меня не дошли.<br/>
+ <a href="https://habr.com/ru/post/13675/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">подробный рассказ о том, как регистрировать русские урлы</a>]]></description>
+      
+      <pubDate>Thu, 30 Aug 2007 16:02:51 GMT</pubDate>
+      <dc:creator>cyberface</dc:creator>
+      <category><![CDATA[Чулан]]></category>
+      <category><![CDATA[урл]]></category><category><![CDATA[url]]></category><category><![CDATA[blogspot]]></category><category><![CDATA[блог]]></category><category><![CDATA[кириллица]]></category><category><![CDATA[адрес]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[ответы на вопросы, примеряем 800х480]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/13981/</guid>
+      <link>https://habr.com/ru/post/13981/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/olpictures/358/b9d/fa2/358b9dfa287281fbbcabd145a01f0eda.jpg" width="450" height="269" alt="Бритва с Пирса такая" hspace="10" vspace="10" align="left"/>Спешу ответить на вопросы, заданные в первых двух постах. <br/>
+Веб-камера есть. Находится вверху. <br/>
+В устройстве есть VGA и USB порты, к которым можно подключить хороший экран (24дюйма) и внешний hdd гигов, эдак на 500. Так же Bluetooth, при желании, можно подключить по USB.<br/>
+<br/>
+Линукс будет доступен как в упрощенном режиме (видать для «свитчеров». вроде бы SUSE), так и в обычном. Очевидно, что можно будет всё стереть и поставить Ubuntu (mobile).<br/>
+<br/>
+512Мб оперативки будет только у «топовых» моделей за $349 и $369. Более дешёвые наградят 256Мб. Соответственно изделия первой партии Eee PC, которые выйдут на рынок во второй половине текущего месяца, будут оснащены 512 Мб оперативной памяти и 4 Гб SSD.<br/>
+<br/>
+В апреле 2008 года выйдет второе поколение Eee PC, которое будет работать на процессорах Merom, иметь диагональ в 10'. Помимо увеличения производительности, переход на новые процессоры позволит снизить энергопотребление с 11 до 7 Вт, что даст возможность отказаться от вентиляторов и перейти на пассивную систему охлаждения. Это, в свою очередь, дополнительно снизит энергопотребление и уровень шума. (с <a href="http://www.ixbt.com/news/hard/index.shtml?09/20/70">ixbt</a>)<br/>
+ <a href="https://habr.com/ru/post/13981/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 11 Sep 2007 09:30:10 GMT</pubDate>
+      <dc:creator>pudovkin</dc:creator>
+      <category><![CDATA[Компьютерное железо]]></category>
+      <category><![CDATA[eeepc]]></category><category><![CDATA[asus]]></category><category><![CDATA[usability]]></category><category><![CDATA[linux]]></category><category><![CDATA[suse]]></category><category><![CDATA[screenshot]]></category><category><![CDATA[livejournal]]></category><category><![CDATA[url]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Новая версия WordPress — 2.3]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/14417/</guid>
+      <link>https://habr.com/ru/post/14417/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Вышла новая стабильная версия самой популярной автономной блог-платформы — WordPress 2.3 «Dexter», названная в честь великого саксофониста Гордона Декстера.<br/>
+В новой версии появилась встроенная поддержка облака тегов, плагин для автоматического уведомления об обновлениях, канонические URL, новый WYSIWYG-редактор и <a href="http://wordpress.org/development/">многое другое</a>.<br/>
+<br/>
+<a href="http://wordpress.org/download/">Страница загрузки</a> на официальном сайте WordPress. <a href="https://habr.com/ru/post/14417/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Tue, 25 Sep 2007 13:48:47 GMT</pubDate>
+      <dc:creator>firefox</dc:creator>
+      <category><![CDATA[WordPress]]></category>
+      <category><![CDATA[WordPress]]></category><category><![CDATA[блоги]]></category><category><![CDATA[CMS]]></category><category><![CDATA[Dexter]]></category><category><![CDATA[URL]]></category><category><![CDATA[WYSIWYG]]></category><category><![CDATA[теги]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Запросы к JavaScript]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/15089/</guid>
+      <link>https://habr.com/ru/post/15089/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Есть необходимость: передавать параметры непосредственно JavaScript.<br/>
+Мы можем передавать параметры через GET, POST, но при передаче этих параметров просто будет загружаться новая страница, т.е. если в кеше браузера есть<br/>
+<br/>
+some.so/index.php?id=2<br/>
+<br/>
+а мы запрашиваем<br/>
+<br/>
+some.so/index.php?id=3<br/>
+<br/>
+то сервер для нас сгенерирует новую страницу, он не будет брать из кеша some.so/index.php?id=2 (и правильно будет делать).<br/>
+<br/>
+Таже самая ситуация и с POST, поэтому говорить о том, что методами GET и POST можно передать параметры яваскрипту конечно можно, но это будет не совсем правдой. Т.к. параметры передаются на сервер, там генерируется новый контент, а там можно что угодно делать. Хоть напрямую GET переменные брать из window.location.href, хоть как-то серверным языком каждый раз заново генерить JavaScript. а это всё только имитация запросов к JavaScript.<br/>
+<br/>
+Однако, есть один символ в стандарте URL, который нам поможет.<br/>
+<br/>
+ <a href="https://habr.com/ru/post/15089/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 16 Oct 2007 08:24:52 GMT</pubDate>
+      <dc:creator>mihazimin</dc:creator>
+      <category><![CDATA[Чулан]]></category>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[HTTP]]></category><category><![CDATA[GET]]></category><category><![CDATA[request]]></category><category><![CDATA[URL]]></category><category><![CDATA[власть народу]]></category><category><![CDATA[front-end]]></category><category><![CDATA[jR]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Сокращение URL]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/19784/</guid>
+      <link>https://habr.com/ru/post/19784/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Часто используемый сайт с длинным url, который всегда приходится долго набирать, или искать в выпадающем списке можно назначить на более короткое имя. <br/>
+<br/>
+ — в Firefox это называется «короткое имя», для того чтобы назначить его сайту достаточно добавить этот сайт в закладки и в свойствах этой закладки выставить короткое имя. <br/>
+ — в Windows Internet Explorer это делается, как всегда, через одно место но еще проще — переименованием закладку в нужное нам сочетание букв и вуаля.<br/>
+<br/>
+Не знаю как в других браузерах, но наверняка есть что-то подобное. <a href="https://habr.com/ru/post/19784/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Mon, 04 Feb 2008 21:07:38 GMT</pubDate>
+      <dc:creator>evil_random</dc:creator>
+      <category><![CDATA[Чулан]]></category>
+      <category><![CDATA[URl]]></category><category><![CDATA[интернет]]></category><category><![CDATA[браузер]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Автоматическая привязка URL к view]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/24989/</guid>
+      <link>https://habr.com/ru/post/24989/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Я недавно «подсел» на Django и мне очень нравится этот фреймворк. Однако есть деталь, которая доставляет беспокойство. Это одновременное редактирование файла с моими views и файла <code>urls.py</code> при создании нового view. Я понимаю, что это связано с тем, что <code>URL</code>-ы и views вещи достаточно разные и для большей модульности лучше держать их раздельно, однако для небольших проектов было бы очень удобно иметь возможность править view и его настройки в одном месте.<br/>
+<br/>
+Здесь я предлагаю такое решение, конечно же, завязанное на декораторах.<br/>
+<br/>
+ <a href="https://habr.com/ru/post/24989/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 07 May 2008 15:03:17 GMT</pubDate>
+      <dc:creator>lomeo</dc:creator>
+      <category><![CDATA[Django]]></category>
+      <category><![CDATA[django]]></category><category><![CDATA[url]]></category><category><![CDATA[view]]></category><category><![CDATA[decorator]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Список уникальных адресов сайтов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/26479/</guid>
+      <link>https://habr.com/ru/post/26479/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Допустим, вам необходимо сделать таблицу БД со списком адресов. Причем, каждый сайт должен упоминаться только один раз. Очень распространенная задача, взять, хотя бы, каталоги сайтов.<br/>
+<br/>
+Сайт можно идентифицировать по имени домена. Если бы мы жили в идеальном мире, то на этом месте мой пост бы и закончился. :) Но, тут всё только начинается…<br/>
+<br/>
+Большинство сайтов доступны (отдается HTML или происходит редирект) по двум адресам: example.com и <a href="http://www.еxample.com">www.еxample.com</a>. В почти идеальном мире :) мы бы просто отбросили “www.” и забили на эту проблему. Но находятся некоторые криворукие личности, которые обеспечивают работу своего сайта только по одному адресу, “только с www.”.<br/>
+<br/>
+Решение проблемы такое: <a href="https://habr.com/ru/post/26479/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 30 May 2008 10:23:22 GMT</pubDate>
+      <dc:creator>ugnich</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[url]]></category><category><![CDATA[www]]></category><category><![CDATA[архаизм]]></category><category><![CDATA[бд]]></category><category><![CDATA[unique]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Какой урл лучше?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/35599/</guid>
+      <link>https://habr.com/ru/post/35599/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[&nbsp; <a href="https://habr.com/ru/post/35599/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Mon, 28 Jul 2008 18:47:17 GMT</pubDate>
+      <dc:creator>zt50</dc:creator>
+      <category><![CDATA[Чулан]]></category>
+      <category><![CDATA[чпу]]></category><category><![CDATA[url]]></category><category><![CDATA[наглядность]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[URL с слешем или без? пример: "ifolk.ru/topic/123", или же ".../topic/123/"?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/36631/</guid>
+      <link>https://habr.com/ru/post/36631/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[&nbsp; <a href="https://habr.com/ru/post/36631/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Mon, 11 Aug 2008 13:18:21 GMT</pubDate>
+      <dc:creator>DezmASter</dc:creator>
+      <category><![CDATA[Чулан]]></category>
+      <category><![CDATA[айфолк]]></category><category><![CDATA[ifolk]]></category><category><![CDATA[слеш]]></category><category><![CDATA[url]]></category><category><![CDATA[ссылка]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

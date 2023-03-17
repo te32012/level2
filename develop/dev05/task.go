@@ -54,7 +54,7 @@ type ConfigGrep struct {
 	ignore    bool
 	invert    bool
 	fixed     bool
-	line      int
+	line      bool
 	inputfile string
 	pattern   string
 }
@@ -67,7 +67,7 @@ func (c *ConfigGrep) ConfigGrep() {
 	ignore := flag.Bool("i", false, "Игнорироовать регистр")
 	invert := flag.Bool("v", false, "Вместо множества строк сопадений печать множества строк не вхождения")
 	fixed := flag.Bool("F", false, "Точное совпадение co строкой")
-	flag.IntVar(&c.line, "n", 0, "Печать линии под номером N")
+	line := flag.Bool("n", false, "печать номера строк")
 
 	flag.Parse()
 
@@ -75,6 +75,7 @@ func (c *ConfigGrep) ConfigGrep() {
 	c.ignore = *ignore
 	c.invert = *invert
 	c.fixed = *fixed
+	c.line = *line
 
 	arg := flag.Args()
 	if len(arg) != 2 {
@@ -143,11 +144,29 @@ func (c *ConfigGrep) Grep(s []string) (string, error) {
 			}
 		}
 		sb.WriteString(strconv.Itoa(count) + "\n")
-	case c.line > 0:
-		if c.line < len(s) {
-			sb.WriteString(s[c.line])
-		} else {
-			tmperror = errors.New("количество строк в файле меньше индекса указанной строки")
+	case c.line:
+		for count, str := range s {
+			if !c.fixed {
+				if re1.MatchString(str) {
+					if !c.invert {
+						sb.WriteString(strconv.Itoa(count) + " " + str + "\n")
+					}
+				} else {
+					if c.invert {
+						sb.WriteString(strconv.Itoa(count) + " " + str + "\n")
+					}
+				}
+			} else {
+				if containsString(str, c.pattern) {
+					if !c.invert {
+						sb.WriteString(strconv.Itoa(count) + " " + str + "\n")
+					}
+				} else {
+					if c.invert {
+						sb.WriteString(strconv.Itoa(count) + " " + str + "\n")
+					}
+				}
+			}
 		}
 	case c.after > 0:
 		for index, str := range s {

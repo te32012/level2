@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Все публикации подряд</title>
+    <link>https://habr.com/ru/all/</link>
+    <description><![CDATA[Все публикации подряд на Хабре]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:14:46 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+          
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] SourceBuddy динамически компилирует исходный код Java]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/711922/</guid>
+      <link>https://habr.com/ru/post/711922/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=711922</link>
+      <description><![CDATA[<p>Через два месяца после первого коммита в октябре 2022 года&nbsp;<a href="https://www.linkedin.com/in/peterverhas/" rel="noopener noreferrer nofollow"><u>Питер Верхас</u></a>, старший архитектор EPAM Systems,&nbsp;<a href="https://twitter.com/verhas/status/1605666075617554433" rel="noopener noreferrer nofollow"><u>выпустил</u></a>&nbsp;версию 2.0.0&nbsp;<a href="https://github.com/sourcebuddy/sourcebuddy" rel="noopener noreferrer nofollow"><u>SourceBuddy</u></a>, новой утилиты, которая компилирует динамически исходный код Java, заданный в строке  или файле, в файл класса.&nbsp;</p><p>Утилит SourceBuddy требует Java 17 и представляет собой упрощенный фасад для компилятора <code>javac</code>, который обеспечивает ту же функциональность.</p><p>Версия 2.0.0 поддерживает комбинацию скрытых и нескрытых классов во время компиляции и выполнения.&nbsp;Кроме того, был упрощен API, включая критические изменения, такие как изменение метода&nbsp;<code>loadHidden()</code> на метод&nbsp;<code>hidden()</code>, поэтому и выпущен новый основной релиз.&nbsp;Полный обзор изменений для каждой версии доступен в документации по <a href="https://github.com/sourcebuddy/sourcebuddy/blob/main/RELEASES.adoc" rel="noopener noreferrer nofollow"><u>выпускам</u></a>&nbsp;на GitHub.</p> <a href="https://habr.com/ru/post/711922/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=711922#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 14:04:46 GMT</pubDate>
+      <dc:creator>val6852</dc:creator>
+      <category><![CDATA[Java]]></category>
+      <category>compiler</category><category>source code</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Возможности JavaScript и TypeScript последних лет. Часть 1]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722450/</guid>
+      <link>https://habr.com/ru/post/722450/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722450</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/ma/po/lv/mapolvqq4uunxfqoaviv3g9km9y.jpeg"><br>
+<p><br>
+Hello, world!</p><br>
+<p>Представляю вашему вниманию перевод первой части <a href="https://betterprogramming.pub/all-javascript-and-typescript-features-of-the-last-3-years-629c57e73e42" rel="nofollow noopener noreferrer">этой замечательной статьи</a>, посвященной возможностям JS и TS последних трех лет, которые вы могли пропустить.</p><br>
+<p>В первой части мы поговорим о возможностях JS, во второй — о возможностях TS.</p><br>
+<p>Это первая часть.</p><br>
+<p><em>Обратите внимание</em>: название почти каждой возможности — это также ссылка на соответствующий раздел MDN.</p> <a href="https://habr.com/ru/post/722450/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722450#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 14:01:03 GMT</pubDate>
+      <dc:creator>aio350</dc:creator>
+      <category><![CDATA[Блог компании Timeweb Cloud]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[TypeScript]]></category><category><![CDATA[Разработка веб-сайтов]]></category>
+      <category>timeweb_статьи_перевод</category><category>javascript</category><category>typescript</category><category>ts</category><category>feature</category><category>возможность</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Фреймворк Qual IT и его новые фичи]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722596/</guid>
+      <link>https://habr.com/ru/post/722596/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722596</link>
+      <description><![CDATA[<p>Привет, Хабр! Меня зовут Николай Дильдин. Я  — ведущий инженер-разработчик отдела Java-разработки компании IBS. В этой статье я расскажу, как мы с командой проапдейтили инструмент автоматизированного тестирования «Хамелеон» — фреймворк, созданный в нашей компании. В прошлом году он стал одним из модулей, вошедших в состав комплексного решения <a href="https://ibs-qa.ru/products/test-it-pro/">Test IT PRO</a> — единой цифровой экосистемы управления качеством. Сейчас уже под новым именем Qual IT наш продукт продолжает развиваться, становится более дружественным для пользователей, удобным и мощным.  </p><p></p> <a href="https://habr.com/ru/post/722596/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722596#habracut">Хотите узнать больше? Переходите под кат!</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 13:45:35 GMT</pubDate>
+      <dc:creator>Nikolay_Dildin</dc:creator>
+      <category><![CDATA[Блог компании IBS]]></category>
+      <category><![CDATA[автоматизированное тестирование]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[AliveColors: Есть ли замена фотошопу на земле русской?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722594/</guid>
+      <link>https://habr.com/ru/post/722594/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722594</link>
+      <description><![CDATA[<p>Привет, Хабр! Сегодня мы поговорим о графическом редакторе <a href="https://www.xcom-shop.ru/catalog/programmnoe_obespechenie/tsifrovoy_dizayn/obrabotka_mediakontenta/alivecolors/?utm_source=habr&amp;utm_medium=pr&amp;utm_campaign=alivecolors"><u>AliveColors</u></a> и попробуем разобраться, что за задачи он может решать. В этом посте мы коснемся вопроса, в каких ситуациях AliveColors может заменить безвременно покинувший наш рынок Adobe Photoshop, и почему его стоит рассмотреть в качестве интересного софта для самых разных ситуаций. Всех, кто пользовался AliveColors, а также страдает от отсутствия лицензионного фотошопа, приглашаем под кат и в комментарии.</p><p></p> <a href="https://habr.com/ru/post/722594/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722594#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 13:42:41 GMT</pubDate>
+      <dc:creator>Xcom-shop</dc:creator>
+      <category><![CDATA[Блог компании Группа компаний X-Com]]></category><category><![CDATA[Обработка изображений]]></category><category><![CDATA[Графический дизайн]]></category><category><![CDATA[Дизайн]]></category>
+      <category><![CDATA[Alivecolors]]></category><category><![CDATA[AKVIS]]></category><category><![CDATA[Adobe]]></category><category><![CDATA[photoshop]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как воспитать GPT-3 модель в домашних условиях]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722584/</guid>
+      <link>https://habr.com/ru/post/722584/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722584</link>
+      <description><![CDATA[<p>Мы решили проверить технологию, на которой основан ChatGPT, посмотреть актуальное состояние open-source GPT-3-like моделей и ответить на вопрос — можно ли обучить GPT-3-like модель в домашних условиях?</p><p>Для эксперимента выбрали GPT-J и не самый мощный ПК с видеокартой Nvidia GTX 1080TI с 11 GB VRAM. Оказалось, что этого достаточно не только, чтобы загрузить модель, но и дообучить&nbsp;ее (fine-tune). Рассказываем — как мы это сделали.</p><p></p> <a href="https://habr.com/ru/post/722584/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722584#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 13:10:28 GMT</pubDate>
+      <dc:creator>neoflex</dc:creator>
+      <category><![CDATA[Блог компании Neoflex]]></category><category><![CDATA[Машинное обучение]]></category>
+      <category><![CDATA[gpt-3]]></category><category><![CDATA[chatgpt]]></category><category><![CDATA[quantization]]></category><category><![CDATA[lora]]></category><category><![CDATA[low-ranked adapters]]></category><category><![CDATA[fine-tuning]]></category><category><![CDATA[pytorch]]></category><category><![CDATA[gpt]]></category><category><![CDATA[gpt-j]]></category><category><![CDATA[text generation]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Лучшие языки программирования для изучения в 2023 году | Голосование]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722586/</guid>
+      <link>https://habr.com/ru/post/722586/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722586</link>
+      <description><![CDATA[<p>Программирование постоянно развивается, а с ним и языки программирования, которые используются разработчиками. Чтобы быть успешным в мире IT, важно выбрать актуальный и востребованный язык программирования для изучения. Мы решили провести голосование, чтобы выяснить, какие языки программирования считаются самыми актуальными и популярными, а какие самыми неактуальными среди представленных в 2023 году по версии пользователей Habr. </p><p></p> <a href="https://habr.com/ru/post/722586/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722586#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 13:01:14 GMT</pubDate>
+      <dc:creator>zarytskiy</dc:creator>
+      <category><![CDATA[Программирование]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Карьера в IT-индустрии]]></category><category><![CDATA[Учебный процесс в IT]]></category>
+      <category><![CDATA[языки программирования]]></category><category><![CDATA[языки программирования список]]></category><category><![CDATA[популярные языки программирования]]></category><category><![CDATA[языки программирования 2023]]></category><category><![CDATA[обучение программированию]]></category><category><![CDATA[изучение программирования]]></category><category><![CDATA[python]]></category><category><![CDATA[javascript]]></category><category><![CDATA[java]]></category><category><![CDATA[c++]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Потоки событий бесполезны без действий]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722570/</guid>
+      <link>https://habr.com/ru/post/722570/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722570</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/722570/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/io/ug/4z/ioug4zq5pabjnykzbiwbsol27km.png"></div></a><br>
+Каждая точка данных в системе, регулярно генерирующей данные, соответствует событию (Event). Потоки событий (Event Stream) — это непрерывный поток событий или точек данных. Иногда потоки данных называют в сообществе разработчиков потоками данных (Data Stream), потому что они состоят из непрерывных точек данных. Event Stream Processing — это действия, выполняемые с генерируемыми событиями.<br>
+<br>
+В этой статье подробно рассматриваются потоки данных и Event Stream Processing, рассказывается, как работает Event Stream Processing, объясняются различия между Event Stream Processing и Batch Processing, преимущества и способы применения ESP, а завершается она наглядным примером Event Stream Processing.<br> <a href="https://habr.com/ru/post/722570/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722570#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 13:00:07 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Администрирование баз данных]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Хранилища данных]]></category>
+      <category>ruvds_перевод</category><category>event stream processing</category><category>потоки событий</category><category>event streaming</category><category>обработка событий</category><category>алерты</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Обзор LMS.NetMap]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722526/</guid>
+      <link>https://habr.com/ru/post/722526/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722526</link>
+      <description><![CDATA[<p>Часто при проведении пентестов большой корпоративной инфрастуктуры нам  не хватало визуального отображения сетевой инфраструктуры. Zenmap - это, конечно, хорошо, но с момента последнего релиза прошло уже около 8 лет.  Другие свободные решения зачастую не отличаются функционалом, а платное решение стоит денег. Плюсом множество готовых решений нацелены на мониторинг и администрирование, что является избыточным для решения наших задач.</p><p>Также по статистике проведенных пентестов около 70% ИТ и ИБ отделов<br> клиентов не имели карту сети. То есть админы даже представления не имели<br> как устроена топология сети и что там происходит. А ведь корпоративные<br> информационные системы давно стали неотъемлемой частью любого бизнеса,<br> являются основой множества бизнес-процессов.</p><p></p> <a href="https://habr.com/ru/post/722526/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722526#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 12:58:48 GMT</pubDate>
+      <dc:creator>lmsecurity</dc:creator>
+      <category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Системное администрирование]]></category><category><![CDATA[Python]]></category>
+      <category><![CDATA[карта сети]]></category><category><![CDATA[nmap]]></category><category><![CDATA[сканирование]]></category><category><![CDATA[пентест]]></category><category><![CDATA[безопасность]]></category><category><![CDATA[nmap-сканирование]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[6 простых принципов написания приложения на Vue, которое легко поддерживать (часть 2)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722568/</guid>
+      <link>https://habr.com/ru/post/722568/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722568</link>
+      <description><![CDATA[<p>Привет! Я Наталья Калачева, Frontend-разработчик в <a href="https://agima.ru/?utm_source=habr&amp;utm_medium=article&amp;utm_campaign=kalacheva_front_2">AGIMA</a>. Эта статья посвящена правилам, которые помогают упростить поддержку и расширение приложений на Vue. Тут я рассказываю, как организовать хранение компонентов, стилей и плагинов, когда использовать стор и полезные функции Vue. <a href="https://habr.com/ru/company/agima/blog/722332/"><u>Первые 3 принципа я опубликовала вчера.</u></a> Здесь еще 3.</p><p></p> <a href="https://habr.com/ru/post/722568/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722568#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 12:55:35 GMT</pubDate>
+      <dc:creator>nkalacheva</dc:creator>
+      <category><![CDATA[Блог компании AGIMA]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[Разработка мобильных приложений]]></category><category><![CDATA[VueJS]]></category>
+      <category><![CDATA[vue.js]]></category><category><![CDATA[frontend]]></category><category><![CDATA[front-end разработка]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Конфигуратор и PostgreSQL: что под капотом 1С PaaS-решения для организации работы в облаке]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722536/</guid>
+      <link>https://habr.com/ru/post/722536/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722536</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/kw/b5/kx/kwb5kxn8mq3rxcy2jqx1tqghcc8.png"></div><br>
+Работа с 1С часто похожа на сборку мебели одним молотком. Не то чтобы гайки совсем нельзя было закрутить таким инструментом, но все время хочется использовать что-то более удобное. Реже останавливать процесс и добавлять автоматизацию, где это возможно. В ответ на такой запрос мы разработали готовое решение <a href="https://selectel.ru/services/1c-leasing/1c-cloud/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=1c_article_1cpaas_15032023_content" rel="nofollow noopener noreferrer">1С в облаке</a>. PaaS-решение позволяет быстрее разворачивать IT-инфраструктуру и эффективнее с ней взаимодействовать. Пользователю не нужно обладать технической экспертизой в плане сборки и подключения серверов — вся работа делается под ключ. <br>
+<br>
+В этом материале мы разберем, из каких компонентов состоит платформа, посмотрим, как они взаимодействуют, и какие возможности для бизнеса открывает решение.<br> <a href="https://habr.com/ru/post/722536/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722536#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 12:32:51 GMT</pubDate>
+      <dc:creator>selenzorn</dc:creator>
+      <category><![CDATA[Блог компании Selectel]]></category><category><![CDATA[1С]]></category><category><![CDATA[PostgreSQL]]></category><category><![CDATA[Облачные сервисы]]></category>
+      <category><![CDATA[cloud platform]]></category><category><![CDATA[1c интеграция]]></category><category><![CDATA[1c]]></category><category><![CDATA[облачные сервисы]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Кто такой бизнес-аналитик?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722572/</guid>
+      <link>https://habr.com/ru/post/722572/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722572</link>
+      <description><![CDATA[<p>Бизнес-аналитик - это профессионал, который играет важную роль в успешной работе компании. Он является связующим звеном между бизнесом и сферой АйТи. Бизнес-аналитик изучает бизнес-процессы организации, выявляет возможные проблемы и находит эффективные решения. Он использует свои знания и опыт, чтобы помочь компаниям оптимизировать свои бизнес-процессы, что в свою очередь увеличивает эффективность работы, снижает издержки и повышает конкурентоспособность компании.</p><p></p> <a href="https://habr.com/ru/post/722572/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722572#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 12:19:32 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS]]></category><category><![CDATA[Анализ и проектирование систем]]></category><category><![CDATA[Управление продуктом]]></category>
+      <category><![CDATA[бизнес-анализ]]></category><category><![CDATA[бизнес аналитика]]></category><category><![CDATA[бизнес аналитик]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Подключение объектных хранилищ в Carbonio]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722554/</guid>
+      <link>https://habr.com/ru/post/722554/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722554</link>
+      <description><![CDATA[<p>В прошлой статье <a href="https://habr.com/ru/company/Zextras/blog/721244/">мы рассказали </a>о преимуществах использования объектных хранилищ в почтовых системах. Возможность географического разнесения хранилищ, а также эффективное резервирование данных на них делают объектные хранилища одним из наиболее подходящих способов записи WORM-данных, которыми являются электронные письма, контакты и события календаря. В данной статье мы расскажем о том, как подключить объектные хранилища в качестве вторичного и первичного тома в Carbonio, а также о том, как можно использовать их для хранения резервных копий почтовой системы.</p><p></p> <a href="https://habr.com/ru/post/722554/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722554#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 12:00:02 GMT</pubDate>
+      <dc:creator>Zextras</dc:creator>
+      <category><![CDATA[Блог компании Zextras]]></category>
+      <category><![CDATA[электронная почта]]></category><category><![CDATA[объектные хранилища]]></category><category><![CDATA[carbonio]]></category><category><![CDATA[email]]></category><category><![CDATA[zextras]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Износ основных средств — мобильное приложение на Flutter]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722562/</guid>
+      <link>https://habr.com/ru/post/722562/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722562</link>
+      <description><![CDATA[<p>Приветствую. </p><p>Хочу продемонстрировать мобильное приложение, написанное с использованием фреймворка Flutter, «Начисление износа основных средств» (линейным методом). Данная статья, думаю, будет полезна новичкам, которые изучают Dart / Flutter, но которые уже «выросли из штанишек»  «Hello world» :).  А само приложение полезно бухгалтерам для расчета износа.</p><p></p> <a href="https://habr.com/ru/post/722562/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722562#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:55:20 GMT</pubDate>
+      <dc:creator>acvatoris</dc:creator>
+      <category><![CDATA[Разработка мобильных приложений]]></category><category><![CDATA[Dart]]></category><category><![CDATA[Финансы в IT]]></category><category><![CDATA[Flutter]]></category>
+      <category><![CDATA[dart]]></category><category><![CDATA[flutter]]></category><category><![CDATA[flutter mobile development]]></category><category><![CDATA[амортизация]]></category><category><![CDATA[бухгалтерия]]></category><category><![CDATA[износ]]></category><category><![CDATA[чистая архитектура]]></category><category><![CDATA[flutter app]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Защитите свои рабочие нагрузки Kubernetes с помощью gVisor]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722550/</guid>
+      <link>https://habr.com/ru/post/722550/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722550</link>
+      <description><![CDATA[<p>Все мы знакомы с контейнерами и любим их. Контейнеры используют одно и то же ядро хоста (host kernel), что делает их довольно мобильным и лёгким решением. С другой стороны, мы бы предпочли снизить риск причинения вреда хост-машине или операционной системе, чего можно достичь при помощи sandbox-технологий, и gVisor является одной из них.  В статье расскажем об этом инструменте.</p><p></p> <a href="https://habr.com/ru/post/722550/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722550#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:53:18 GMT</pubDate>
+      <dc:creator>Anna_sokol22</dc:creator>
+      <category><![CDATA[Блог компании Southbridge]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[Kubernetes]]></category>
+      <category>kubernetes</category><category>k8s</category><category>it-компании</category><category>gvisor</category><category>devops</category><category>sre</category><category>sre-процессы</category><category>it-инфраструктура</category><category>образование в it</category><category>карьера ит-специалиста</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[progressive_plots или ускоряем построение графиков]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722556/</guid>
+      <link>https://habr.com/ru/post/722556/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722556</link>
+      <description><![CDATA[<p>Здравствуйте, меня зовут Николай Стрекопытов и большую часть карьеры я работал на стыке R&amp;D и Deep Learning и в задачах возникающих в этих нишах часто невозможно написать какие-то автотесты и не всегда понятно где вообще может быть проблема поэтому нужно визуально исследовать графики каких-то алгоритмически-заданных функций или показаний с девайса при разных параметрах, а хочется эти графики изучить в максимально детализированном варианте, что почти всегда занимает неприлично большое количество времени.</p><p>Я подумал, что можно вычислять значения функции в узлах не в порядке "перебираем каждую строчку столбца, а затем переключаемся на следующий столбец", а в каком-то более хитром порядке И выводить результат не через часы вычислений, а по мере извлечения информации, а в точках, в которых еще не была вычислена функция показывать результат интерполяции. Собственно в этой статье я хочу описать как я разработал прототип библиотеки, которая решает эту задачу и в комментариях с удовольствием вычитаю дельные замечания.</p><p></p> <a href="https://habr.com/ru/post/722556/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722556#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:36:57 GMT</pubDate>
+      <dc:creator>nstrek</dc:creator>
+      <category><![CDATA[Open source]]></category><category><![CDATA[Python]]></category><category><![CDATA[Математика]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[графики]]></category><category><![CDATA[machine learning]]></category><category><![CDATA[deep learning]]></category><category><![CDATA[r&amp;amp;d]]></category><category><![CDATA[optimization]]></category><category><![CDATA[graphics]]></category><category><![CDATA[машинное обучение]]></category><category><![CDATA[нейросети]]></category><category><![CDATA[нейронные сети]]></category><category><![CDATA[глубокое обучение]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как преодолеть границу роста мощностей?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722546/</guid>
+      <link>https://habr.com/ru/post/722546/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722546</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/97/6i/qi/976iqilsxdtucmnaz2dvphbef1y.jpeg" alt="image"><br>
+<br>
+Вычислительные ресурсы <a href="https://cloud.mts.ru/services/virtual-infrastructure/?utm_source=habr.com&amp;utm_medium=owned_media_neuro&amp;utm_content=article&amp;utm_term=neuro" rel="nofollow noopener noreferrer">виртуальных дата-центров</a> практически не ограничены. Однако, если ваша компания генерирует большое количество данных, в конце концов целесообразность работы с обычными ЦОД будет под вопросом. Чем больше расстояние между локацией с серверами и местом сбора данных, тем ниже скорость вычислений.<br>
+<br>
+В этом контексте набирают обороты так называемые граничные вычисления (edge computing). В такой парадигме данные обрабатывают на «границе сети» как можно ближе к клиентам. Переход к edge-инсталляциям имеет жизненно важное значение для решения проблем с задержками и построения действительно интеллектуальных и автономных систем, таких как беспилотный транспорт. <br>
+<br>
+Однако обработка данных на местах имеет свои проблемы. В первую очередь, с энергоемкостью и скоростью вычислений. И одно из перспективных решений, способных предложить выход из ситуации, — это <b>нейроморфные системы</b>.<br>
+<br> <a href="https://habr.com/ru/post/722546/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722546#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:16:21 GMT</pubDate>
+      <dc:creator>randall</dc:creator>
+      <category><![CDATA[Блог компании CloudMTS]]></category><category><![CDATA[Высокая производительность]]></category><category><![CDATA[Искусственный интеллект]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Процессоры]]></category>
+      <category><![CDATA[нейроморфный чип]]></category><category><![CDATA[нейроморфные системы]]></category><category><![CDATA[нейроморфный процессор]]></category><category><![CDATA[ИИ]]></category><category><![CDATA[процессор]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Через реки, через лес прямо к PowerDNS]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722042/</guid>
+      <link>https://habr.com/ru/post/722042/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722042</link>
+      <description><![CDATA[<p>Всем привет! Меня зовут Максим, я руководитель одной из групп эксплуатации инфраструктурных сервисов в Ozon. Наша команда занимается поддержкой и развитием нескольких базовых сервисов компании, одним из которых, по историческим причинам, является сервис разрешения доменных имен (DNS).</p><p>В Ozon много различных сервисов и систем. Они общаются друг с другом и внешним миром по доменным именам. DNS — центральное звено, без которого не обходится почти ни одна инфраструктура. Понятно, что когда DNS отдаёт некорректные данные, то это неприятно, когда таймаутит — плохо, когда прилёг — очень плохо, когда прилёг надолго — в принципе, можно расходиться. Значит, одна из основных задач команды инфраструктуры — обеспечить сервисам надёжное и, желательно, быстрое разрешение доменных имён. Об этом мы и поговорим. Также затронем вопросы управления ресурсными записями, жизнь в Multi DC-среде, обслуживание DNS, кеширование, журналирование запросов и возможные проблемы.</p><p>Статья может быть полезна коллегам, интересующимся эксплуатацией, архитектурой и высокой доступностью сервисов, да и просто может быть любопытна как история построения инфраструктурной единицы в крупной компании.</p><p></p> <a href="https://habr.com/ru/post/722042/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722042#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 10:36:21 GMT</pubDate>
+      <dc:creator>makurus</dc:creator>
+      <category><![CDATA[Блог компании Ozon Tech]]></category><category><![CDATA[Системное администрирование]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[DNS]]></category><category><![CDATA[Распределённые системы]]></category>
+      <category><![CDATA[ozon tech]]></category><category><![CDATA[dns]]></category><category><![CDATA[edns]]></category><category><![CDATA[powerdns]]></category><category><![CDATA[bgp]]></category><category><![CDATA[postgresql]]></category><category><![CDATA[maintenance]]></category><category><![CDATA[recursor]]></category><category><![CDATA[multi-dc]]></category><category><![CDATA[high availability]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Не можете измерить — не сможете улучшить: как мы используем метрики в разработке автотестов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722378/</guid>
+      <link>https://habr.com/ru/post/722378/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722378</link>
+      <description><![CDATA[<p>Привет! Меня зовут Александр, я работаю QAA менеджером в компании Wrike, начинал с позиции QAA инженера в далеком 2010-ом и был первым в этой роли. За 12 лет нам удалось построить крутую команду и создать систему контроля качества, которая позволяет быстро и без багов деплоить продуктовый код в продакшен.&nbsp;</p><p>В статье я расскажу три истории из опыта нашей команды, которые наглядно показывают, что без правильно подобранных метрик сложно оценивать и отслеживать изменения в текущих процессах. Статья будет полезна, если вы хотите осознанно и качественно подходить к процессу разработки тестов, контролировать и улучшать этот процесс, используя данные, а также уметь оценивать результаты проведенных экспериментов.</p><p></p> <a href="https://habr.com/ru/post/722378/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722378#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 10:24:52 GMT</pubDate>
+      <dc:creator>alshurov</dc:creator>
+      <category><![CDATA[Блог компании Wrike]]></category><category><![CDATA[Тестирование IT-систем]]></category><category><![CDATA[Java]]></category><category><![CDATA[Управление разработкой]]></category><category><![CDATA[Статистика в IT]]></category>
+      <category><![CDATA[автотестирование]]></category><category><![CDATA[qa automation]]></category><category><![CDATA[qaa]]></category><category><![CDATA[development]]></category><category><![CDATA[java]]></category><category><![CDATA[metrics]]></category><category><![CDATA[метрики процесса]]></category><category><![CDATA[wrike]]></category><category><![CDATA[wriketechclub]]></category><category><![CDATA[блог компании wrike]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как и зачем тестировать код на бэкенде: рекомендации для новичков]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721434/</guid>
+      <link>https://habr.com/ru/post/721434/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=721434</link>
+      <description><![CDATA[<p>Расскажем, как&nbsp;автоматизировать тесты так, чтобы не&nbsp;тратить на&nbsp;них кучу времени,&nbsp;быстрее находить баги и не&nbsp;повторять их. А&nbsp;ещё поделимся секретом идеального теста. Спойлер: его не&nbsp;существует, но&nbsp;решение есть.</p><p>Также разберём базу: виды тестов, их отличия друг от&nbsp;друга, плюсы и минусы. Если вы только начинаете разбираться в&nbsp;тестировании, вам это точно пригодится.</p><p></p> <a href="https://habr.com/ru/post/721434/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=721434#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 10:18:36 GMT</pubDate>
+      <dc:creator>rusl96</dc:creator>
+      <category><![CDATA[Блог компании AvitoTech]]></category><category><![CDATA[PHP]]></category><category><![CDATA[Тестирование веб-сервисов]]></category>
+      <category><![CDATA[php]]></category><category><![CDATA[тесты]]></category><category><![CDATA[testing]]></category><category><![CDATA[unit]]></category><category><![CDATA[integration]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Создание нового языка для микроконтроллеров]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722532/</guid>
+      <link>https://habr.com/ru/post/722532/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722532</link>
+      <description><![CDATA[<p>Некоторое время я&nbsp;был занят написанием простенького редактора для&nbsp;языка ассемблер под&nbsp;ARM Cortex семейства микроконтроллеров (подробности в&nbsp;моих статьях), и вот сейчас, поднакопив некоторый опыт как&nbsp;в&nbsp;части самого ассемблера так и способов написания программ в&nbsp;них решился на&nbsp;написание нового редактора.</p><p>Плюс еще подоспел интерес к&nbsp;RISC‑V архитектуре и&nbsp;было принято решением делать редактор который смог&nbsp;бы редактировать программы на&nbsp;ассемблере для&nbsp;различных архитектур (в том числе может&nbsp;быть и с&nbsp;лагеря AVR кто нить захочет присоединиться).</p><p>В&nbsp;общем подумалось: <strong>а&nbsp;что если попытаться создать asm‑base'д язык программирования который при&nbsp;выборе архитектуры просто&nbsp;бы транслировался автоматически в&nbsp;асм инструкции выбранной платформы?<br></strong></p><p></p> <a href="https://habr.com/ru/post/722532/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=722532#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 10:12:58 GMT</pubDate>
+      <dc:creator>VitGo</dc:creator>
+      <category><![CDATA[Assembler]]></category><category><![CDATA[Программирование микроконтроллеров]]></category>
+      <category><![CDATA[Псевдоязык]]></category><category><![CDATA[ассемблер]]></category><category><![CDATA[микроконтроллеры]]></category><category><![CDATA[cortex-m3]]></category><category><![CDATA[cortex-m4]]></category><category><![CDATA[cortex-m0]]></category><category><![CDATA[risc-v]]></category><category><![CDATA[AVR]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Результаты поиска по запросу «[URI]»</title>
+    <link>https://habr.com/ru/</link>
+    <description><![CDATA[Результаты поиска по запросу «[URI]»]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:19:31 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[Семантическому вебу — крутые адреса!]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/17808/</guid>
+      <link>https://habr.com/ru/post/17808/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Небольшое лирическое отступление. Глядя на историю веба, понимаешь что делали как в <em>хороших </em>городках: сначала клали основные тротуары. В добавок к этому люди протаптывали удобные тропинки. А потом эти тропинки (там где людям удобно) асфальтировали, и получалось все хорошо. Так и в вебе. Сначала появился довольно убогий HTML, который до нашего времени разросся практически в универсальный и совершенный инструмент. Потому что доделывали его так, что б было удобно, основываясь на опыте, а не на тычке пальцем в небо.<br/>
+<br/>
+Так вот, W3C поглядев, как люди привязывают к одному адресу FOAF, OpenID и что-нибудь еще решили стандартизировать это все и сделать более умным.<br/>
+<br/>
+Задачу они себе поставили — стандартизировать <a href="http://futuri.us/wiki/URI">URI</a> тут я приведу выводы их последнего драфта.<br/>
+<br/>
+К примеру есть корпорация Example Inc. там работают Алиса и Боб.<br/>
+<strong><a href="http://www.example.com/">www.example.com</a></strong><br/>
+the homepage of Example Inc.<br/>
+<strong><a href="http://www.example.com/people/alice">www.example.com/people/alice</a></strong><br/>
+the homepage of Alice<br/>
+<strong><a href="http://www.example.com/people/bob">www.example.com/people/bob</a></strong><br/>
+the homepage of Bob <br/>
+<br/>
+<br/>
+<br/>
+<strong>Сформулируем проблему?</strong><br/>
+<br/>
+Предположим компания хочет выпендриться и опубликовать информацию об Алисе в формате N3<br/>
+<pre>
+&lt;URI-Алисы&gt; a foaf:Person;
+foaf:name &quot;Alice&quot;;
+foaf:mbox &lt;mailto:alice@example.com&gt;;
+foaf:homepage &lt;http://www.example.com/people/alice&gt;</pre><br/>
+<br/>
+По всем правилам RDF &lt;URI-Алисы&gt; должно содержать ссылку на нее. Но ссылку куда? На <a href="http://www.example.com/people/alice">www.example.com/people/alice</a> нельзя, потому что по правилам &lt;URI-Алисы&gt; a foaf:Person; должно содержать именно ссылку на человека.<br/>
+<br/>
+<a href="http://futuri.us/?p=25">Читать далее в моем блоге &gt;&gt;</a> <a href="https://habr.com/ru/post/17808/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Thu, 20 Dec 2007 16:37:58 GMT</pubDate>
+      <dc:creator>Klaus</dc:creator>
+      <category><![CDATA[Семантика]]></category>
+      <category><![CDATA[303]]></category><category><![CDATA[HTTP]]></category><category><![CDATA[linking data]]></category><category><![CDATA[redircet]]></category><category><![CDATA[Semantic Web]]></category><category><![CDATA[URI]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Ошибка новичка: Кодируйте URI в UTF-8.]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/23687/</guid>
+      <link>https://habr.com/ru/post/23687/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[В процессе освоения чрезвычайно простой, но тем неменее необычайно бажной и бездарно написаной фриварной ajax-библиотеки коментариев <a href="http://www.codeproject.com/KB/ajax/AjaxComments.aspx">Ajax Generic Comments Module</a>, я столкнулся интересным и неочевидным для меня эффектом. Комментарии некоторых пользователей на моём сайте отображались корректно, а коментарии других в виде хабразябр. Кодировка сайта по умолчанию utf-8. Но посты некоторых пользователей появлялись в cp1251. Я пытался повторить баг, но не смог этого сделать ни в одном из установленных в моей системе браузеров. (Установлена Linux Debian — это и была моя ошибка. Браузеры: Opera 9, FireFox, Konqueror.) Не протестировав либу только в одном из известных браузеров я понял, что худшие опасения сбываются. Запустил Internet Explorer 6.0 и — эврика. (Есть способ запускать Internet Explorer в Linux — <a href="http://www.tatanka.com.br/ies4linux/page/Main_Page">IEs4Linux</a>)<br/>
+<br/>
+ <a href="https://habr.com/ru/post/23687/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Thu, 17 Apr 2008 07:57:55 GMT</pubDate>
+      <dc:creator>ScREW</dc:creator>
+      <category><![CDATA[Чулан]]></category>
+      <category><![CDATA[javascript]]></category><category><![CDATA[URI]]></category><category><![CDATA[UTF]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Странные ссылки на dirty.ru]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/79162/</guid>
+      <link>https://habr.com/ru/post/79162/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Возможно, это какая-то фишка, но если зайти, например, на <a href="http://search.dirty.ru">search.dirty.ru</a>, то можно заметить, что все стандартные ссылки в подвале начинаются с search.dirty.ru и, соответственно, ведут вникуда ( например, эта — <a href="http://search.dirty.ru/about.html">search.dirty.ru/about.html</a> ). Но и там ссылки, которые должны вести на главную, на главную не ведут.<br/>
+<br/>
+Около месяца назад я написал на предназначенный для уведомления о найденных багах адрес, но не последовало ни ответа (что как бы и ладно), ни исправления на сайте. Хабр когда-то ругали за невалидность, которая правится в два щелчка мыши, а тут у голоса рунета незначительная простуда, которая лечится еще проще. <br/>
+<br/>
+Вы не поверите, но мне просто интересно, почему так? <a href="https://habr.com/ru/post/79162/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Thu, 24 Dec 2009 08:01:14 GMT</pubDate>
+      <dc:creator>MaxxArts</dc:creator>
+      <category><![CDATA[Чулан]]></category>
+      <category><![CDATA[dirty.ru]]></category><category><![CDATA[uri]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Переходим на &quot;/национальный/адрес&quot; вместо &quot;/nacionalnyi/adres&quot;?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/94205/</guid>
+      <link>https://habr.com/ru/post/94205/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[&nbsp; <a href="https://habr.com/ru/post/94205/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Fri, 21 May 2010 15:36:55 GMT</pubDate>
+      <dc:creator>Grox</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[url]]></category><category><![CDATA[uri]]></category><category><![CDATA[iri]]></category><category><![CDATA[национальный url]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[JSNAV]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/105586/</guid>
+      <link>https://habr.com/ru/post/105586/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<h4>Навигация по странице</h4><br/>
+Всё чаще и чаще в web появляются сайты, использующие навигацию, написанную на JavaScript. Типичный случай использования javascript для навигации: страница с меню и блоком контента, куда через AJAX подгружается содержимое:<br/>
+<br/>
+<a href="https://sourceforge.net/apps/trac/jsnavigator/raw-attachment/wiki/AjaxSite/sample.png"><img src="https://habrastorage.org/storage/habraeffect/de/38/de387fc0cce1867126b3ae5dbca6457c.png"/></a><br/>
+<br/>
+Пользователь кликает по пункту, JavaScript грузит из сети содержимое, вставляет в блок контента, пользователь доволен: страница без перезагрузки показывает требуемое и траффика потребовалось меньше за счёт того, что не потребовалось грузить все эти HEAD, BODY, STYLE и прочие элементы.<br/>
+<br/>
+Но вот проблема: URL страницы. Если на old scool сайтах на каждый пункт меню показывается новая HTML страница, и у пользователя есть вменяемый URI, который он может скопировать из адресной строки бразуера, послать другу или положить в закладки, то в случае AJAX интерфейсов в URI странице зачастую нет никаких ссылок на текущий контент документа. <br/>
+<br/>
+Пересылая ссылку из адресной строки браузера другу, пользователь не может быть уверен, откроется ли документ с тем содержимым, что он просматривает сейчас, или откроется документ с начальным содержимым страницы.<br/>
+<br/>
+Не с секрет, что для решения этой проблемы многие программисты кодируют ссылку на текущее просматриваемое содержимое в якорь (anchor) URI документа. К примеру, на сайте <a href="http://jqapi.com">jqapi.com</a> (скриншот которого приведён вначале топика) при выборе того или иного пункта меню якорь страницы меняется на #p={contentId}. <a href="https://habr.com/ru/post/105586/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 05 Oct 2010 12:50:54 GMT</pubDate>
+      <dc:creator>ymik</dc:creator>
+      <category><![CDATA[JavaScript]]></category>
+      <category><![CDATA[javascript]]></category><category><![CDATA[URL]]></category><category><![CDATA[URI]]></category><category><![CDATA[AJAX]]></category><category><![CDATA[навигация]]></category><category><![CDATA[JSNAV]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Гиперссылки в формате «ed2k://…» и их применение. Часть 1: описание формата файловых ed2k-гиперссылок]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/118171/</guid>
+      <link>https://habr.com/ru/post/118171/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/post_images/fe0/d1e/3a5/fe0d1e3a5b6589a30710d287918c24a8.gif" align="right"/>Более десяти лет назад (6 сентября 2000 года, как можно <a href="http://replay.web.archive.org/200102041319/http://www.edonkey2000.com/oldnews.html">выяснить</a> в Архиве Интернета) на свет появился первый выпуск программы eDonkey2000, представивший миру идею и реализацию гиперссылок в формате <nobr>«ed2k://…» —</nobr> удивительный для своего времени алхимический сплав трёх идей: <nobr>во-первых,</nobr> <b>хэширования файлов</b>, <nobr>во-вторых,</nobr> <b>URI</b> (единой формы идентификации ресурсов), <nobr>и в-третьих,</nobr> <b>файлообмена</b>.<br/>
+<br/>
+Хотя через 6 лет (в сентябре 2006 года) юристам RIAA через суд удалось принудить производителя eDonkey2000 прекратить распространение программы (и даже подменить её сайт зловещим предупреждением о нелегальности файлообмена), формат гиперссылок <nobr>«ed2k://…»</nobr> был унаследован и широко используется <nobr>по сей день</nobr> во всех файлообменных программах и на всех сайтах, имеющих дело с файлообменными сетями ed2k или Kad. Более того, с тех пор этот формат успел слегка подразвиться по сравнению <a href="http://replay.web.archive.org/20060822053115/http://edonkey2000.com/documentation/distro.html">с вариантом 2006 года</a>. Такова эпическая сила идей, в нём заложенных.<br/>
+<br/>
+<img src="https://habrastorage.org/getpro/habr/post_images/621/76c/9b8/62176c9b82bebf062cf7edeb757bc40e.png" align="right"/>Популярность программ, реализующих формат гиперссылок <nobr>«ed2k://…»,</nobr> также оказалась немалою. В зените своей славы программа <b>eDonkey2000</b>, название которой <i>действительно</i> происходит от английского слова «donkey» («осёл»), в умах российских пользователей на равных боролась за жаргонное название «ослика» <nobr>с мега-популярным</nobr> <nobr>браузером <b>IE</b>,</nobr> который обязан этой кличкою лишь <i>случайному</i> сходству <nobr>транскрипции «иэ»</nobr> и имени <nobr>ослика Иа-Иа</nobr> из историй <nobr>о Винни-Пухе —</nobr> а также, быть может, и своему ослиному упрямству в некорректной интерпретации некоторых <nobr>веб-стандартов.</nobr> (Приязнь к аниме и понимание «иэ» как японского отрицания «нет» в те годы, как видно, не было распространено.) А главный из идейных «наследников» eDonkey2000 — свободная программа <b>eMule</b> с открытым исходным кодом — до сих пор находится в вершине <a href="http://sourceforge.net/top/topalltime.php?type=downloads">списка наиболее популярных</a> (по числу закачек) продуктов на сайте SourceForge.<br/>
+<br/>
+Хэширование файлов. URI. Файлообмен. Каким образом все три эти идеи сплелись воедино в формате <nobr>гиперссылок «ed2k://…»?</nobr><br/>
+<br/>
+ <a href="https://habr.com/ru/post/118171/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 26 Apr 2011 15:03:51 GMT</pubDate>
+      <dc:creator>Mithgol</dc:creator>
+      <category><![CDATA[Децентрализованные сети]]></category>
+      <category><![CDATA[ed2k]]></category><category><![CDATA[eDonkey2000]]></category><category><![CDATA[RIAA]]></category><category><![CDATA[Kad]]></category><category><![CDATA[осёл]]></category><category><![CDATA[ослик]]></category><category><![CDATA[IE]]></category><category><![CDATA[Винни-Пух]]></category><category><![CDATA[eMule]]></category><category><![CDATA[SourceForge]]></category><category><![CDATA[хэширование]]></category><category><![CDATA[URL]]></category><category><![CDATA[URI]]></category><category><![CDATA[файлообмен]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Image to URI, легкий способ конвертации]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/142637/</guid>
+      <link>https://habr.com/ru/post/142637/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Приветствую всех.<br/>
+Читаю давно Хабр, и как-то ни разу не упоминалось о том, есть ли какой нибудь легкий способ конвертации изображений в data: URI.<br/>
+Да, конечно есть онлайн сервисы для конвертации, но когда требуется массовая конвертация, в них работать очень не удобно.<br/>
+ <a href="https://habr.com/ru/post/142637/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Mon, 23 Apr 2012 12:23:37 GMT</pubDate>
+      <dc:creator>alexbuk</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[CSS]]></category>
+      <category><![CDATA[images]]></category><category><![CDATA[uri]]></category><category><![CDATA[css]]></category><category><![CDATA[converter]]></category><category><![CDATA[java]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[SIP URI и URL. Часть 1 (URI, URL и URN)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/190154/</guid>
+      <link>https://habr.com/ru/post/190154/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/storage2/f1b/ecc/954/f1becc95460cb1223e740ebc943f8377.jpg"/><br/>
+<br/>
+В предыдущих двух статьях мы рассмотрели основы взаимодействия по протоколу SIP. <br/>
+<br/>
+<ol>
+<li> <a href="http://habrahabr.ru/post/188352/">Взаимодействие клиентов SIP. Часть 1 (Простое взаимодействие) </a> </li>
+<li> <a href="http://habrahabr.ru/post/189332/">Взаимодействие клиентов SIP. Часть 2 (Взаимодействие с использованием Proxy-сервера)</a> </li>
+</ol><br/>
+<br/>
+Далее я предлагаю разобраться с такой важной составляющей SIP, как SIP URI. Мы сталкивались с ними раньше, когда говорили о полях From, To и других, однако не уделяли им должного внимания. <br/>
+<br/>
+В рамках этой короткой статьи мы рассмотрим, какие бывают URI и из чего они состоят. В следующей статье остановимся на URI и URL в протоколе SIP.<br/>
+ <a href="https://habr.com/ru/post/190154/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Поехали</a>]]></description>
+      
+      <pubDate>Mon, 19 Aug 2013 09:15:59 GMT</pubDate>
+      <dc:creator>positivic</dc:creator>
+      <category><![CDATA[Разработка систем связи]]></category>
+      <category><![CDATA[sip]]></category><category><![CDATA[asterisk]]></category><category><![CDATA[lync]]></category><category><![CDATA[url]]></category><category><![CDATA[uri]]></category><category><![CDATA[urn]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[SIP URI и URL. Часть 2 (Схема SIP URI)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/190808/</guid>
+      <link>https://habr.com/ru/post/190808/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/storage2/2b5/2b4/012/2b52b40124d2f841a4eeff0a9586f872.jpg"/><br/>
+Предыдущие статьи по SIP:<br/>
+<ol>
+<li> <a href="http://habrahabr.ru/post/188352/">Взаимодействие клиентов SIP. Часть 1 (Простое взаимодействие) </a> </li>
+<li> <a href="http://habrahabr.ru/post/189332/">Взаимодействие клиентов SIP. Часть 2 (Взаимодействие с использованием Proxy-сервера)</a> </li>
+<li> <a href="http://habrahabr.ru/post/190154//">SIP URI и URL. Часть 1 (URI, URL и URN)</a> </li>
+</ol><br/>
+В первой части статьи мы разобрались, что такое URL, URN и URN. Пришло время поговорить о URI и URL, используемых в SIP.<br/>
+ <a href="https://habr.com/ru/post/190808/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Поехали</a>]]></description>
+      
+      <pubDate>Fri, 23 Aug 2013 07:45:35 GMT</pubDate>
+      <dc:creator>positivic</dc:creator>
+      <category><![CDATA[Разработка систем связи]]></category>
+      <category><![CDATA[sip]]></category><category><![CDATA[asterisk]]></category><category><![CDATA[lync]]></category><category><![CDATA[url]]></category><category><![CDATA[uri]]></category><category><![CDATA[sips]]></category><category><![CDATA[tel]]></category><category><![CDATA[pres]]></category><category><![CDATA[im]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[URI — сложно о простом (Часть 1)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/232385/</guid>
+      <link>https://habr.com/ru/post/232385/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/files/bd4/4cc/c3e/bd44ccc3e6df448e952967572648d0d3.jpg" alt="image"/><br/>
+<br/>
+Привет хабр!<br/>
+<br/>
+Появилось таки некоторое количество времени, и я решил написать сий пост, идея которого возникла уже давно.<br/>
+Связан он будет будет с такой, казалось бы, простой вещью, как URI, детальному рассмотрению которой в рунете уделяется как-то мало внимания.<br/>
+<br/>
+&quot;<i>Пфф, ссылки они и в Африке ссылки, чего тут разбираться?</i>&quot; — скажете вы, тогда я задам вопрос: <br/>
+<br/>
+<i>Что есть что и куда нас приведет?</i><br/>
+<ul>
+<li><code>http://example.com</code></li>
+<li><code>www.example.com</code></li>
+<li><code>//www.example.com</code></li>
+<li><code>mailto:user@example.com</code></li>
+</ul><br/>
+Если вы не знаете однозначного ответа или вам просто интересно <s>и если вы не боитесь огромного количества трехбуквенных аббревиатур</s> — милости прошу под кат.<br/>
+ <a href="https://habr.com/ru/post/232385/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sat, 11 Jul 2015 22:33:43 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[URL]]></category><category><![CDATA[URI]]></category><category><![CDATA[URN]]></category><category><![CDATA[IRI]]></category><category><![CDATA[гиперссылки]]></category><category><![CDATA[ссылки]]></category><category><![CDATA[домены]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Две точки]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/253049/</guid>
+      <link>https://habr.com/ru/post/253049/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img alt="скриншот консоли, который рвет шаблон" src="https://habrastorage.org/files/866/f19/a97/866f19a9793a4a57adfa4f900ff9c887.png"/><br/>
+<br/>
+На картинке выше вы можете наблюдать, как ls считает, что <font>linkylink/..</font> это не то же самое, что текущий каталог. При этом cd, кажется, с ним не согласен.<br/>
+<br/>
+Начну рассказ со всем знакомых веб-адресов, которые похожи на системные пути.<br/>
+<br/>
+<h1>Две точки в путях URI (в вебе)</h1> <a href="https://habr.com/ru/post/253049/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 29 Jan 2016 09:23:50 GMT</pubDate>
+      <dc:creator>TheRipper</dc:creator>
+      <category><![CDATA[Системное программирование]]></category>
+      <category><![CDATA[pwd]]></category><category><![CDATA[uri]]></category><category><![CDATA[рабочий каталог]]></category><category><![CDATA[символьные ссылки]]></category><category><![CDATA[shell]]></category><category><![CDATA[bash]]></category><category><![CDATA[vfs]]></category><category><![CDATA[path resolution]]></category><category><![CDATA[dot-dot]]></category><category><![CDATA[удивительное рядом]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Мой URL — это не ваш URL]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/301516/</guid>
+      <link>https://habr.com/ru/post/301516/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/files/24b/4ab/8bd/24b4ab8bd2b8487c8f8d45581d704d71.jpg"/><br/>
+<br/>
+Когда давным-давно в 1996 году я приступил к работе над программой httpget, предшественницей проекта Curl, я написал свой первый синтаксический анализатор URL. Как раз тогда этот универсальный адрес получил название <a href="https://www.ietf.org/rfc/rfc1738.txt">URL</a>: Uniform Resource Locator (единый указатель ресурсов). Его спецификация была опубликована IETF в 1994 году. Аббревиатура «URL» была затем использована как источник вдохновения для названия инструмента и проекта <a href="https://curl.haxx.se/">Curl</a>.<br/>
+<br/>
+Термин «URL» был позднее изменён; его стали называть <a href="https://www.ietf.org/rfc/rfc3986.txt">URI</a> (Uniform Resource Identifier — единый идентификатор ресурсов), согласно спецификации, опубликованной в 2005 году, однако основное сохранилось: синтаксис для строки, задающей онлайн-ресурс и указывающей протокол для получения этого ресурса. Мы требуем, чтобы curl принимал указатели URL, как определено данной спецификацией RFC 3986. Ниже я расскажу, почему на самом деле это не совсем так.<br/>
+ <a href="https://habr.com/ru/post/301516/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Mon, 23 May 2016 17:16:22 GMT</pubDate>
+      <dc:creator>LukinB</dc:creator>
+      <category><![CDATA[IT-стандарты]]></category><category><![CDATA[Браузеры]]></category>
+      <category>Интернет</category><category>браузеры</category><category>URL</category><category>стандарты</category><category>URI</category><category>IRI</category><category>curl</category><category>WHATWG</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Крутые URI не изменяются]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/511508/</guid>
+      <link>https://habr.com/ru/post/511508/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<font color="gray">Автор — сэр Тим Бернерс-Ли, изобретатель URI, URL, HTTP, HTML и Всемирной паутины, действующий глава W3C. Статья написана в 1998 году</font> <br>
+<br>
+Какой URI можно считать «крутым»?<br>
+Такой, который не изменяется.<br>
+Как изменяются URI?<br>
+<i>URI не изменяются: их изменяют люди.</i> <br>
+<br>
+По идее, у людей нет никаких причин изменять URI (или прекращать поддерживать документы), но на практике их миллионы.<br>
+<br>
+Теоретически, номинальный владелец пространства доменных имён действительно владеет пространством доменных имен и, следовательно, всеми URI в нём. Кроме неплатёжеспособности, ничто не мешает владельцу доменного имени сохранить это имя. И теоретически, пространство URI под вашим доменным именем полностью находится под вашим контролем, так что вы можете сделать его таким стабильным, как вам нравится. В значительной степени единственная веская причина для исчезновения документа из интернета заключается в том, что компания, которой принадлежало доменное имя, вышла из бизнеса или больше не может позволить себе поддерживать работу сервера. Тогда почему в мире так много пропавших ссылок? Отчасти это просто недостаток предусмотрительности. Вот некоторые причины, которые можно услышать:<br> <a href="https://habr.com/ru/post/511508/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sat, 18 Jul 2020 05:58:04 GMT</pubDate>
+      <dc:creator>m1rko</dc:creator>
+      <category><![CDATA[Веб-дизайн]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Администрирование доменных имен]]></category><category><![CDATA[Серверное администрирование]]></category>
+      <category>URL</category><category>URI</category><category>крутость</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Снится ли GGG Тиму Бернерсу-Ли?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/571810/</guid>
+      <link>https://habr.com/ru/post/571810/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>В 2007 году знаменитый автор слова из трёх букв 'W' опубликовал в своем блоге рассуждения о востребованности слова нового, на сей раз - из трёх букв 'G'. <a href="https://en.wikipedia.org/wiki/Giant_Global_Graph" rel="noopener noreferrer nofollow">"Гигантский Глобальный Граф"</a> - так предполагалось это произносить в полном, необрезанном виде. О чём шла речь? О том, что слово "граф" больше подходит для обозначения технологии представления взамосвязанных данных, нежели "паутина", пусть даже и "семантическая". Термин не прижился. Отчасти, возможно, из-за некоторой тавтологичности, отчасти же - из-за того, что привычная "паутина" оказалась милее сердцу обывателя, чем какой-то "граф". </p><p>Ну, да ладно, "ГГГ" не <s>всплыло</s> взлетело - не беда, ведь в конце концов - это лишь один из возможных псевдонимов планетарной семантической сети. Но что представлялось сиру Тиму в качестве цели для достижения (с помощью новых-то технологий связывания данных)?.. <em>"Важны не документы, а то, что в них содержится. Очевидная истина."</em> - писал он, - <em>"...когда я бронирую билет на авиарейс, меня интересует именно этот рейс. Не страница рейса на сайте путешествий или страница рейса на сайте авиакомпании, но URI самого авиарейса. Вот что я поставлю в закладки. И каким бы устройством я ни воспользовался для открытия закладки, оно будет иметь доступ к ситуационно зависимому обзору всего, что я знаю об этом рейсе из разных источников. Задача заказа и совершения рейса потребует множества взаимодействий. И на их протяжении, эти задача и рейс будут на первом месте в моём осознании, веб-сайты – на втором, а сети и устройства – на третьем."</em></p> <a href="https://habr.com/ru/post/571810/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Mon, 09 Aug 2021 12:24:38 GMT</pubDate>
+      <dc:creator>starver</dc:creator>
+      <category><![CDATA[Децентрализованные сети]]></category><category><![CDATA[Семантика]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Распределённые системы]]></category><category><![CDATA[Будущее здесь]]></category>
+      <category><![CDATA[CID]]></category><category><![CDATA[URI]]></category><category><![CDATA[URN]]></category><category><![CDATA[URL]]></category><category><![CDATA[IPFS]]></category><category><![CDATA[ID]]></category><category><![CDATA[GGG]]></category><category><![CDATA[Web3]]></category><category><![CDATA[LibP2P]]></category><category><![CDATA[PubSub]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Как работают коды Spotify?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/594115/</guid>
+      <link>https://habr.com/ru/post/594115/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/594115/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/fu/_o/2d/fu_o2dorpp1hlruueytfqs_9llu.png"></div></a><br>
+<a href="https://www.spotifycodes.com/" rel="nofollow noopener noreferrer">Коды Spotify</a> подобны QR-кодам. Их можно генерировать для того, чтобы делиться песнями, исполнителями, плейлистами и пользователями. Я решил разобраться в принципе их действия, в результате чего проделал извилистый путь по истории штрихкодов, патентам, сниффингу пакетов, коррекции ошибок и кодам Грея. <a href="https://habr.com/ru/post/594115/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 08 Dec 2021 13:00:04 GMT</pubDate>
+      <dc:creator>Bright_Translate</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Python]]></category><category><![CDATA[Алгоритмы]]></category><category><![CDATA[Реверс-инжиниринг]]></category><category><![CDATA[Звук]]></category>
+      <category>ruvds_перевод</category><category>штрихкод</category><category>Spotify</category><category>URI</category><category>python</category><category>реверс-инжиниринг</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Проклятие поддомена WWW: чеклист молодого админа]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/594461/</guid>
+      <link>https://habr.com/ru/post/594461/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/hw/z6/wm/hwz6wmrfpjehdzufy0sjgfjrx-c.jpeg"></div><br>
+Должен ли адрес веб-сайта включать поддомен WWW и стоит ли вообще его создавать – тема многолетней спецолимпиады в этих наших Интернетах. Как «за», так и «против» приводится множество аргументов разной степени <s>маразматичности</s> разумности, которые я не стану воспроизводить в 100500-й раз. Отмечу лишь два момента. Первый: существуют разумные доводы в пользу обоих вариантов, поэтому следует решать, сообразуясь лишь со своими целями и обстоятельствами. Второй: не существует RFC, который явно требовал бы наличия или отсутствия поддомена WWW.<br> <a href="https://habr.com/ru/post/594461/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Thu, 09 Dec 2021 11:10:27 GMT</pubDate>
+      <dc:creator>ifap</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Администрирование доменных имен]]></category><category><![CDATA[Серверное администрирование]]></category>
+      <category><![CDATA[www]]></category><category><![CDATA[сайт]]></category><category><![CDATA[администрирование веб-серверов]]></category><category><![CDATA[uri]]></category><category><![CDATA[url]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Как работают коды Spotify — часть 2]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/594623/</guid>
+      <link>https://habr.com/ru/post/594623/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/594623/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/dv/m7/02/dvm702ads7zrhpzuafx6yq-y80s.png"></div></a><br>
+В <a href="https://habr.com/ru/company/ruvds/blog/594115/">первой части</a> мы разобрали общие технические принципы функционирования кодов платформы Spotify, и в завершении я написал, что неуверенность в некоторых деталях не позволила мне реализовать собственный конвертер штрихкодов в URI. Однако благодаря дополнительному исследованию и активной <a href="https://stackoverflow.com/a/64950150/10703868" rel="nofollow noopener noreferrer">помощи от участников StackOverflow</a> теперь я это преобразование выполнить могу. <a href="https://habr.com/ru/post/594623/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 10 Dec 2021 13:00:02 GMT</pubDate>
+      <dc:creator>Bright_Translate</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Python]]></category><category><![CDATA[Алгоритмы]]></category><category><![CDATA[Реверс-инжиниринг]]></category><category><![CDATA[Звук]]></category>
+      <category>ruvds_перевод</category><category>штрихкод</category><category>Spotify</category><category>URI</category><category>python</category><category>реверс-инжиниринг</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Beyond URL and URN]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/667120/</guid>
+      <link>https://habr.com/ru/post/667120/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>Рыская по интернетам, зашел на страницу про URI и спустя несколько часов осознал, как мало я знал об этом монстре. Признаюсь, до этого я думал, что URI это либо URL, либо URN. Но это не так! Есть и другие варианты идентификации ресурса в сети.</p> <a href="https://habr.com/ru/post/667120/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sun, 22 May 2022 12:10:18 GMT</pubDate>
+      <dc:creator>AshBlade</dc:creator>
+      <category><![CDATA[Администрирование доменных имен]]></category><category><![CDATA[Сетевые технологии]]></category><category><![CDATA[IT-стандарты]]></category><category><![CDATA[Терминология IT]]></category>
+      <category><![CDATA[uri]]></category><category><![CDATA[url]]></category><category><![CDATA[urn]]></category><category><![CDATA[интернет]]></category><category><![CDATA[терминология]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Humane API REST Protocol]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/680376/</guid>
+      <link>https://habr.com/ru/post/680376/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>Здравствуйте, меня зовут Дмитрий Карловский и я… как скульптор, отрезаю всё лишнее, чтобы оставить лишь самую мякотку, которая в наиболее лаконичной и практичной форме решает широкий круг задач. Вот лишь несколько спроектированных мною вещей:</p><br>
+<ul>
+<li><a href="https://habhub.hyoo.ru/#!author=nin-jin/repo=HabHub/article=39" rel="nofollow noopener noreferrer">MarkedText</a> — стройный легковесный язык разметки текста (убийца MarkDown).</li>
+<li><a href="https://github.com/nin-jin/slides/tree/master/tree" rel="nofollow noopener noreferrer">Tree</a> — структурированный формат представления данных (убийца JSON и XML).</li>
+</ul><br>
+<p>На этот же раз мы спроектируем удобный клиент-серверный <a href="https://ru.wikipedia.org/wiki/API" rel="nofollow noopener noreferrer">API</a>, призванный убрать кровавую пелену с глаз фронтендеров и стальные мозоли с пальцев бэкендеров..</p><br>
+<div class="scrollable-table"><table>
+<thead>
+<tr>
+<th></th>
+<th>HARP</th>
+<th>OData</th>
+<th>GraphQL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Architecture</strong></td>
+<td>✅REST</td>
+<td>✅REST</td>
+<td>❌RPC</td>
+</tr>
+<tr>
+<td>Common <strong>uri query string</strong> compatible</td>
+<td>⭕Back</td>
+<td>✅Full</td>
+<td>❌</td>
+</tr>
+<tr>
+<td><strong>Single line</strong> query</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td><strong>Pseudo-static</strong> compatible</td>
+<td>⭕Back</td>
+<td>⭕Partial</td>
+<td>❌</td>
+</tr>
+<tr>
+<td><strong>Same model</strong> of request and response</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td><strong>File name</strong> compatible</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td><strong>Web Tools</strong> Friendly</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>Data <strong>filtering</strong></td>
+<td>✅</td>
+<td>✅</td>
+<td>⭕Unspec</td>
+</tr>
+<tr>
+<td>Data <strong>sorting</strong></td>
+<td>✅</td>
+<td>✅</td>
+<td>⭕Unspec</td>
+</tr>
+<tr>
+<td>Data <strong>slicing</strong></td>
+<td>✅</td>
+<td>✅</td>
+<td>⭕Unspec</td>
+</tr>
+<tr>
+<td>Data <strong>aggregation</strong></td>
+<td>✅</td>
+<td>✅</td>
+<td>⭕Unspec</td>
+</tr>
+<tr>
+<td><strong>Deep</strong> fetch</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Limited</strong> logic</td>
+<td>✅</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Metadata</strong> query</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td><strong>Idempotent</strong> requests</td>
+<td>✅Full</td>
+<td>⭕Partial</td>
+<td>❌Undef</td>
+</tr>
+<tr>
+<td><strong>Normalized</strong> response</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table></div> <a href="https://habr.com/ru/post/680376/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 02 Aug 2022 09:05:27 GMT</pubDate>
+      <dc:creator>nin-jin</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Анализ и проектирование систем]]></category><category><![CDATA[XML]]></category><category><![CDATA[API]]></category><category><![CDATA[TypeScript]]></category>
+      <category>HARP</category><category>REST</category><category>OData</category><category>GraphQL</category><category>API</category><category>CRUD</category><category>Idempotency</category><category>Normal Form</category><category>Query</category><category>Graph</category><category>Tree</category><category>JSON</category><category>XML</category><category>URI</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[[recovery mode] Работаем с XML как с массивом, версия 2]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/712106/</guid>
+      <link>https://habr.com/ru/post/712106/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>Всем привет.</p><p>Хочу поделиться с вами опытом в парсинге XML файлов размером  до четырёх гигабайт. Что бы это происходило быстро, мы читаем файл последовательно, частями, парсим только нужные нам элементы.</p><p>В двух словах для быстрого парсинга файлов надо пользоваться <strong>XMLReader</strong> в связке с <strong>yield</strong>. </p><p>О моей реализации этой связки читайте ниже.</p><p></p> <a href="https://habr.com/ru/post/712106/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Mon, 23 Jan 2023 00:07:25 GMT</pubDate>
+      <dc:creator>SbWereWolf</dc:creator>
+      <category><![CDATA[PHP]]></category><category><![CDATA[XML]]></category>
+      <category><![CDATA[php]]></category><category><![CDATA[xml]]></category><category><![CDATA[parsing]]></category><category><![CDATA[parser]]></category><category><![CDATA[array]]></category><category><![CDATA[file]]></category><category><![CDATA[uri]]></category><category><![CDATA[велосипедостроение]]></category><category><![CDATA[библиотека]]></category><category><![CDATA[library]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

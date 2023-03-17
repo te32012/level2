@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru" data-vue-meta="%7B%22lang%22:%7B%22ssr%22:%22ru%22%7D%7D">
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover,maximum-scale=1,user-scalable=0">
+  <meta name="referrer" content="unsafe-url">
+  <title>Transparency report / Документы / Хабр</title>
+  <style>
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSxf6TF0.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveQhf6TF0.woff2) format('woff2');
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    /* latin */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    /* non-breaking hyphen */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/l/font?kit=KFOlCnqEu92Fr1MmEU9vBh0_IsHAlmrO6g&skey=ee881451c540fdec&v=v29) format('woff2');
+      unicode-range: U+02011;
+    }
+  </style>
+  <link rel="preload" href="https://assets.habr.com/habr-web/css/chunk-vendors.b6238726.css" as="style"><link rel="preload" href="https://assets.habr.com/habr-web/js/chunk-vendors.76685433.js" as="script"><link rel="preload" href="https://assets.habr.com/habr-web/css/app.59c6701f.css" as="style"><link rel="preload" href="https://assets.habr.com/habr-web/js/app.067cb56a.js" as="script"><link rel="preload" href="https://assets.habr.com/habr-web/css/docs.f4b9cb25.css" as="style"><link rel="preload" href="https://assets.habr.com/habr-web/js/docs.02150398.js" as="script">
+  <link rel="stylesheet" href="https://assets.habr.com/habr-web/css/chunk-vendors.b6238726.css"><link rel="stylesheet" href="https://assets.habr.com/habr-web/css/app.59c6701f.css"><link rel="stylesheet" href="https://assets.habr.com/habr-web/css/docs.f4b9cb25.css">
+  <script>window.i18nFetch = new Promise((res, rej) => {
+          const xhr = new XMLHttpRequest();
+          xhr.open('GET', '/js/i18n/ru-compiled.bb54036e20d5f2f436c26e6c1769b6b8.json');
+          xhr.responseType = 'json';
+          xhr.onload = function(e) {
+            if (this.status === 200) {
+              res({ru: xhr.response});
+            } else {
+              rej(e);
+            }
+          };
+          xhr.send();
+        });</script>
+  
+  
+  <script src="//www.googletagservices.com/tag/js/gpt.js" async></script>
+  <style>.grecaptcha-badge{visibility: hidden;}</style>
+  <meta name="habr-version" content="2.116.0">
+  <meta name="csrf-token" content="xQlJrUjz-_gVKskL3JdEHb0hezNx4es3yo1E">
+  <meta data-vue-meta="ssr" itemprop="image" content="/img/habr_ru.png" data-vmid="image:itemprop"><meta data-vue-meta="ssr" property="og:image" content="/img/habr_ru.png" data-vmid="og:image"><meta data-vue-meta="ssr" property="og:image:width" content="1200" data-vmid="og:image:width"><meta data-vue-meta="ssr" property="og:image:height" content="630" data-vmid="og:image:height"><meta data-vue-meta="ssr" property="aiturec:image" content="/img/habr_ru.png" data-vmid="aiturec:image"><meta data-vue-meta="ssr" name="twitter:image" content="/img/habr_ru.png" data-vmid="twitter:image"><meta data-vue-meta="ssr" property="vk:image" content="/img/habr_ru.png?format=vk" data-vmid="vk:image"><meta data-vue-meta="ssr" property="fb:app_id" content="444736788986613"><meta data-vue-meta="ssr" property="fb:pages" content="472597926099084"><meta data-vue-meta="ssr" name="twitter:card" content="summary_large_image"><meta data-vue-meta="ssr" name="twitter:site" content="@habr_com"><meta data-vue-meta="ssr" property="og:locale" content="ru_RU" data-vmid="og:locale"><meta data-vue-meta="ssr" property="og:type" content="website" data-vmid="og:type"><meta data-vue-meta="ssr" property="og:site_name" content="Хабр" data-vmid="og:site_name"><meta data-vue-meta="ssr" property="og:title" content="Хабр" data-vmid="og:title"><meta data-vue-meta="ssr" property="og:url" content="https://habr.com/ru/docs/docs/transparency/" data-vmid="og:url"><meta data-vue-meta="ssr" name="description" content="Transparency report" data-vmid="description">
+  <link data-vue-meta="ssr" rel="image_src" href="/img/habr_ru.png" data-vmid="image:href"><link data-vue-meta="ssr" href="https://habr.com/ru/docs/docs/transparency/" rel="canonical" data-vmid="canonical">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#303b44">
+  <meta name="msapplication-TileColor" content="#629FBC">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link
+    rel="shortcut icon"
+    type="image/png"
+    sizes="16x16"
+    href="https://assets.habr.com/habr-web/img/favicons/favicon-16.png"
+  >
+  <link
+    rel="shortcut icon"
+    type="image/png"
+    sizes="32x32"
+    href="https://assets.habr.com/habr-web/img/favicons/favicon-32.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="76x76"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-76.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="120x120"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="152x152"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-152.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="180x180"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-180.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="256x256"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-256.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1136x640.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2436x1125.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1792x828.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_828x1792.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1334x750.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2208x1242.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1125x2436.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2208.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2732x2048.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2688x1242.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2224x1668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_750x1334.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2048x2732.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2388x1668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2224.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_640x1136.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2388.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2048x1536.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1536x2048.png"
+  >
+  <link
+    rel="mask-icon"
+    color="#77a2b6"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.svg"
+  >
+  <link
+    crossorigin="use-credentials"
+    href="/manifest.webmanifest"
+    rel="manifest"
+  >
+  <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+  <script>window.yaContextCb = window.yaContextCb || []</script>
+  <script src="https://yandex.ru/ads/system/context.js" async></script>
+</head>
+<body>
+
+
+<div id="app" data-server-rendered="true" data-async-called="true"><div class="tm-layout__wrapper"><!----> <div></div> <!----> <header class="tm-header"><div class="tm-page-width"><div class="tm-header__container"><!----> <span class="tm-header__logo-wrap"><a href="/ru/" class="tm-header__logo tm-header__logo_ru"><svg height="16" width="16" class="tm-svg-img tm-header__icon"><title>Хабр</title> <use xlink:href="/img/habr-logo-ru.svg#logo"></use></svg></a> <span class="tm-header__beta-sign" style="display:none;">β</span></span> <div class="tm-dropdown tm-header__projects"><div class="tm-dropdown__head"><button class="tm-header__dropdown-toggle"><svg height="16" width="16" class="tm-svg-img tm-header__icon tm-header__icon_dropdown"><title>Открыть список</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#arrow-down"></use></svg></button></div> <!----></div> <a href="/ru/sandbox/start/" class="tm-header__become-author-btn">
+            Как стать автором
+          </a> <div class="tm-feature tm-header__feature tm-feature tm-feature_variant-inline"><!----></div> <!----> <!----></div></div></header> <div class="tm-layout"><div class="tm-page-progress-bar"></div> <div data-menu-sticky="true" class="tm-base-layout__header tm-base-layout__header_is-sticky"><div class="tm-page-width"><div class="tm-base-layout__header-wrapper"><div class="tm-main-menu"><div class="tm-main-menu__section"><nav class="tm-main-menu__section-content"><!----> <a href="/ru/all/" class="tm-main-menu__item">
+        Все потоки
+      </a> <a href="/ru/flows/develop/" class="tm-main-menu__item">
+          Разработка
+        </a><a href="/ru/flows/admin/" class="tm-main-menu__item">
+          Администрирование
+        </a><a href="/ru/flows/design/" class="tm-main-menu__item">
+          Дизайн
+        </a><a href="/ru/flows/management/" class="tm-main-menu__item">
+          Менеджмент
+        </a><a href="/ru/flows/marketing/" class="tm-main-menu__item">
+          Маркетинг
+        </a><a href="/ru/flows/popsci/" class="tm-main-menu__item">
+          Научпоп
+        </a></nav></div></div> <div class="tm-header-user-menu tm-base-layout__user-menu"><a href="/ru/search/" class="tm-header-user-menu__item tm-header-user-menu__search"><svg height="24" width="24" class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_search tm-header-user-menu__icon_dark"><title>Поиск</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#search"></use></svg></a> <!----> <!----> <!----> <div class="tm-header-user-menu__item tm-header-user-menu__user_desktop"><div class="tm-dropdown"><div class="tm-dropdown__head"><svg height="24" width="24" data-test-id="menu-toggle-guest" class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_dark"><title>Профиль</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#header-user"></use></svg> <!----></div> <!----></div> <!----></div> <!----></div></div></div></div> <!----> <div class="tm-page-width"></div> <main class="tm-layout__container"><div data-async-called="true" class="tm-page"><div class="tm-page-width"><!----> <div class="tm-page__wrapper"><div class="tm-page__main tm-page__main_has-sidebar"><div class="pull-down"><!----> <div class="pull-down__header" style="height:0px;"><div class="pull-down__content" style="bottom:10px;"><svg height="24" width="24" class="tm-svg-img pull-down__arrow"><title>Обновить</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#pull-arrow"></use></svg></div></div> <div class="tm-page__header"><div class="tm-section-name"><h1 class="tm-section-name__text">
+    Информация
+  </h1> </div> <div class="tm-tabs tm-tabs"><div class="tm-tabs__scroll-area"><span class="tm-tabs__tab-item"><a href="/ru/docs/help/" class="tm-tabs__tab-link tm-tabs__tab-link">
+        Устройство сайта
+        <!----> <!----></a></span><span class="tm-tabs__tab-item"><a href="/ru/docs/authors/" class="tm-tabs__tab-link tm-tabs__tab-link">
+        Для авторов
+        <!----> <!----></a></span><span class="tm-tabs__tab-item"><a href="/ru/docs/companies/" class="tm-tabs__tab-link tm-tabs__tab-link">
+        Для компаний
+        <!----> <!----></a></span><span class="tm-tabs__tab-item"><a href="/ru/docs/docs/" data-test-id="tab-link-active" class="tm-tabs__tab-link tm-tabs__tab-link tm-tabs__tab-link_active">
+        Документы
+        <!----> <!----></a></span><span class="tm-tabs__tab-item"><a href="/ru/docs/changelog/" class="tm-tabs__tab-link tm-tabs__tab-link">
+        Changelog
+        <!----> <!----></a></span></div> <!----></div> <div></div></div> <!----> <div class="tm-page__info"><h2>Transparency report</h2><p>Ниже представлен отчёт о запросах различных государственных служб и правообладателей за разные годы.</p><p>→ <a href="https://habr.com/ru/company/habr/blog/488088/">Как Хабр взаимодействует с госорганами и другими заявителями</a></p><h2>2023</h2><div><div class="table"><table><tbody><tr><td width="124"><p><strong>Заявитель</strong></p></td><td width="94"><p><strong>Домен</strong></p></td><td width="315"><p><strong>Требование</strong></p></td><td><p><strong>Решение</strong></p></td></tr><tr><td width="124"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="94"><p>Хабр</p></td><td width="315"><p>Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 2</p><p>⬝ Удовлетворено: 2</p></td></tr><tr><td width="124"><p>Group-IB</p></td><td width="94"><p>Хабр</p></td><td width="315"><p>Копирайт</p></td><td><p>Запросов: 2  <br /><br />⬝ Отклонено: 2</p></td></tr></tbody></table></div></div><h3>2022</h3><div><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="122"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="97"><p>Хабр Карьера<br /><br /><br />Хабр Q&amp;A</p></td><td width="323"><p>Запрос информации о пользователе<br /><br /><br /><br />Запрос информации о пользователе</p></td><td><p>Запросов: 1</p><p>⬝ Отклонено: 1<br /><br />Запросов: 1  <br /><br />⬝ Отклонено: 1</p></td></tr><tr><td width="122"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="97"><p>Хабр</p></td><td width="323"><p>Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 6</p><p>⬝ Удовлетворено: 6</p></td></tr></tbody></table></div></div><p>Ошибка заявителя: 7, отклонены</p><h3>2021</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="122"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="97"><p>Хабр</p></td><td width="323"><p>Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 3</p><p>⬝ Удовлетворено: 3</p></td></tr><tr><td width="122"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="97"><p>Хабр<br /><br /><br /><br />Хабр Фриланс<br /><br /><br />Хабр Карьера</p></td><td width="323"><p>Запрос информации о пользователе<br /><br /><br /><br />Запрос информации о пользователе<br /><br /><br /><br />Запрос информации о пользователе</p></td><td><p>Запросов: 1</p><p>⬝ Отклонено: 1<br /><br />Запросов: 2<br /><br /> ⬝ Удовлетворено: 2<br /><br />Запросов: 1</p><p> ⬝ Удовлетворено: 1</p></td></tr><tr><td width="122"><p>Google (DMCA)</p></td><td width="97"><p>Хабр</p></td><td width="323"><p>Исключение из результатов поиска</p></td><td><p>Запросов: 2<br /><br /> ⬝ Удовлетворено: 2</p></td></tr></tbody></table></div><p>Ошибка заявителя: 3, отклонены</p><h3>2020</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="122"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="97"><p>Хабр<br /><br /><br /><br /><br />Хабр Карьера<br /><br /><br /><br />Habrastorage</p></td><td width="323"><p>Включение в реестр запрещённых сайтов<br /><br /><br /><br /><br />Запрос на удаление данных<br /><br /><br /><br />Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 8</p><p>⬝ Удовлетворено: 8</p><p>⬝ Оспорено: 1<br /><br />Запросов: 1  <br /><br />⬝ Удовлетворено: 1<br /><br />Запросов: 1  <br /><br />⬝ Удовлетворено: 1</p></td></tr><tr><td width="122"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="97"><p>Хабр Карьера</p></td><td width="323"><p>Запрос информации о пользователе</p></td><td><p>Запросов: 3</p><p>⬝ Отклонено: 3</p></td></tr><tr><td width="122"><p>Google (DMCA)</p></td><td width="97"><p>Хабр</p></td><td width="323"><p>Исключение из результатов поиска</p></td><td><p>Запросов: 1<br /><br />  ⬝ Удовлетворено: 1</p><p>  ⬝ Оспорено: 1</p></td></tr></tbody></table></div><h3>2019</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="121"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="101"><p>Хабр<br /><br /><br /><br />Мой Круг<br /><br /><br />Автокадабра</p></td><td width="315"><p>Включение в реестр запрещённых сайтов<br /><br /><br /><br />Включение в реестр запрещённых сайтов<br /><br /><br />Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 4</p><p>⬝ Удовлетворено: 4<br /><br />Запросов: 1</p><p>⬝ Удовлетворено: 1<br /><br />Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr><tr><td width="121"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="101"><p>Хабр<br /><br /><br />Фрилансим<br /><br /><br /><br />Тостер<br /><br /><br /><br />Мой Круг</p></td><td width="315"><p>Запрос информации о пользователе<br /><br /><br />Запрос информации о пользователе<br /><br /><br /><br />Запрос информации о пользователе<br /><br /><br /><br />Запрос информации о пользователе</p></td><td><p>Запросов: 1</p><p>⬝ Удовлетворено: 1</p><p>Запросов: 1</p><p>⬝ Удовлетворено: 1<br /><br />Запросов: 1</p><p>⬝ Отклонено: 1<br /><br />Запросов: 2</p><p>⬝ Удовлетворено: 1</p><p>⬝ Отклонено: 1</p></td></tr><tr><td width="121"><p>Google (DMCA)</p></td><td width="101"><p>Хабр</p></td><td width="315"><p>Исключение из результатов поиска</p></td><td><p>Запросов: 3</p><p>⬝ Удовлетворено: 1</p><p>⬝ Оспорено: 2</p></td></tr></tbody></table></div><p>Ошибка заявителя: 3, отклонены</p><h3>2018</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="123"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="101"><p>Хабр<br /><br /><br /><br /><br />Мой Круг<br /><br /><br /><br />Тостер</p></td><td width="310"><p>Включение в реестр запрещённых сайтов<br /><br /><br /><br /><br />Включение в реестр запрещённых сайтов<br /><br /><br /><br />Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 3</p><p>⬝ Удовлетворено: 3</p><p>⬝ Оспорено: 2<br /><br />Запросов: 1</p><p>⬝ Удовлетворено: 1<br /><br />Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr><tr><td width="123"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="101"><p>Хабр</p></td><td width="310"><p>Запрос информации о пользователе</p></td><td><p>Запросов: 1</p><p>⬝ Отклонено: 1</p></td></tr></tbody></table></div><p>Ошибка заявителя: 4, отклонены</p><h3>2017</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="128"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="102"><p>Хабр<br /><br /><br /><br />Гиктаймс<br /><br /><br />Автокадабра</p></td><td width="307"><p>Включение в реестр запрещённых сайтов<br /><br /><br /><br />Включение в реестр запрещённых сайтов<br /><br /><br />Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 5</p><p>⬝ Удовлетворено: 5<br /><br />Запросов: 3</p><p>⬝ Удовлетворено: 3<br /><br />Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr><tr><td width="128"><p><abbr title="Федеральная Служба Судебных Приставов">ФССП</abbr></p></td><td width="102"><p>Хабр</p></td><td width="307"><p>Запрос на блокировку доступа к аккаунту</p></td><td><p>Запросов: 1</p><p>⬝ Удовлетворено: 1, обжалован</p></td></tr><tr><td width="128"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="102"><p>Хабр</p></td><td width="307"><p>Запрос информации о пользователе и о размещении рекламной кампании</p></td><td><p>Запросов: 2</p><p>⬝ Удовлетворено: 1</p><p>⬝ Отклонено: 1</p></td></tr><tr><td width="128"><p><abbr title="Федеральная Служба Охраны">ФСО</abbr></p></td><td width="102"><p>Хабр</p></td><td width="307"><p>Запрос информации о пользователе</p></td><td><p>Запросов: 2</p><p>⬝ Удовлетворено: 2</p></td></tr></tbody></table></div><h3>2016</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="125"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="102"><p>Хабр<br /><br /><br /><br />Гиктаймс<br /><br /><br />Мегамозг</p></td><td width="306"><p>Включение в реестр запрещённых сайтов<br /><br /><br /><br />Включение в реестр запрещённых сайтов<br /><br /><br />Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 2</p><p>⬝ Удовлетворено: 2<br /><br />Запросов: 1</p><p>⬝ Удовлетворено: 1<br /><br />Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr><tr><td width="125"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="102"><p>Хабр<br /><br /><br /><br /><br />Мой Круг<br /><br /><br /><br />Brainstorage</p></td><td width="306"><p>Запрос информации о пользователе<br /><br /><br /><br /><br />Запрос информации о пользователе<br /><br /><br /><br />Запрос информации о пользователе</p></td><td><p>Запросов: 4</p><p>⬝ Удовлетворено: 3</p><p>⬝ Отклонено: 1<br /><br />Запросов: 5</p><p>⬝ Отклонено: 5<br /><br />Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr><tr><td width="125"><p><abbr title="Федеральная Служба Безопасности">ФСБ</abbr></p></td><td width="102"><p>Хабр<br /><br /><br />Мой Круг</p></td><td width="306"><p>Запрос информации о пользователе<br /><br /><br />Запрос информации о пользователе</p></td><td><p>Запросов: 2</p><p>⬝ Удовлетворено: 2<br /><br />Запросов: 1</p><p>⬝ Отклонено: 1</p></td></tr></tbody></table></div><h3>2015</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="128"><p><abbr title="Федеральная служба по контролю за оборотом наркотиков">ФСКН</abbr></p></td><td width="108"><p>Хабр</p></td><td width="292"><p>Запрос информации о пользователе</p></td><td><p>Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr><tr><td width="128"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="108"><p>Хабр</p></td><td width="292"><p>Запрос информации о пользователе</p></td><td><p>Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr><tr><td width="128"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="108"><p>Фрилансим</p></td><td width="292"><p>Запрос информации о пользователе</p></td><td><p>Запросов: 2</p><p>⬝ Отклонено: 2</p></td></tr></tbody></table></div><h4>2014</h4><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="129"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="102"><p>Хабр</p></td><td width="311"><p>Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr></tbody></table></div><h3>2013</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="131"><p><abbr title="Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций">Роскомнадзор</abbr></p></td><td width="111"><p>Habrastorage</p></td><td width="306"><p>Включение в реестр запрещённых сайтов</p></td><td><p>Запросов: 1</p><p>⬝ Удовлетворено: 1</p></td></tr></tbody></table></div><h3>2012</h3><div class="table"><table><tbody><tr><th><p>Заявитель</p></th><th><p>Домен</p></th><th><p>Требование</p></th><th><p>Решение</p></th></tr><tr><td width="135"><p><abbr title="Министерство Внутренних Дел">МВД</abbr></p></td><td width="110"><p>Хабр</p></td><td width="304"><p>Предложение сотрудничества</p></td><td><p>Запросов: 1</p><p>⬝ Отклонено: 1</p></td></tr></tbody></table></div><p><br />Лишний раз просим соблюдать корректность поведения на сайте и не забывать о том, что Хабр включён в реестр организаторов распространителей информации (ОРИ) и должен выполнять требования действующего законодательства.</p></div></div></div> <div class="tm-page__sidebar"><div class="tm-layout-sidebar"><div class="tm-layout-sidebar__placeholder_initial"></div> <div class="tm-sexy-sidebar tm-sexy-sidebar_initial" style="margin-top:0px;"><section class="tm-block tm-block tm-block_spacing-bottom"><header class="tm-block__header tm-block__header"><div class="tm-block__header-container"><h2 class="tm-block__title tm-block__title">Разделы</h2> </div> <!----></header> <div class="tm-block__body tm-block__body"><a href="/ru/docs/docs/transparency/" aria-current="page" class="tm-docs__link_sidebar router-link-exact-active tm-docs__link_sidebar_active">
+          Transparency report
+        </a><a href="/ru/docs/docs/advert-rules/" class="tm-docs__link_sidebar">
+          Правила оказания рекламных услуг
+        </a><a href="/ru/docs/docs/legal/" class="tm-docs__link_sidebar">
+          Условия оказания инфоуслуг
+        </a><a href="/ru/docs/docs/rules/" class="tm-docs__link_sidebar">
+          Правила оказания инфоуслуг
+        </a><a href="/ru/docs/docs/content-legal/" class="tm-docs__link_sidebar">
+          Условия оказания контентных услуг
+        </a><a href="/ru/docs/docs/content-rules/" class="tm-docs__link_sidebar">
+          Правила оказания контентных услуг
+        </a><a href="/ru/docs/docs/service_list/" class="tm-docs__link_sidebar">
+          Перечень услуг по созданию контента
+        </a><a href="/ru/docs/docs/season-rules/" class="tm-docs__link_sidebar">
+          Правила проведения конкурса «Сезон на Хабре»
+        </a><a href="/ru/docs/docs/technotext2022-rules/" class="tm-docs__link_sidebar">
+          Правила проведения конкурса «Технотекст 2022»
+        </a><a href="/ru/docs/docs/certificate-rules/" class="tm-docs__link_sidebar">
+          Правила оказания услуг по предоставлению сертификатов
+        </a><a href="/ru/docs/docs/certificate-legal/" class="tm-docs__link_sidebar">
+          Условия оказания услуг по Сертификатам
+        </a></div> <!----></section> <!----></div></div></div></div></div></div></main> <!----></div> <div class="tm-footer-menu"><div class="tm-page-width"><div class="tm-footer-menu__container"><div class="tm-footer-menu__block"><p class="tm-footer-menu__block-title">
+          Ваш аккаунт
+        </p> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="/kek/v1/auth/habrahabr/?back=/ru/docs/docs/transparency/&amp;hl=ru" rel="nofollow" target="_self">
+                Войти
+              </a></li><li class="tm-footer-menu__list-item"><a href="/kek/v1/auth/habrahabr-register/?back=/ru/docs/docs/transparency/&amp;hl=ru" rel="nofollow" target="_self">
+                Регистрация
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><p class="tm-footer-menu__block-title">
+          Разделы
+        </p> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="/ru/" class="footer-menu__item-link router-link-active">
+                Публикации
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/news/" class="footer-menu__item-link">
+                Новости
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/hubs/" class="footer-menu__item-link">
+                Хабы
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/companies/" class="footer-menu__item-link">
+                Компании
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/users/" class="footer-menu__item-link">
+                Авторы
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/sandbox/" class="footer-menu__item-link">
+                Песочница
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><p class="tm-footer-menu__block-title">
+          Информация
+        </p> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="/ru/docs/help/" class="footer-menu__item-link">
+                Устройство сайта
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/docs/authors/codex/" class="footer-menu__item-link">
+                Для авторов
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/docs/companies/corpblogs/" class="footer-menu__item-link">
+                Для компаний
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/docs/docs/transparency/" aria-current="page" class="footer-menu__item-link router-link-exact-active router-link-active">
+                Документы
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://account.habr.com/info/agreement" target="_blank">
+                Соглашение
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://account.habr.com/info/confidential/" target="_blank">
+                Конфиденциальность
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><p class="tm-footer-menu__block-title">
+          Услуги
+        </p> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/corporate-blogs/" target="_blank">
+                Корпоративный блог
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/advertising/" target="_blank">
+                Медийная реклама
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/native-special/" target="_blank">
+                Нативные проекты
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/education-programs/" target="_blank">
+                Образовательные программы
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/hello-startup/" target="_blank">
+                Стартапам
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/megaprojects/" class="footer-menu__item-link">
+                Мегапроекты
+              </a></li></ul></div></div></div></div></div> <div class="tm-footer"><div class="tm-page-width"><div class="tm-footer__container"><!----> <div class="tm-footer__social"><a href="https://www.facebook.com/habrahabr.ru" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Facebook</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-facebook"></use></svg></a><a href="https://twitter.com/habr_com" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Twitter</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-twitter"></use></svg></a><a href="https://vk.com/habr" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>VK</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-vkontakte"></use></svg></a><a href="https://telegram.me/habr_com" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Telegram</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-telegram"></use></svg></a><a href="https://www.youtube.com/channel/UCd_sTwKqVrweTt4oAKY5y4w" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Youtube</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-youtube"></use></svg></a><a href="https://zen.yandex.ru/habr" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Яндекс Дзен</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-zen"></use></svg></a></div> <DIV class="v-portal" style="display:none;"></DIV> <button class="tm-footer__link"><!---->
+        Настройка языка
+      </button> <a href="/ru/feedback/" class="tm-footer__link">
+        Техническая поддержка
+      </a> <a href="/berserk-mode-nope" class="tm-footer__link">
+        Вернуться на старую версию
+      </a> <div class="tm-footer-copyright"><span class="tm-copyright"><span class="tm-copyright__years">© 2006–2023, </span> <span class="tm-copyright__name"><a href="https://company.habr.com/" rel="noopener" target="_blank" class="tm-copyright__link">Habr</a></span></span></div></div></div></div> <!----> <!----></div> <div class="vue-portal-target"></div></div>
+<script>window.__INITIAL_STATE__={"adblock":{"hasAcceptableAdsFilter":false,"hasAdblock":false},"articlesList":{"articlesList":{},"articlesIds":{},"isLoading":false,"pagesCount":{},"route":{},"reasonsList":null,"view":"cards","lastVisitedRoute":{},"ssrCommentsArticleIds":[],"karma":{"userReasonsList":null}},"authorContribution":{"authors":{}},"betaTest":{"currentAnnouncement":null,"announcements":{},"announcementCards":null,"announcementComments":{},"announcementCommentThreads":{},"announcementCommentingStatuses":{},"archivedList":[]},"authorStatistics":{"articleRefs":{},"articleIds":{},"pagesCount":{},"route":{},"viewsCount":[],"maxStatsCount":{}},"career":{"seoLandings":[],"hubs":""},"comments":{"articleComments":{},"articlePinnedComments":{},"searchCommentsResults":null,"pagesCount":null,"commentAccess":{},"scrollParents":{},"pageArticleComments":{"lastViewedComment":0,"postId":null,"lastCommentTimestamp":"","moderated":[],"moderatedIds":[],"commentRoute":""}},"companies":{"companyRefs":{},"companyIds":{},"companyTopIds":{},"pagesCount":{},"companyProfiles":{},"companiesCategories":[],"companiesCategoriesTotalCount":0,"companiesWidgets":{},"companiesWorkers":{},"companiesFans":{},"route":{},"isLoading":false,"companyWorkersLoading":false,"companyFansLoading":false,"vacancies":{},"companiesGalleries":{},"companiesBanners":{},"companiesLandingVacancies":{},"companiesTechnologies":{},"workplaceInfo":null},"companyAdmin":{"companyInfo":null,"companyInfoLoading":false,"faqArticles":null,"brandingPreviewImageUrl":null,"jivoStatus":0,"adminNotifications":null},"companiesContribution":{"hubs":{},"flows":{},"companyRefs":{}},"companyHubsContribution":{"contributionRefs":{"hubRefs":{},"hubIds":{}}},"conversation":{"messages":[],"respondent":null,"isLoadMore":false},"conversations":{"conversations":[],"unreadCount":0,"pagesCount":0},"desktopState":{"desktopFl":null,"desktopHl":null,"isChecked":false,"isLoginDemanded":false},"docs":{"menu":{"docs":[{"alias":"transparency","name":"Transparency report","description":"Transparency report"},{"alias":"advert-rules","name":"Правила оказания рекламных услуг","description":"Правила оказания рекламных услуг"},{"alias":"legal","name":"Условия оказания инфоуслуг","description":"Условия оказания информационных услуг"},{"alias":"rules","name":"Правила оказания инфоуслуг","description":"Правила оказания информационных услуг"},{"alias":"content-legal","name":"Условия оказания контентных услуг","description":"Условия оказания контентных услуг"},{"alias":"content-rules","name":"Правила оказания контентных услуг","description":"Правила оказания контентных услуг"},{"alias":"service_list","name":"Перечень услуг по созданию контента","description":"Перечень услуг по созданию контента"},{"alias":"season-rules","name":"Правила проведения конкурса «Сезон на Хабре»","description":""},{"alias":"technotext2022-rules","name":"Правила проведения конкурса «Технотекст 2022»","description":"Правила проведения открытого публичного Конкурса IT-статей «Технотекст 2022». Технотекст проходит на Хабре."},{"alias":"certificate-rules","name":"Правила оказания услуг по предоставлению сертификатов","description":"Правила оказания услуг по предоставлению сертификатов\n"},{"alias":"certificate-legal","name":"Условия оказания услуг по Сертификатам","description":"Условия оказания услуг по Сертификатам"}]},"articles":{"docs\u002Ftransparency":{"locale":"ru","alias":"transparency","name":"Transparency report","description":"Transparency report","content":"\u003Ch2\u003ETransparency report\u003C\u002Fh2\u003E\u003Cp\u003EНиже представлен отчёт о запросах различных государственных служб и правообладателей за разные годы.\u003C\u002Fp\u003E\u003Cp\u003E→ \u003Ca href=\"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fblog\u002F488088\u002F\"\u003EКак Хабр взаимодействует с госорганами и другими заявителями\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003Ch2\u003E2023\u003C\u002Fh2\u003E\u003Cdiv\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Ctd width=\"124\"\u003E\u003Cp\u003E\u003Cstrong\u003EЗаявитель\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"94\"\u003E\u003Cp\u003E\u003Cstrong\u003EДомен\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"315\"\u003E\u003Cp\u003E\u003Cstrong\u003EТребование\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003E\u003Cstrong\u003EРешение\u003C\u002Fstrong\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"124\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"94\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"315\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 2\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 2\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"124\"\u003E\u003Cp\u003EGroup-IB\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"94\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"315\"\u003E\u003Cp\u003EКопирайт\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 2  \u003Cbr \u002F\u003E\u003Cbr \u002F\u003E⬝ Отклонено: 2\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Ch3\u003E2022\u003C\u002Fh3\u003E\u003Cdiv\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"122\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"97\"\u003E\u003Cp\u003EХабр Карьера\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EХабр Q&amp;A\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"323\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1  \u003Cbr \u002F\u003E\u003Cbr \u002F\u003E⬝ Отклонено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"122\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"97\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"323\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 6\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 6\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003C\u002Fdiv\u003E\u003Cp\u003EОшибка заявителя: 7, отклонены\u003C\u002Fp\u003E\u003Ch3\u003E2021\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"122\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"97\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"323\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 3\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 3\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"122\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"97\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EХабр Фриланс\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EХабр Карьера\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"323\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 2\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E ⬝ Удовлетворено: 2\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E ⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"122\"\u003E\u003Cp\u003EGoogle (DMCA)\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"97\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"323\"\u003E\u003Cp\u003EИсключение из результатов поиска\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 2\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E ⬝ Удовлетворено: 2\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Cp\u003EОшибка заявителя: 3, отклонены\u003C\u002Fp\u003E\u003Ch3\u003E2020\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"122\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"97\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EХабр Карьера\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EHabrastorage\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"323\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос на удаление данных\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 8\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 8\u003C\u002Fp\u003E\u003Cp\u003E⬝ Оспорено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1  \u003Cbr \u002F\u003E\u003Cbr \u002F\u003E⬝ Удовлетворено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1  \u003Cbr \u002F\u003E\u003Cbr \u002F\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"122\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"97\"\u003E\u003Cp\u003EХабр Карьера\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"323\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 3\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 3\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"122\"\u003E\u003Cp\u003EGoogle (DMCA)\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"97\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"323\"\u003E\u003Cp\u003EИсключение из результатов поиска\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E  ⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003Cp\u003E  ⬝ Оспорено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Ch3\u003E2019\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"121\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"101\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EМой Круг\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EАвтокадабра\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"315\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 4\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 4\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"121\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"101\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EФрилансим\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EТостер\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EМой Круг\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"315\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 2\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"121\"\u003E\u003Cp\u003EGoogle (DMCA)\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"101\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"315\"\u003E\u003Cp\u003EИсключение из результатов поиска\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 3\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Оспорено: 2\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Cp\u003EОшибка заявителя: 3, отклонены\u003C\u002Fp\u003E\u003Ch3\u003E2018\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"123\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"101\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EМой Круг\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EТостер\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"310\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 3\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 3\u003C\u002Fp\u003E\u003Cp\u003E⬝ Оспорено: 2\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"123\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"101\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"310\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Cp\u003EОшибка заявителя: 4, отклонены\u003C\u002Fp\u003E\u003Ch3\u003E2017\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"128\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"102\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EГиктаймс\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EАвтокадабра\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"307\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 5\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 5\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 3\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 3\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"128\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная Служба Судебных Приставов\"\u003EФССП\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"102\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"307\"\u003E\u003Cp\u003EЗапрос на блокировку доступа к аккаунту\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1, обжалован\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"128\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"102\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"307\"\u003E\u003Cp\u003EЗапрос информации о пользователе и о размещении рекламной кампании\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 2\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"128\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная Служба Охраны\"\u003EФСО\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"102\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"307\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 2\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 2\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Ch3\u003E2016\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"125\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"102\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EГиктаймс\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EМегамозг\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"306\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 2\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 2\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"125\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"102\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EМой Круг\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EBrainstorage\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"306\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 4\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 3\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 5\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 5\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"125\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная Служба Безопасности\"\u003EФСБ\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"102\"\u003E\u003Cp\u003EХабр\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EМой Круг\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"306\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003Cbr \u002F\u003E\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 2\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 2\u003Cbr \u002F\u003E\u003Cbr \u002F\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Ch3\u003E2015\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"128\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по контролю за оборотом наркотиков\"\u003EФСКН\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"108\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"292\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"128\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"108\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"292\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"128\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"108\"\u003E\u003Cp\u003EФрилансим\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"292\"\u003E\u003Cp\u003EЗапрос информации о пользователе\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 2\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 2\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Ch4\u003E2014\u003C\u002Fh4\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"129\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"102\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"311\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Ch3\u003E2013\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"131\"\u003E\u003Cp\u003E\u003Cabbr title=\"Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций\"\u003EРоскомнадзор\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"111\"\u003E\u003Cp\u003EHabrastorage\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"306\"\u003E\u003Cp\u003EВключение в реестр запрещённых сайтов\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Удовлетворено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Ch3\u003E2012\u003C\u002Fh3\u003E\u003Cdiv class=\"table\"\u003E\u003Ctable\u003E\u003Ctbody\u003E\u003Ctr\u003E\u003Cth\u003E\u003Cp\u003EЗаявитель\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EДомен\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EТребование\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003Cth\u003E\u003Cp\u003EРешение\u003C\u002Fp\u003E\u003C\u002Fth\u003E\u003C\u002Ftr\u003E\u003Ctr\u003E\u003Ctd width=\"135\"\u003E\u003Cp\u003E\u003Cabbr title=\"Министерство Внутренних Дел\"\u003EМВД\u003C\u002Fabbr\u003E\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"110\"\u003E\u003Cp\u003EХабр\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd width=\"304\"\u003E\u003Cp\u003EПредложение сотрудничества\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003Ctd\u003E\u003Cp\u003EЗапросов: 1\u003C\u002Fp\u003E\u003Cp\u003E⬝ Отклонено: 1\u003C\u002Fp\u003E\u003C\u002Ftd\u003E\u003C\u002Ftr\u003E\u003C\u002Ftbody\u003E\u003C\u002Ftable\u003E\u003C\u002Fdiv\u003E\u003Cp\u003E\u003Cbr \u002F\u003EЛишний раз просим соблюдать корректность поведения на сайте и не забывать о том, что Хабр включён в реестр организаторов распространителей информации (ОРИ) и должен выполнять требования действующего законодательства.\u003C\u002Fp\u003E","isPublished":true}},"mainMenu":[{"alias":"help","name":"Устройство сайта","pubArticlesCount":19},{"alias":"authors","name":"Для авторов","pubArticlesCount":14},{"alias":"companies","name":"Для компаний","pubArticlesCount":9},{"alias":"docs","name":"Документы","pubArticlesCount":11},{"alias":"changelog","name":"Changelog","pubArticlesCount":2}],"loading":{"main":false,"dropdown":false,"article":false}},"feature":{"isProbablyVisible":true},"flows":{"updates":{"countNewPostsBySubscription":null,"countNewPostsAll":69,"countNewNewsAll":53},"flows":[{"alias":"develop","id":"1","route":{"name":"FLOW_PAGE","params":{"flowName":"develop"}}},{"alias":"admin","id":"6","route":{"name":"FLOW_PAGE","params":{"flowName":"admin"}}},{"alias":"design","id":"2","route":{"name":"FLOW_PAGE","params":{"flowName":"design"}}},{"alias":"management","id":"3","route":{"name":"FLOW_PAGE","params":{"flowName":"management"}}},{"alias":"marketing","id":"4","route":{"name":"FLOW_PAGE","params":{"flowName":"marketing"}}},{"alias":"popsci","id":"7","route":{"name":"FLOW_PAGE","params":{"flowName":"popsci"}}}]},"global":{"isPwa":false,"device":"desktop","isHabrCom":true},"hubs":{"hubRefs":{},"hubIds":{},"pagesCount":{},"isLoading":false,"route":{}},"hubsBlock":{"hubRefs":{},"hubIds":{}},"i18n":{"fl":"ru","hl":"ru"},"info":{"infoPage":{},"isLoading":true},"location":{"urlStruct":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":null,"path":null,"href":""}},"me":{"user":null,"uuid":null,"ppgDemanded":false,"karmaResetInfo":{"canReincarnate":null,"wasReincarnated":null,"currentScore":null},"notes":null},"modal":{"modals":[]},"mostReadingList":{"mostReadingListIds":[],"mostReadingListRefs":null,"promoPost":null},"ppa":{"articles":{},"card":null,"transactions":null,"totalTransactions":null,"isAccessible":null},"projectsBlocks":{"activeBlocks":{}},"promoData":{"isLoading":false,"hasLoaded":false,"featurer":null,"megaposts":null,"promoLinks":null,"promoPosts":null},"pullRefresh":{"shouldRefresh":false},"sandbox":{"articleIds":[],"articleRefs":{},"pagesCount":null,"route":{},"lastVisitedRoute":{},"isLoading":false},"search":{"searchQueryError":null},"settingsOther":{"inputs":{"uiLang":{"errors":[],"ref":null,"value":""},"articlesLangEnglish":{"errors":[],"ref":null,"value":false},"articlesLangRussian":{"errors":[],"ref":null,"value":false},"agreement":{"errors":[],"ref":null,"value":false},"email":{"errors":[],"ref":null,"value":true},"digest":{"errors":[],"ref":null,"value":true}}},"similarList":{"similarListIds":[],"similarListRefs":null},"ssr":{"error":null,"isDataLoaded":false,"isDataLoading":false,"isHydrationFailed":false,"isServer":false},"stories":{"stories":[]},"technotext":{"years":[],"technotextDocForNominees":null,"technotextDocForWinners":null,"technotextInfo":{},"technotextInfoLoading":false,"technotextWinners":{},"technotextWinnersLoading":false},"userHubsContribution":{"contributionRefs":{"hubRefs":{},"hubIds":{}}},"userInvites":{"availableInvites":0,"usedInvitesIds":[],"usedInvitesRefs":{},"usedInvitesPagesCount":0,"unusedInvitesIds":[],"unusedInvitesRefs":{},"unusedInvitesPagesCount":0},"userVotes":{"karmaVotesList":[],"karmaVotesPagesCount":null,"karmaVotesListLoading":false,"commentsVotesList":[],"commentsVotesPagesCount":null,"commentsVotesListLoading":false,"postsVotesList":[],"postsVotesPagesCount":null,"postsVotesListLoading":false,"userVotesList":[],"userVotesPagesCount":null,"userVotesListLoading":false},"users":{"authorRefs":{},"authorIds":{},"pagesCount":{},"authorProfiles":{},"userHubs":{},"userInvitations":{},"authorFollowers":{},"authorFollowed":{},"userSpecialization":{},"karmaStats":[],"statistics":null,"isLoading":false,"authorFollowersLoading":false,"authorFollowedLoading":false,"userHubsLoading":false,"userInvitationsLoading":false,"route":{}},"viewport":{"prevScrollY":{},"scrollY":0,"width":0},"tracker":{"items":{},"pagesCache":{},"markedViewedSilently":{},"markedRead":{},"unreadCounters":{"applications":null,"system":null,"mentions":null,"subscribers":null,"posts_and_comments":null},"unviewedCounters":{"applications":null,"system":null,"mentions":null,"subscribers":null,"posts_and_comments":null}}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script>
+<script src="https://assets.habr.com/habr-web/js/chunk-vendors.76685433.js" defer></script><script src="https://assets.habr.com/habr-web/js/docs.02150398.js" defer></script><script src="https://assets.habr.com/habr-web/js/app.067cb56a.js" defer></script>
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-726094-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+  
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(24049213, "init", {
+      defer:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:false,
+    });
+  </script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/24049213" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+  </noscript>
+  
+    <script type="text/javascript">
+      window.addEventListener('load', function () {
+        setTimeout(() => {
+          const img = new Image();
+          img.src = 'https://vk.com/rtrg?p=VK-RTRG-421343-57vKE';
+        }, 0);
+      });
+    </script>
+  
+<script src="/js/ads.js" onload="window['zhY4i4nJ9K'] = true"></script>
+</body>
+</html>

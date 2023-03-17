@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Результаты поиска по запросу «[URN]»</title>
+    <link>https://habr.com/ru/</link>
+    <description><![CDATA[Результаты поиска по запросу «[URN]»]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:19:59 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[SIP URI и URL. Часть 1 (URI, URL и URN)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/190154/</guid>
+      <link>https://habr.com/ru/post/190154/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/storage2/f1b/ecc/954/f1becc95460cb1223e740ebc943f8377.jpg"/><br/>
+<br/>
+В предыдущих двух статьях мы рассмотрели основы взаимодействия по протоколу SIP. <br/>
+<br/>
+<ol>
+<li> <a href="http://habrahabr.ru/post/188352/">Взаимодействие клиентов SIP. Часть 1 (Простое взаимодействие) </a> </li>
+<li> <a href="http://habrahabr.ru/post/189332/">Взаимодействие клиентов SIP. Часть 2 (Взаимодействие с использованием Proxy-сервера)</a> </li>
+</ol><br/>
+<br/>
+Далее я предлагаю разобраться с такой важной составляющей SIP, как SIP URI. Мы сталкивались с ними раньше, когда говорили о полях From, To и других, однако не уделяли им должного внимания. <br/>
+<br/>
+В рамках этой короткой статьи мы рассмотрим, какие бывают URI и из чего они состоят. В следующей статье остановимся на URI и URL в протоколе SIP.<br/>
+ <a href="https://habr.com/ru/post/190154/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Поехали</a>]]></description>
+      
+      <pubDate>Mon, 19 Aug 2013 09:15:59 GMT</pubDate>
+      <dc:creator>positivic</dc:creator>
+      <category><![CDATA[Разработка систем связи]]></category>
+      <category><![CDATA[sip]]></category><category><![CDATA[asterisk]]></category><category><![CDATA[lync]]></category><category><![CDATA[url]]></category><category><![CDATA[uri]]></category><category><![CDATA[urn]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[URI — сложно о простом (Часть 1)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/232385/</guid>
+      <link>https://habr.com/ru/post/232385/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/files/bd4/4cc/c3e/bd44ccc3e6df448e952967572648d0d3.jpg" alt="image"/><br/>
+<br/>
+Привет хабр!<br/>
+<br/>
+Появилось таки некоторое количество времени, и я решил написать сий пост, идея которого возникла уже давно.<br/>
+Связан он будет будет с такой, казалось бы, простой вещью, как URI, детальному рассмотрению которой в рунете уделяется как-то мало внимания.<br/>
+<br/>
+&quot;<i>Пфф, ссылки они и в Африке ссылки, чего тут разбираться?</i>&quot; — скажете вы, тогда я задам вопрос: <br/>
+<br/>
+<i>Что есть что и куда нас приведет?</i><br/>
+<ul>
+<li><code>http://example.com</code></li>
+<li><code>www.example.com</code></li>
+<li><code>//www.example.com</code></li>
+<li><code>mailto:user@example.com</code></li>
+</ul><br/>
+Если вы не знаете однозначного ответа или вам просто интересно <s>и если вы не боитесь огромного количества трехбуквенных аббревиатур</s> — милости прошу под кат.<br/>
+ <a href="https://habr.com/ru/post/232385/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sat, 11 Jul 2015 22:33:43 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[URL]]></category><category><![CDATA[URI]]></category><category><![CDATA[URN]]></category><category><![CDATA[IRI]]></category><category><![CDATA[гиперссылки]]></category><category><![CDATA[ссылки]]></category><category><![CDATA[домены]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Снится ли GGG Тиму Бернерсу-Ли?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/571810/</guid>
+      <link>https://habr.com/ru/post/571810/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>В 2007 году знаменитый автор слова из трёх букв 'W' опубликовал в своем блоге рассуждения о востребованности слова нового, на сей раз - из трёх букв 'G'. <a href="https://en.wikipedia.org/wiki/Giant_Global_Graph" rel="noopener noreferrer nofollow">"Гигантский Глобальный Граф"</a> - так предполагалось это произносить в полном, необрезанном виде. О чём шла речь? О том, что слово "граф" больше подходит для обозначения технологии представления взамосвязанных данных, нежели "паутина", пусть даже и "семантическая". Термин не прижился. Отчасти, возможно, из-за некоторой тавтологичности, отчасти же - из-за того, что привычная "паутина" оказалась милее сердцу обывателя, чем какой-то "граф". </p><p>Ну, да ладно, "ГГГ" не <s>всплыло</s> взлетело - не беда, ведь в конце концов - это лишь один из возможных псевдонимов планетарной семантической сети. Но что представлялось сиру Тиму в качестве цели для достижения (с помощью новых-то технологий связывания данных)?.. <em>"Важны не документы, а то, что в них содержится. Очевидная истина."</em> - писал он, - <em>"...когда я бронирую билет на авиарейс, меня интересует именно этот рейс. Не страница рейса на сайте путешествий или страница рейса на сайте авиакомпании, но URI самого авиарейса. Вот что я поставлю в закладки. И каким бы устройством я ни воспользовался для открытия закладки, оно будет иметь доступ к ситуационно зависимому обзору всего, что я знаю об этом рейсе из разных источников. Задача заказа и совершения рейса потребует множества взаимодействий. И на их протяжении, эти задача и рейс будут на первом месте в моём осознании, веб-сайты – на втором, а сети и устройства – на третьем."</em></p> <a href="https://habr.com/ru/post/571810/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Mon, 09 Aug 2021 12:24:38 GMT</pubDate>
+      <dc:creator>starver</dc:creator>
+      <category><![CDATA[Децентрализованные сети]]></category><category><![CDATA[Семантика]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Распределённые системы]]></category><category><![CDATA[Будущее здесь]]></category>
+      <category><![CDATA[CID]]></category><category><![CDATA[URI]]></category><category><![CDATA[URN]]></category><category><![CDATA[URL]]></category><category><![CDATA[IPFS]]></category><category><![CDATA[ID]]></category><category><![CDATA[GGG]]></category><category><![CDATA[Web3]]></category><category><![CDATA[LibP2P]]></category><category><![CDATA[PubSub]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Beyond URL and URN]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/667120/</guid>
+      <link>https://habr.com/ru/post/667120/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>Рыская по интернетам, зашел на страницу про URI и спустя несколько часов осознал, как мало я знал об этом монстре. Признаюсь, до этого я думал, что URI это либо URL, либо URN. Но это не так! Есть и другие варианты идентификации ресурса в сети.</p> <a href="https://habr.com/ru/post/667120/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sun, 22 May 2022 12:10:18 GMT</pubDate>
+      <dc:creator>AshBlade</dc:creator>
+      <category><![CDATA[Администрирование доменных имен]]></category><category><![CDATA[Сетевые технологии]]></category><category><![CDATA[IT-стандарты]]></category><category><![CDATA[Терминология IT]]></category>
+      <category><![CDATA[uri]]></category><category><![CDATA[url]]></category><category><![CDATA[urn]]></category><category><![CDATA[интернет]]></category><category><![CDATA[терминология]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

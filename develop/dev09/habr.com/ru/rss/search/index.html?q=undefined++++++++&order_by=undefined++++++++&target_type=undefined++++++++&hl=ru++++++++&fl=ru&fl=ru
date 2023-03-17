@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Результаты поиска по запросу «undefined»</title>
+    <link>https://habr.com/ru/</link>
+    <description><![CDATA[Результаты поиска по запросу «undefined»]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:18:01 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[Defined or Undefined? Нюансы создания массивов в JavaScript]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/463041/</guid>
+      <link>https://habr.com/ru/post/463041/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/cf/uz/xt/cfuzxt6gszx356ckhbffnh21g9g.jpeg" alt="image"></div><br>
+Пару месяцев назад я наткнулся на интересный вопрос на <i>stackoverflow</i>, там, если вкратце, человек хотел создать пустую матрицу <i>5х5</i>, и, используя один способ у него получилось, а используя другой — нет. В развернувшейся дискуссии на этот счёт были приведены интересные мысли. <br>
+<br>
+Правда, задавший вопрос, так же как и те кто ему отвечал, не обратили внимания, на то, что фактически матрицу не получилось создать, а приведенный результат вычислений некорректен. Всё это меня заинтересовало, и, я решил копнуть чуть глубже, чтобы затем прийти к интересным умозаключениям, с которыми сейчас с вами и поделюсь. <br> <a href="https://habr.com/ru/post/463041/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Thu, 08 Aug 2019 21:46:18 GMT</pubDate>
+      <dc:creator>ukbpyh</dc:creator>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Алгоритмы]]></category><category><![CDATA[ООП]]></category>
+      <category><![CDATA[javascript]]></category><category><![CDATA[ecmascript]]></category><category><![CDATA[array]]></category><category><![CDATA[массивы]]></category><category><![CDATA[двумерные массивы]]></category><category><![CDATA[matrix]]></category><category><![CDATA[матрицы]]></category><category><![CDATA[apply]]></category><category><![CDATA[undefined]]></category><category><![CDATA[behavior]]></category><category><![CDATA[стандарты]]></category><category><![CDATA[алгоритмы]]></category><category><![CDATA[empty slots]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Что каждый программист на C должен знать об Undefined Behavior. Часть 2/3]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/341144/</guid>
+      <link>https://habr.com/ru/post/341144/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<a href="https://habrahabr.ru/post/341048/">Часть 1</a><br>
+<b>Часть 2</b><br>
+<a href="https://habrahabr.ru/post/341154/">Часть 3</a><br>
+<br>
+В первой части нашего цикла мы обсудили, что такое неопределённое поведение, и как оно позволяет компиляторам C и C++ генерировать более высокопроизводительные приложения, чем «безопасные» языки. В этом посте мы обсудим, чем на самом деле является «небезопасный» C, объяснив некоторые совершенно неожиданные эффекты, вызываемые неопределённым поведением. В третьей части, мы обсудим, как «дружественные» компиляторы могут смягчить некоторые из таких эффектов, даже если они не обязаны это делать. <br>
+<br>
+Мне нравится называть это «Почему неопределённое поведение часто пугает и ужасает программистов на C».<br>
+<br>
+<img src="https://habrastorage.org/webt/ye/6c/kq/ye6ckqam7sn2kuhrp9tqg3-knzo.jpeg" alt="image"><br> <a href="https://habr.com/ru/post/341144/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Tue, 31 Oct 2017 13:20:12 GMT</pubDate>
+      <dc:creator>32bit_me</dc:creator>
+      <category><![CDATA[Программирование]]></category><category><![CDATA[Компиляторы]]></category><category><![CDATA[C]]></category>
+      <category>llvm undefined behavior c</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Что каждый программист на C должен знать об Undefined Behavior. Часть 3/3]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/341154/</guid>
+      <link>https://habr.com/ru/post/341154/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<a href="https://habrahabr.ru/post/341048/">Часть 1</a><br>
+<a href="https://habrahabr.ru/post/341144/">Часть 2</a><br>
+<b>Часть 3</b><br>
+<br>
+В первой части цикла мы рассмотрели неопределённое поведение в С и показали некоторые случаи, которые позволяют сделать С более быстрым, чем «безопасные» языки. В части 2 мы рассмотрели некоторые неожиданные баги, которые могут противоречить представлениям многих программистов об языке С. В этой части, мы рассмотрим проблемы, которые компилятор Clang решает, чтобы достичь высокого быстродействия, и устранить некоторые сюрпризы.<br>
+<div style="text-align:center;"><img src="https://habrastorage.org/webt/za/4g/nu/za4gnunircwzjpvmibn-vkoxbh8.jpeg" alt="image"></div> <a href="https://habr.com/ru/post/341154/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Thu, 02 Nov 2017 01:57:51 GMT</pubDate>
+      <dc:creator>32bit_me</dc:creator>
+      <category><![CDATA[Программирование]]></category><category><![CDATA[Компиляторы]]></category><category><![CDATA[C]]></category>
+      <category>llvm</category><category>undefined behavior</category><category>c</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Undefined behavior ближе, чем вы думаете]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/276657/</guid>
+      <link>https://habr.com/ru/post/276657/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/post_images/69f/5c9/5e3/69f5c95e357fb23ab450549f705735bb.png" alt="Ад ближе чем кажется" align="left"/>Многие считают, что неопределённое поведение программы возникает из-за грубых ошибок (например, запись за границы массива) или на неадекватных конструкциях (например, i = i++ + ++i). Поэтому для многих является неожиданностью, когда неопределенное поведение вдруг проявляет себя во вполне привычном и ничем не настораживающем коде. Рассмотрим один из таких примеров. Программируя на C/C++ никогда нельзя терять бдительность. Ад ближе чем кажется.<br/>
+<br/>
+ <a href="https://habr.com/ru/post/276657/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 05 Feb 2016 11:06:21 GMT</pubDate>
+      <dc:creator>Andrey2008</dc:creator>
+      <category><![CDATA[Блог компании PVS-Studio]]></category><category><![CDATA[C++]]></category><category><![CDATA[C]]></category>
+      <category><![CDATA[undefined behavior]]></category><category><![CDATA[неопределённое поведение]]></category><category><![CDATA[c++]]></category><category><![CDATA[си]]></category><category><![CDATA[си++]]></category><category><![CDATA[pvs-studio]]></category><category><![CDATA[64-bit]]></category><category><![CDATA[x64]]></category><category><![CDATA[64bit]]></category><category><![CDATA[64-бита]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Равенство typeof undefined == 'undefined' не верно, если переменная «undefined» задана! И как быть?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/130561/</guid>
+      <link>https://habr.com/ru/post/130561/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[&nbsp; <a href="https://habr.com/ru/post/130561/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Mon, 17 Oct 2011 07:44:44 GMT</pubDate>
+      <dc:creator>Mithgol</dc:creator>
+      <category><![CDATA[JavaScript]]></category>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[undefined]]></category><category><![CDATA[void]]></category><category><![CDATA[delete]]></category><category><![CDATA[неопределённость]]></category><category><![CDATA[вызов функции]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Что каждый программист на C должен знать об Undefined Behavior. Часть 1/3]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/341048/</guid>
+      <link>https://habr.com/ru/post/341048/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<b>Часть 1</b><br>
+<a href="https://habrahabr.ru/post/341144/">Часть 2</a><br>
+<a href="https://habrahabr.ru/post/341154/">Часть 3</a><br>
+<br>
+Люди иногда спрашивают, почему код, скомпиливанный в LLVM иногда генерирует сигналы SIGTRAP, когда оптимизация была включена. Покопавшись, они обнаруживают, что Clang сгенерировал инструкцию «ud2» (подразумевается код X86) — то же, что генерируется __builtin_trap(). В этой статье рассматривается несколько вопросов, касающихся неопределённого поведения кода на C и того, как LLVM его обрабатывает.<br>
+<br>
+<div style="text-align:center;"><img src="https://habrastorage.org/webt/si/fm/kb/sifmkb_11ismyizm4kt5oe-vix4.jpeg" alt="image"></div><br>
+В этой статье (первой из трёх) мы попытаемся объяснить некоторые из этих вопросов, чтобы вы могли лучше понять связанные с ними компромиссы и сложности, и возможно, изучить немного больше тёмные стороны С. Мы выясним, что C не является «высокоуровневым ассемблером», как многие опытные программисты на C (особенно те, кто сфокусирован на низком уровне) предпочитают думать, и что C++ и Objective-C напрямую унаследовали множество таких проблем.<br> <a href="https://habr.com/ru/post/341048/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Mon, 30 Oct 2017 03:24:10 GMT</pubDate>
+      <dc:creator>32bit_me</dc:creator>
+      <category><![CDATA[Программирование]]></category><category><![CDATA[Компиляторы]]></category><category><![CDATA[C]]></category>
+      <category>llvm</category><category>undefined behavior</category><category>c</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Настоящее и будущее безопасной работы с null и undefined в JavaScript]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/373499/</guid>
+      <link>https://habr.com/ru/post/373499/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Автору материала, перевод которого мы сегодня публикуем, недавно попался один <a href="https://stackoverflow.com/questions/50452219/how-to-return-blank-string-if-object-is-undefined-in-angularjs-forms">вопрос</a> на StackOverflow, который заставил его задуматься об обработке значений <code>null</code> и <code>undefined</code> в JavaScript. Здесь он приводит анализ текущей ситуации, показывает некоторые приёмы безопасной работы с <code>null</code> и <code>undefined</code>, а также, говоря о будущем, рассматривает оператор <code>?.</code>.<br>
+<br>
+<a href="https://habr.com/company/ruvds/blog/373499/"><img src="https://habrastorage.org/getpro/habr/post_images/c25/744/af7/c25744af7c449b377ea6d7a6dff8c853.png" alt="image"></a><br> <a href="https://habr.com/ru/post/373499/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Wed, 30 May 2018 09:24:20 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[JavaScript]]></category>
+      <category>JavaScript</category><category>разработка</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Вся боль undefined]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/704152/</guid>
+      <link>https://habr.com/ru/post/704152/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>Внедрение типа <code>Undefined</code> в <em>JavaScript</em>, на мой взгляд, было ошибкой с далеко идущими последствиями. Именно разбору и предотвращению основных проблем, связанных с наличием данного типа, и посвящена эта небольшая публикация.</p><p></p> <a href="https://habr.com/ru/post/704152/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 07 Dec 2022 16:41:08 GMT</pubDate>
+      <dc:creator>Devoter</dc:creator>
+      <category><![CDATA[JavaScript]]></category>
+      <category><![CDATA[javascript]]></category><category><![CDATA[json]]></category><category><![CDATA[начинающим]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Устранение загадочной ошибки «undefined is not a function» в V8]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/256079/</guid>
+      <link>https://habr.com/ru/post/256079/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Джаваскриптовая ошибка «<b>undefined is not a function</b>» довольно загадочна. Как раз поэтому определённым спросом пользуются разъяснительные статьи, из которых читатель, начинающий изучать программирование на JavaScript, способен узнать о том, что такая ошибка (попытка использовать неопределённое значение как функцию) чаще всего возникает при вызове несуществующего метода объекта (а такой вызов, в свою очередь, чаще всего происходит в случае опечатки в названии метода). Такой разъяснительной статьёю может послужить «<a href="http://habrahabr.ru/post/249525/">Ошибки в JavaScript и как их исправить</a>», например.<br/>
+<br/>
+Однако и после разъяснений остаётся мысль о том, что обнаружение и устранение опечаток (да и других оплошностей при вызове методов) было бы много проще, если бы название «виновного» метода содержалось непосредственно в тексте появляющейся ошибки.<br/>
+<br/>
+Так и вышло:<br/>
+<blockquote class="twitter-tweet" lang="ru"><p>Improved exception messages: Goodbye &quot;undefined is not a function&quot;. Hello &quot;<a href="http://t.co/rMIELG5VoW">http://t.co/rMIELG5VoW</a> is not a function&quot; <a href="http://t.co/3uykfrTK9O">pic.twitter.com/3uykfrTK9O</a></p>&mdash; Addy Osmani (@addyosmani) <a href="https://twitter.com/addyosmani/status/569157136137134081">21 февраля 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br/>
+ <a href="https://habr.com/ru/post/256079/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sun, 19 Apr 2015 12:26:59 GMT</pubDate>
+      <dc:creator>Mithgol</dc:creator>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[Google Chrome]]></category>
+      <category><![CDATA[V8]]></category><category><![CDATA[Google Chrome]]></category><category><![CDATA[Chromium]]></category><category><![CDATA[новая Opera]]></category><category><![CDATA[Node.js]]></category><category><![CDATA[NodeJS]]></category><category><![CDATA[Node]]></category><category><![CDATA[ошибки в коде]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[$mol_strict: Как же меня [object Object] этот ваш undefined NaN]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/550982/</guid>
+      <link>https://habr.com/ru/post/550982/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>Здравствуйте, меня зовут Дмитрий Карловский и я… <em>не прощаю</em> ошибок. Как только вижу оную — тут же <em>бросаю</em> что-нибудь <em>исключительно</em> тяжёлое. И как же тяжела работа программиста на JS...</p><br>
+<pre><code class="javascript">class Foo extends Object {
+    get name(){ return 'Jin' }
+}
+const foo = new Foo
+
+`Здравствуйте, ${ foo }!`
+// &quot;Здравствуйте [object Object]!&quot;
+
+`В этом месяце вы заработали ${ foo / 1000 } тысяч рублей.`
+// &quot;В этом месяце вы заработали NaN тысяч рублей.&quot;
+
+`Ваша цель &quot;${ 'foo'[4] }&quot; наконец-то достигнута.`
+// &quot;Ваша цель &quot;undefined&quot; наконец-то достигнута.&quot;
+
+`Осталось ещё ${ foo.length - 1 } целей и вы достигнете успеха.`
+// &quot;Осталось ещё NaN целей и вы достигнете успеха.&quot;
+
+foo.__proto__= { name: 'придурок' };
+`До скорых встреч, ${ foo.name }.`
+// &quot;До скорых встреч, придурок.&quot;</code></pre><br>
+<p>Облегчить его страдания можно разными путями..</p><br>
+<ol>
+<li><strong>Прикрыться тайпскриптом.</strong> Но в рантайме ноги всё равно остаются босыми, и на них кто-нибудь вечно наступает.</li>
+<li><strong>Обложиться проверками.</strong> Но чуть замешкаешься и рантайм грабли тут же бьют по голове.</li>
+<li><strong>Исправить JS.</strong> Даже не надейтесь.</li>
+<li><strong>Исправить JS рантайм.</strong> Ну, давайте подумаем..</li>
+</ol> <a href="https://habr.com/ru/post/550982/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 06 Apr 2021 15:16:51 GMT</pubDate>
+      <dc:creator>nin-jin</dc:creator>
+      <category><![CDATA[Ненормальное программирование]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[Node.JS]]></category><category><![CDATA[Отладка]]></category><category><![CDATA[ООП]]></category>
+      <category><![CDATA[$mol]]></category><category><![CDATA[$mol_strict]]></category><category><![CDATA[js]]></category><category><![CDATA[runtime]]></category><category><![CDATA[strict mode]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Notice: Undefined variable. Допустимо?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/77542/</guid>
+      <link>https://habr.com/ru/post/77542/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[&nbsp; <a href="https://habr.com/ru/post/77542/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Mon, 07 Dec 2009 14:20:35 GMT</pubDate>
+      <dc:creator>Hint</dc:creator>
+      <category><![CDATA[PHP]]></category>
+      <category><![CDATA[php]]></category><category><![CDATA[isset]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Опыт с WebAssembly или как С++ undefined behavior выстрелил в ногу]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/354690/</guid>
+      <link>https://habr.com/ru/post/354690/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>На прошедшем C++ Russia 2018 мы рассказывали о нашем опыте перехода на WebAssembly, как наткнулись на UB и как его героически закостыляли, немного о самой технологии и как работает на разных устройствах. Под катом же будет текстовая версия всего относительно UB. Код используемых тестов доступен на <a href="https://github.com/iqoption/webassemblycppconf">GitHub</a>.</p><br>
+<div class="oembed"><div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;"><iframe src="https://www.youtube.com/embed/hGaZ0gr1bh8?rel=0&amp;showinfo=1&amp;hl=en-US" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no"></iframe></div></div></div> <a href="https://habr.com/ru/post/354690/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Thu, 09 Aug 2018 11:01:42 GMT</pubDate>
+      <dc:creator>RPG18</dc:creator>
+      <category><![CDATA[Программирование]]></category><category><![CDATA[C++]]></category>
+      <category><![CDATA[c++]]></category><category><![CDATA[wasm]]></category><category><![CDATA[asm.js]]></category><category><![CDATA[web]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Концепты и модули cpp. Взгляд сo стороны undefined разработчика]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/673388/</guid>
+      <link>https://habr.com/ru/post/673388/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p>В 2002 году Алекс А. Степанов проводит лекцию в адоби: STL and Its Design Principles - где упоминает кейворд concept (там прям целый слайд про концепты). В 2009 году в свет выходит книга Elements of programming (Stepanov, McJones) и где по-моему нет ни одного алгоритма без концептов. В 2011 новый стандарт языка с++11, где в отложенных (прям очень жаль) фичах фигурируют концепты. В 2014 мир видит творенье Страуструпа - Tour of C++, где глава 5.4 названа Concepts and Generic Programming, хотя язык не поддерживает кейворд concept. Годом ранее, в 2013, Андрю Саттон публикует бумагу Concepts Lite. В стандарте с++14 появляется новая фича digit separators, но нет концептов. В 2017 на реддите обсуждают c++17 и предлагают отдохнуть еще три года.</p><p>Через три года сочувствующий html разработчик захочет попробовать язык с чистого листа, заюзав и концепты, и модули. Модули привносят важное свойство - уменьшение времени компиляции. Идея в шаг за шагом написании небольших компонентов и комбинировании их после в нечто осознаное, например, линтер.</p> <a href="https://habr.com/ru/post/673388/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 25 Jun 2022 11:58:53 GMT</pubDate>
+      <dc:creator>xyli0o</dc:creator>
+      <category><![CDATA[Программирование]]></category><category><![CDATA[C++]]></category>
+      <category><![CDATA[c++]]></category><category><![CDATA[linter]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Я не знаю Си]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/136283/</guid>
+      <link>https://habr.com/ru/post/136283/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Цель этой статьи — заставить всех, особенно программистов на Си, сказать «я не знаю Си».<br>
+Хочется показать, что тёмные углы в Си значительно ближе, чем кажется и даже тривиальные строки кода несут в себе undefined behavior.<br> <a href="https://habr.com/ru/post/136283/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Sun, 15 Jan 2012 19:28:10 GMT</pubDate>
+      <dc:creator>gribozavr</dc:creator>
+      <category><![CDATA[Ненормальное программирование]]></category><category><![CDATA[C++]]></category><category><![CDATA[C]]></category>
+      <category><![CDATA[программирование]]></category><category><![CDATA[wtf]]></category><category><![CDATA[Си]]></category><category><![CDATA[C]]></category><category><![CDATA[undefined behavior]]></category><category><![CDATA[aliasing]]></category><category><![CDATA[overflow]]></category><category><![CDATA[floating point]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Обработка неопределённых глобальных переменных располагается далёко от здравого смысла! Но её можно превозмочь…]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/140433/</guid>
+      <link>https://habr.com/ru/post/140433/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Здравый смысл веборазработчика подсказывает, что во браузерном джаваскрипте глобальные переменные являются свойствами объекта <nobr><b>window</b> —</nobr> так что <b>window.чегоНибудь</b> и просто <b>чегоНибудь</b> должны быть синонимами и вести себя одинаково (если, конечно, мы не находимся <nobr>в какой-нибудь</nobr> такой функции, где переменную <b>чегоНибудь</b> переопределили локально).<br/>
+<br/>
+Здравый смысл веборазработчика также ещё подсказывает, что неопределённая переменная должна иметь значение <nobr><b>undefined</b> —</nobr> так что <b>чегоНибудь</b> <nobr>и <b>undefined</b></nobr> должны быть синонимами и вести себя одинаково, когда переменную <b>чегоНибудь</b> не определяли в джаваскрипте (и если, конечно, никакой чудила не дерзнул переопределить <nobr><b>undefined</b>).</nobr><br/>
+<br/>
+Но если вы собираетесь программировать для Opera 11 (будь то начальная версия <nobr>Opera 11.01</nobr> или новёхонькая <nobr>Opera 11.61),</nobr> то будьте готовы отречься от здравого смысла <nobr>в <b>обоих</b></nobr> сих случаях! <i>(Не только в Opera, но и в других браузерах и средах — но об этом чуть позже.)</i><br/>
+<br/>
+Чтобы нагляднейше убедиться в этом, воспользуемся библиотекою <a href="http://documentcloud.github.com/underscore/"><b>Underscore.js</b></a>, в которой как раз имеется удобная функция тестирования неопределённых переменных — это функция <nobr><b>_.isUndefined()</b>,</nobr> <nobr>в <a href="http://documentcloud.github.com/underscore/underscore.js">исходном коде</a></nobr> определённая самоочевидным способом:<br/>
+<br/>
+<pre><code class="javascript">// Is a given variable undefined?
+_.isUndefined = function(obj) {
+   return obj === void 0;
+};
+</code></pre><br/>
+ <a href="https://habr.com/ru/post/140433/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 21 Mar 2012 11:40:03 GMT</pubDate>
+      <dc:creator>Mithgol</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[JavaScript]]></category>
+      <category><![CDATA[Opera 11]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[глобальные переменные]]></category><category><![CDATA[неопределённость]]></category><category><![CDATA[undefined]]></category><category><![CDATA[Underscore]]></category><category><![CDATA[Underscore.js]]></category><category><![CDATA[здравый смысл]]></category><category><![CDATA[изящный и миниатюрный костыль]]></category><category><![CDATA[Node.JS]]></category><category><![CDATA[NodeJS]]></category><category><![CDATA[V8]]></category><category><![CDATA[Google Chrome]]></category><category><![CDATA[Mozilla Firefox]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Основы и заблуждения насчет JavaScript]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/120193/</guid>
+      <link>https://habr.com/ru/post/120193/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<h4>Объекты, классы, конструкторы</h4><blockquote>ECMAScript, будучи высоко-абстрактным объектно-ориентированным языком программирования, оперирует объектами. Существуют также и примитивы, но и они, когда требуется, также преобразуются в объекты. Объект — это коллекция свойств, имеющая также связанный с ней объект-прототип. Прототипом является либо также объект, или же значение null.</blockquote>В JavaScript нет привычных классов, но есть функции-конструкторы, порождающие объекты по определенным алгоритмам (см. Оператор new).<br/>
+<br/>
+<h4>Прототипное делегирующее наследование</h4><br/>
+Классическое наследование очень похоже на то, как люди наследуют гены своих предков. Есть какие-то базовые особенности: люди могут ходить, говорить… И есть характерные черты для для каждого человека. Люди не в состоянии изменить себя — свой класс (но могут поменять собственные свойства) и бабушки, дедушки, мамы и папы не могут динамически повлиять на гены детей и внуков. Все очень по земному. <br/>
+<br/>
+Теперь представим другую планету, на которой не такое как на Земле генное наследование. Там обитают мутанты с «телепатическим наследованием», которые способны изменять гены своих потомков. <br/>
+Разберем пример. Отец наследует гены от Дедушки, а Сын наследует гены от Отца, который наследует от Дедушки. Каждый мутант может свободно мутировать, и может менять гены своих потомков. Например у Дедушки был зеленый цвет кожи, Отец цвет унаследовал, Сын тоже унаследовал цвет. И вдруг Дед решил: «надоело мне ходить зеленым — хочу стать сними», смутировал (изменил прототип своего класса) и «телепатически» распространил эту мутацию Отцу и Сыну, вобщем посинели все. Тут Отец подумал: «Дед на старости лет совсем двинулся» и поменял свой цвет в генах обратно на зеленый(изменил прототип своего класса), и распространил «телепатически» свой цвет сыну. Отец и Сын зеленые, Дед синий. Теперь как бы дед ни старался Отец и сын цвет не поменяют, т.к сейчас Отец в своем прототипе прописал цвет, а Сын в первую очередь унаследует от Прототипа Отца. Теперь Сын решает: «Поменяю ка я свой цвет на черный, а моё потомство пусть наследует цвет от Отца» и прописал собственное свойство, которое не влияет на потомство. И так далее.<br/>
+ <a href="https://habr.com/ru/post/120193/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sun, 29 May 2011 13:31:50 GMT</pubDate>
+      <dc:creator>azproduction</dc:creator>
+      <category><![CDATA[JavaScript]]></category>
+      <category><![CDATA[javascript]]></category><category><![CDATA[this]]></category><category><![CDATA[new]]></category><category><![CDATA[instanceof]]></category><category><![CDATA[null]]></category><category><![CDATA[undefined]]></category><category><![CDATA[void]]></category><category><![CDATA[prototype]]></category><category><![CDATA[__proto__]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Неопределенное поведение в C++]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/216189/</guid>
+      <link>https://habr.com/ru/post/216189/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[Достаточно сложной темой для программистов на С++ является undefined behavior. Даже опытные разработчики зачастую не могут четко сформулировать причины его возникновения. Статья призвана внести чуть больше ясности в этот вопрос.<br/>
+<br/>
+Статья является ПЕРЕВОДОМ нескольких статей и выдержек из Стандарта по данной теме.<br/>
+<br/>
+<h5>Что такое «точки следования»?</h5><br/>
+Стандарте сказано:<br/>
+<blockquote><u>Точки следования </u>(sequence points)– такие точки в процессе выполнения программы, в которых все побочные эффекты уже выполненного кода закончили свое действие, а побочные эффекты кода, подлежащего исполнению, еще не начали действовать. (§1.9/7)</blockquote><br/>
+<br/>
+<h5>Побочные эффекты? А что такое «побочные эффекты»?</h5><br/>
+<blockquote><u>Побочный эффект </u>(side effect) (согласно Стандарту) – результат доступа к volatile объекту, изменения объекта, вызова функции из библиотеки I/O или же вызова функции, включающей в себя какие-то из этих действий. Побочный эффект является изменением состояния среды выполнения.</blockquote><br/>
+Вычисление некоторого выражения дает на выходе какой-то результат. Если же в дополнение к результату вычисление выражения вызывает изменения в среде выполнения, то говорят, что данное выражение имеет побочные эффекты.<br/>
+<br/>
+Например:<br/>
+ <a href="https://habr.com/ru/post/216189/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 18 Mar 2014 10:09:14 GMT</pubDate>
+      <dc:creator>hairatic</dc:creator>
+      <category><![CDATA[C++]]></category>
+      <category><![CDATA[undefined behavior]]></category><category><![CDATA[sequence points]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] UB-2017. Часть 1]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/341694/</guid>
+      <link>https://habr.com/ru/post/341694/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<div class="spoiler"><b class="spoiler_title">От переводчика:</b><div class="spoiler_text"><i>Переводы статьи про неопределённое поведение в языке C от Криса Латтнера, одного из ведущих разработчиков проекта LLVM, вызвали большой интерес, и даже некоторое непонимание со стороны тех, кто не встречался с описываемыми явлениями на практике. В своей статье Крис даёт ссылку на блог Джона Реджера, и на его статью от 2010 года, посвящённую UB в C и C++. Но в блоге Реджера есть и гораздо более новые статьи на эту тему (что не отменяет ценность старых, однако).<br>
+<br>
+Я хочу предложить вашему вниманию свежую статью «Undefined Behavior in 2017». Статья в оригинале имеет очень большой объём, и я разбил её на части. <br>
+<br>
+В первой части речь пойдёт о разных инструментах поиска UB: ASan, UBSan, TSan и т.д. <br>
+<b>ASan</b> — Address Sanitizer от компании Google, разработанный на основе LLVM. <br>
+<b>UBSan</b> — Undefined Behavior Sanitizer, предназначен для обнаружения различных UB в программах на C и C++, доступен для Clang и GCC.<br>
+<b>TSan</b> — Thread Sanitizer, предназначен для обнаружения UB в многопоточных программах.<br>
+Если вам эта тема покажется далёкой от практики, я рекомендую дождаться продолжения, потому что в конце вас ждёт поистине огромный список UB языка С++ (их должно быть около 200!)<br>
+И я рекомендую прочитать также старые статьи Реджера, они не утратили актуальности.<br>
+Об авторе: Джон Реджер является профессором Computer Science в университете штата Юта в США.</i><br>
+</div></div><br>
+Мы часто слышим, что некоторые люди утверждают, что проблемы, вытекающие из неопределённого поведения (UB) в C и C++ в основном решены путём широкого распространения инструментов динамической проверки, таких, как ASan, UBSan, MSan и TSan. Мы здесь покажем очевидное: несмотря на то, что в последние годы произошло множество прекрасных улучшений в этих инструментах, проблемы UB далеки от разрешения, и рассмотрим ситуацию в деталях.<br>
+<br>
+<img src="https://habrastorage.org/webt/dv/2d/xe/dv2dxeknqfauwcg6zg7zw4s9poo.jpeg"><br> <a href="https://habr.com/ru/post/341694/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Thu, 09 Nov 2017 02:10:36 GMT</pubDate>
+      <dc:creator>32bit_me</dc:creator>
+      <category><![CDATA[Программирование]]></category><category><![CDATA[C++]]></category><category><![CDATA[Компиляторы]]></category><category><![CDATA[C]]></category>
+      <category>undefined behavior</category><category>llvm</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] ﻿Почему перенос при целочисленном переполнении — не очень хорошая идея]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/427683/</guid>
+      <link>https://habr.com/ru/post/427683/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<b>Эта статья посвящена неопределённому поведению и оптимизациям компилятора, особенно в контексте знакового целочисленного переполнения.</b><br>
+<br>
+<b>Примечание от переводчика: </b> в русском языке нет четкого соответствия в употребляемом контексте слова «wrap»/«wrapping». Существует математический термин "<a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81_%28%D0%B0%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0%29">перенос</a>", который близок к описываемому явлению, а термин "<a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%BB%D0%B0%D0%B3_%D0%BF%D0%B5%D1%80%D0%B5%D0%BD%D0%BE%D1%81%D0%B0">флаг переноса</a>" (carry flag) — механизм выставления флага в процессорах при целочисленном переполнении. Другим вариантом перевода может быть фраза «вращение/переворот/оборот вокруг нуля». Она лучше отображает смысл «wrap» по сравнению с «перенос», т.к. показывает переход чисел при переполнении из положительного в отрицательный диапазон. Однако, как оказалось, эти слова смотрятся в тексте непривычно для тестовых читателей. Для упрощения в дальнейшем примем в качестве перевода термина «wrap» слово «перенос».<br>
+<br>
+Компиляторы языка C (и C++) в своей работе всё чаще руководствуются понятием <i>неопределённого поведения</i> — представлением о том, что поведение программы при некоторых операциях не регламентировано стандартом и что, генерируя объектный код, компилятор вправе исходить из предположения, что программа таких операций не производит. Немало программистов возражало против такого подхода, поскольку сгенерированный код в этом случае может вести себя не так, как задумывал автор программы. Эта проблема становится всё острее, так как компиляторы применяют всё более хитроумные методы оптимизации, которые наверняка будут опираться на понятие неопределённого поведения.<br> <a href="https://habr.com/ru/post/427683/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Thu, 25 Oct 2018 08:26:31 GMT</pubDate>
+      <dc:creator>Andrey2008</dc:creator>
+      <category><![CDATA[Блог компании PVS-Studio]]></category><category><![CDATA[C++]]></category><category><![CDATA[C]]></category>
+      <category>c</category><category>c++</category><category>си</category><category>си++</category><category>неопределённое поведение</category><category>undefined behavior</category><category>переполнение int</category><category>wrapping</category><category>c/c++</category><category>всё сложно</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Неопределённое поведение в C++]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/450910/</guid>
+      <link>https://habr.com/ru/post/450910/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<p><img src="https://habrastorage.org/webt/ud/by/wx/udbywxc2imp-da1zh6xekkhintk.jpeg"></p><br>
+<p>Ситуация, когда код на языке C++ синтаксически валиден, однако его поведение не определено в Стандарте, в русскоязычной литературе часто называют просто неопределённым поведением. В самом же Стандарте для таких ситуаций существуют целых 3 термина: <em>undefined behavior</em>, <em>unspecified behavior</em> и <em>implementation-defined behavior</em>. В этой коротенькой заметке мы будем разбираться, чем они отличаются.</p> <a href="https://habr.com/ru/post/450910/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Tue, 07 May 2019 16:05:49 GMT</pubDate>
+      <dc:creator>igorsemenov</dc:creator>
+      <category><![CDATA[C++]]></category>
+      <category><![CDATA[C++]]></category><category><![CDATA[undefined behavior]]></category><category><![CDATA[unspecified behavior]]></category><category><![CDATA[implementation-defined behavior]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

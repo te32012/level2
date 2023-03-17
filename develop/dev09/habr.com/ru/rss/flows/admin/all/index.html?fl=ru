@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Все публикации в потоке Администрирование</title>
+    <link>https://habr.com/ru/flows/admin/all/</link>
+    <description><![CDATA[Все публикации в потоке Администрирование на Хабре]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:15:40 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+          
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Потоки событий бесполезны без действий]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722570/</guid>
+      <link>https://habr.com/ru/post/722570/?utm_campaign=722570&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/722570/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/io/ug/4z/ioug4zq5pabjnykzbiwbsol27km.png"></div></a><br>
+Каждая точка данных в системе, регулярно генерирующей данные, соответствует событию (Event). Потоки событий (Event Stream) — это непрерывный поток событий или точек данных. Иногда потоки данных называют в сообществе разработчиков потоками данных (Data Stream), потому что они состоят из непрерывных точек данных. Event Stream Processing — это действия, выполняемые с генерируемыми событиями.<br>
+<br>
+В этой статье подробно рассматриваются потоки данных и Event Stream Processing, рассказывается, как работает Event Stream Processing, объясняются различия между Event Stream Processing и Batch Processing, преимущества и способы применения ESP, а завершается она наглядным примером Event Stream Processing.<br> <a href="https://habr.com/ru/post/722570/?utm_campaign=722570&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 13:00:07 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Администрирование баз данных]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Хранилища данных]]></category>
+      <category>ruvds_перевод</category><category>event stream processing</category><category>потоки событий</category><category>event streaming</category><category>обработка событий</category><category>алерты</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Обзор LMS.NetMap]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722526/</guid>
+      <link>https://habr.com/ru/post/722526/?utm_campaign=722526&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Часто при проведении пентестов большой корпоративной инфрастуктуры нам  не хватало визуального отображения сетевой инфраструктуры. Zenmap - это, конечно, хорошо, но с момента последнего релиза прошло уже около 8 лет.  Другие свободные решения зачастую не отличаются функционалом, а платное решение стоит денег. Плюсом множество готовых решений нацелены на мониторинг и администрирование, что является избыточным для решения наших задач.</p><p>Также по статистике проведенных пентестов около 70% ИТ и ИБ отделов<br> клиентов не имели карту сети. То есть админы даже представления не имели<br> как устроена топология сети и что там происходит. А ведь корпоративные<br> информационные системы давно стали неотъемлемой частью любого бизнеса,<br> являются основой множества бизнес-процессов.</p><p></p> <a href="https://habr.com/ru/post/722526/?utm_campaign=722526&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 12:58:48 GMT</pubDate>
+      <dc:creator>lmsecurity</dc:creator>
+      <category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Системное администрирование]]></category><category><![CDATA[Python]]></category>
+      <category><![CDATA[карта сети]]></category><category><![CDATA[nmap]]></category><category><![CDATA[сканирование]]></category><category><![CDATA[пентест]]></category><category><![CDATA[безопасность]]></category><category><![CDATA[nmap-сканирование]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Конфигуратор и PostgreSQL: что под капотом 1С PaaS-решения для организации работы в облаке]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722536/</guid>
+      <link>https://habr.com/ru/post/722536/?utm_campaign=722536&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/kw/b5/kx/kwb5kxn8mq3rxcy2jqx1tqghcc8.png"></div><br>
+Работа с 1С часто похожа на сборку мебели одним молотком. Не то чтобы гайки совсем нельзя было закрутить таким инструментом, но все время хочется использовать что-то более удобное. Реже останавливать процесс и добавлять автоматизацию, где это возможно. В ответ на такой запрос мы разработали готовое решение <a href="https://selectel.ru/services/1c-leasing/1c-cloud/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=1c_article_1cpaas_15032023_content" rel="nofollow noopener noreferrer">1С в облаке</a>. PaaS-решение позволяет быстрее разворачивать IT-инфраструктуру и эффективнее с ней взаимодействовать. Пользователю не нужно обладать технической экспертизой в плане сборки и подключения серверов — вся работа делается под ключ. <br>
+<br>
+В этом материале мы разберем, из каких компонентов состоит платформа, посмотрим, как они взаимодействуют, и какие возможности для бизнеса открывает решение.<br> <a href="https://habr.com/ru/post/722536/?utm_campaign=722536&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 12:32:51 GMT</pubDate>
+      <dc:creator>selenzorn</dc:creator>
+      <category><![CDATA[Блог компании Selectel]]></category><category><![CDATA[1С]]></category><category><![CDATA[PostgreSQL]]></category><category><![CDATA[Облачные сервисы]]></category>
+      <category><![CDATA[cloud platform]]></category><category><![CDATA[1c интеграция]]></category><category><![CDATA[1c]]></category><category><![CDATA[облачные сервисы]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Защитите свои рабочие нагрузки Kubernetes с помощью gVisor]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722550/</guid>
+      <link>https://habr.com/ru/post/722550/?utm_campaign=722550&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Все мы знакомы с контейнерами и любим их. Контейнеры используют одно и то же ядро хоста (host kernel), что делает их довольно мобильным и лёгким решением. С другой стороны, мы бы предпочли снизить риск причинения вреда хост-машине или операционной системе, чего можно достичь при помощи sandbox-технологий, и gVisor является одной из них.  В статье расскажем об этом инструменте.</p><p></p> <a href="https://habr.com/ru/post/722550/?utm_campaign=722550&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:53:18 GMT</pubDate>
+      <dc:creator>Anna_sokol22</dc:creator>
+      <category><![CDATA[Блог компании Southbridge]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[Kubernetes]]></category>
+      <category>kubernetes</category><category>k8s</category><category>it-компании</category><category>gvisor</category><category>devops</category><category>sre</category><category>sre-процессы</category><category>it-инфраструктура</category><category>образование в it</category><category>карьера ит-специалиста</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Через реки, через лес прямо к PowerDNS]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722042/</guid>
+      <link>https://habr.com/ru/post/722042/?utm_campaign=722042&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Всем привет! Меня зовут Максим, я руководитель одной из групп эксплуатации инфраструктурных сервисов в Ozon. Наша команда занимается поддержкой и развитием нескольких базовых сервисов компании, одним из которых, по историческим причинам, является сервис разрешения доменных имен (DNS).</p><p>В Ozon много различных сервисов и систем. Они общаются друг с другом и внешним миром по доменным именам. DNS — центральное звено, без которого не обходится почти ни одна инфраструктура. Понятно, что когда DNS отдаёт некорректные данные, то это неприятно, когда таймаутит — плохо, когда прилёг — очень плохо, когда прилёг надолго — в принципе, можно расходиться. Значит, одна из основных задач команды инфраструктуры — обеспечить сервисам надёжное и, желательно, быстрое разрешение доменных имён. Об этом мы и поговорим. Также затронем вопросы управления ресурсными записями, жизнь в Multi DC-среде, обслуживание DNS, кеширование, журналирование запросов и возможные проблемы.</p><p>Статья может быть полезна коллегам, интересующимся эксплуатацией, архитектурой и высокой доступностью сервисов, да и просто может быть любопытна как история построения инфраструктурной единицы в крупной компании.</p><p></p> <a href="https://habr.com/ru/post/722042/?utm_campaign=722042&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 10:36:21 GMT</pubDate>
+      <dc:creator>makurus</dc:creator>
+      <category><![CDATA[Блог компании Ozon Tech]]></category><category><![CDATA[Системное администрирование]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[DNS]]></category><category><![CDATA[Распределённые системы]]></category>
+      <category><![CDATA[ozon tech]]></category><category><![CDATA[dns]]></category><category><![CDATA[edns]]></category><category><![CDATA[powerdns]]></category><category><![CDATA[bgp]]></category><category><![CDATA[postgresql]]></category><category><![CDATA[maintenance]]></category><category><![CDATA[recursor]]></category><category><![CDATA[multi-dc]]></category><category><![CDATA[high availability]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Сравнение MySQL и PostgreSQL в 2023 году]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722304/</guid>
+      <link>https://habr.com/ru/post/722304/?utm_campaign=722304&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>PostgreSQL и MySQL&nbsp;— это надежные, безопасные и масштабируемые базы данных, которые существуют уже много лет. Каждая из&nbsp;них имеет уникальные сильные и слабые стороны, что&nbsp;делает какую‑либо из&nbsp;них более подходящей для&nbsp;конкретных нужд. В&nbsp;этой статье мы проведем их сравнение, чтобы помочь с&nbsp;принятием обоснованного решения в 2023&nbsp;году.</p><p></p> <a href="https://habr.com/ru/post/722304/?utm_campaign=722304&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 09:42:36 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS]]></category><category><![CDATA[Администрирование баз данных]]></category>
+      <category>postgresql</category><category>mysql</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Как усмирить данные о звонках в таблицах одним скриптом]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722322/</guid>
+      <link>https://habr.com/ru/post/722322/?utm_campaign=722322&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Привет, Хабр! Меня зовут Анастасия Иванова, я <a href="https://career.habr.com/companies/mts/vacancies">технический писатель</a> <a href="https://exolve.ru/">МТС Exolve</a>. В этой статье я расскажу о том, как поместить информацию о звонках в привычный формат таблиц на примере нашей платформы (краткий обзор сервиса <a href="https://habr.com/ru/company/ru_mts/blog/717824/"><u>вы найдете тут</u></a>) и Google Таблиц. В частности, вы узнаете о том, как импортировать статистику входящих и исходящих вызовов, а также исходящих голосовых SMS.</p><p>Для этого мы напишем скрипт на языке программирования от Google (<a href="https://developers.google.com/apps-script/overview?hl=ru"><u>Apps Script</u></a>), который будет делать HTTP-запрос в<a href="https://docs.exolve.ru/docs/ru/api-reference/statistics-api/call-history/"> <u>Statistics API</u></a> и сохранять полученные данные в Google Таблицу. Мы покажем пример импорта некоторых данных статистики, далее вы сами сможете изменить скрипт, чтобы подстроить его под свои нужды.</p><p></p> <a href="https://habr.com/ru/post/722322/?utm_campaign=722322&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 07:30:02 GMT</pubDate>
+      <dc:creator>AnastasiaIvanova8</dc:creator>
+      <category><![CDATA[Блог компании МТС]]></category><category><![CDATA[API]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Хранилища данных]]></category><category><![CDATA[Облачные сервисы]]></category>
+      <category><![CDATA[таблицы]]></category><category><![CDATA[excel]]></category><category><![CDATA[google apps]]></category><category><![CDATA[статистика]]></category><category><![CDATA[данные]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Оплачиваемое хобби: как из студента стать ментором курса]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722458/</guid>
+      <link>https://habr.com/ru/post/722458/?utm_campaign=722458&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Гарантирует ли Слёрм трудоустройство? Нет: об этом мы сразу честно говорим на страницах всех наших курсов. Но помогает ли Слёрм получить работу? Да! И пример в подтверждение этому — история нашего студента Артёма Примы, который после DevOps Upgrade стал ментором курса.&nbsp;</p><p>Далее — история Артёма, о том, как он стал ментором и впечатления от взаимодействия со студентами: что им даётся проще, а что — сложнее.</p><p></p> <a href="https://habr.com/ru/post/722458/?utm_campaign=722458&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 07:00:02 GMT</pubDate>
+      <dc:creator>Polina_Averina</dc:creator>
+      <category><![CDATA[Блог компании Southbridge]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[Карьера в IT-индустрии]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[Kubernetes]]></category>
+      <category><![CDATA[kubernetes]]></category><category><![CDATA[k8s]]></category><category><![CDATA[it-инфраструктура]]></category><category><![CDATA[devops]]></category><category><![CDATA[карьера ит-специалиста]]></category><category><![CDATA[карьера в it-индустрии]]></category><category><![CDATA[карьера в it]]></category><category><![CDATA[docker]]></category><category><![CDATA[ansible]]></category><category><![CDATA[terraform]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Процесс ELT: основные компоненты, преимущества и инструменты создания]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/719594/</guid>
+      <link>https://habr.com/ru/post/719594/?utm_campaign=719594&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/8c/g4/ig/8cg4igktafcjs7ly2vsozgda_l4.jpeg"></div><br>
+Если ваша задача заключается в аналитике данных или в машинном обучении, то успех её выполнения зависит от создаваемых вами конвейеров данных и способов их создания. Но даже для опытных дата-инженеров проектирование нового конвейера данных каждый раз становится уникальным событием.<br>
+<br>
+Интеграция данных из множества разделённых источников и их обработка для обеспечения контекста содержит в себе и возможности, и трудности. Один из способов преодоления трудностей и получения новых возможностей в области интеграции данных — создание конвейера <em>ELT (Extract, Load, Transform)</em>.<br>
+<br>
+В этой статье мы подробно рассмотрим процесс ELT, в том числе его работу, преимущества и распространённые способы применения. Также мы поговорим о различиях между ELT и ETL (Extract, Transform, Load) и дадим советы по созданию и оптимизации конвейера ELT.<br> <a href="https://habr.com/ru/post/719594/?utm_campaign=719594&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 06:52:19 GMT</pubDate>
+      <dc:creator>kucev</dc:creator>
+      <category><![CDATA[Data Mining]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Хранилища данных]]></category>
+      <category>ETL</category><category>ELT</category><category>базы данных</category><category>хранилища данных</category><category>data warehouse</category><category>data lake</category><category>Extract</category><category>Load</category><category>Transform</category><category>Airflow</category><category>Matillion</category><category>Hevo</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Как Digital twins помогают создать автономную фабрику]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722420/</guid>
+      <link>https://habr.com/ru/post/722420/?utm_campaign=722420&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Подход к использованию концепции Digital twin для создания производства нового типа - автономной масштабируемой смарт фабрики.</p><p></p> <a href="https://habr.com/ru/post/722420/?utm_campaign=722420&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 20:52:28 GMT</pubDate>
+      <dc:creator>vasilii_robotech</dc:creator>
+      <category><![CDATA[Анализ и проектирование систем]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Робототехника]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[ai]]></category><category><![CDATA[robotics]]></category><category><![CDATA[digital twin]]></category><category><![CDATA[autonomy]]></category><category><![CDATA[data management]]></category><category><![CDATA[decision making]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Геопространственная DuckDB]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721832/</guid>
+      <link>https://habr.com/ru/post/721832/?utm_campaign=721832&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Большую часть прошлого года я работал с Hexvarium. Базирующаяся в Атертоне, штат Калифорния, компания строит и управляет оптоволоконными сетями. В настоящее время у них есть несколько сетей в районе залива, но у них есть планы по расширению в США.</p><p>Моя роль заключается в управлении платформой данных, которая содержит 30 миллиардов записей примерно из 70 источников информации. Эти данные используются инженерами, разрабатывающими оптимальные планы развертывания оптоволоконной сети с помощью LocalSolver. Далее приведен пример одного из таких планов.</p><p></p> <a href="https://habr.com/ru/post/721832/?utm_campaign=721832&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 18:38:06 GMT</pubDate>
+      <dc:creator>igor_suhorukov</dc:creator>
+      <category><![CDATA[Высокая производительность]]></category><category><![CDATA[Open source]]></category><category><![CDATA[Геоинформационные сервисы]]></category><category><![CDATA[Хранение данных]]></category>
+      <category>duckdb</category><category>olap</category><category>geospatial</category><category>database tools</category><category>data scientist</category><category>h3</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Правда о железнодорожных тормозах: часть 5 — тормоза локомотивов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721200/</guid>
+      <link>https://habr.com/ru/post/721200/?utm_campaign=721200&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>В&nbsp;предыдущих статьях данного цикла мы поговорили подробно об&nbsp;истории развития&nbsp;железнодорожного тормоза, о&nbsp;приборах управления тормозами, приборах торможения и об&nbsp;особенностях реализации тормозов&nbsp;железнодорожных вагонов. Но, кроме вагонов существует еще и локомотивный парк, тормозные системы которого имеют очень существенные особенности реализации. О&nbsp;них и пойдет речь в&nbsp;данной публикации.</p><p></p> <a href="https://habr.com/ru/post/721200/?utm_campaign=721200&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 12:52:29 GMT</pubDate>
+      <dc:creator>maisvendoo</dc:creator>
+      <category><![CDATA[Транспорт]]></category><category><![CDATA[Инженерные системы]]></category>
+      <category><![CDATA[тормоза]]></category><category><![CDATA[локомотив]]></category><category><![CDATA[электровоз]]></category><category><![CDATA[тепловоз]]></category><category><![CDATA[кран машиниста]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[На каких физических основах будет строиться технология 6G? Что известно на сегодняшний день]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722308/</guid>
+      <link>https://habr.com/ru/post/722308/?utm_campaign=722308&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>6G&nbsp;— поколение беспроводной связи, которое должно появиться в&nbsp;обозримом будущем. Для&nbsp;его реализации предстоит ещё многое сделать, но&nbsp;уже сейчас понятно, какие ключевые элементы будут лежать в&nbsp;основе стандартов 6G.</p><p>В&nbsp;этой статье я расскажу о&nbsp;физических основах технологии 6G, которые будут во&nbsp;многом отличаться от&nbsp;того, что&nbsp;лежит в&nbsp;основе предыдущих поколений беспроводной связи. Сеть 6G принесёт технологии искусственного интеллекта (ИИ) в&nbsp;каждый дом. Речь пойдёт о&nbsp;таких вещах как&nbsp;терагерцовый диапазон частот, антенны, применяемые в&nbsp;этом диапазоне, новые схемы модуляции, новые методы множественного доступа и технологии ультрамассивного MIMO.</p><p></p> <a href="https://habr.com/ru/post/722308/?utm_campaign=722308&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 12:39:55 GMT</pubDate>
+      <dc:creator>alex_bondarev</dc:creator>
+      <category><![CDATA[Блог компании ЦИТМ Экспонента]]></category><category><![CDATA[Сетевые технологии]]></category><category><![CDATA[Беспроводные технологии]]></category><category><![CDATA[Производство и разработка электроники]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[6g]]></category><category><![CDATA[исскусственный интелект]]></category><category><![CDATA[терагерцовое излучение]]></category><category><![CDATA[антенны]]></category><category><![CDATA[модуляция]]></category><category><![CDATA[множественный доступ]]></category><category><![CDATA[noma]]></category><category><![CDATA[mimo]]></category><category><![CDATA[орбитальный угловой момент]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Политика как код на Kubernetes вместе с Kyverno]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722264/</guid>
+      <link>https://habr.com/ru/post/722264/?utm_campaign=722264&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Kubernetes смог произвести революцию в&nbsp;облачной экосистеме, позволив людям запускать распределенные приложения на&nbsp;масштабе. Хотя Kubernetes&nbsp;— это многофункциональная и надежная платформа для&nbsp;оркестрации контейнеров, она имеет свои собственные сложности. Управлять Kubernetes в&nbsp;таком масштабе, когда над ним работают сразу несколько команд, непросто. Трудно контролировать правильность действий пользователей и их возможный выход за&nbsp;рамки допустимого.</p><p>Kyverno является самым подходящим инструментом для&nbsp;этого. Это движок политик безопасности Kubernetes с&nbsp;открытым исходным кодом, который помогает вам определять политики с&nbsp;помощью простых манифестов Kubernetes. Он может проверять, изменять и генерировать ресурсы Kubernetes. Таким образом, это может позволить организациям определять и применять политики так, чтобы разработчики и администраторы придерживались определенного стандарта.</p><p></p> <a href="https://habr.com/ru/post/722264/?utm_campaign=722264&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 12:30:02 GMT</pubDate>
+      <dc:creator>Anna_sokol22</dc:creator>
+      <category><![CDATA[Блог компании Southbridge]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[Kubernetes]]></category>
+      <category>kubernetes</category><category>kyverno</category><category>k8s</category><category>it-инфраструктура</category><category>devops</category><category>kubernetes operator</category><category>kubernetes cluster</category><category>карьера ит-специалиста</category><category>карьера в it-индустрии</category><category>карьера в it</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[[recovery mode] Надёжный, экономичный, компактный — Altos Brainsphere R320F5]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722298/</guid>
+      <link>https://habr.com/ru/post/722298/?utm_campaign=722298&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Из-за сложившейся геополитической ситуации на рынке РФ доступно не так много серверного оборудования. Может показаться, что все компании стремительно переезжают в облака, но это не так. Потребность в физических серверах остаётся достаточно высокой, особенно если речь идёт о бюджетном сегменте, ориентированном на малый бизнес.&nbsp;</p><p>В этом посте мы рассмотрим типичного представителя линейки серверов для малого бизнеса —&nbsp;сервер Altos Brainsphere R320F5.&nbsp;</p><p></p> <a href="https://habr.com/ru/post/722298/?utm_campaign=722298&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 12:21:10 GMT</pubDate>
+      <dc:creator>Acer</dc:creator>
+      <category><![CDATA[Блог компании Acer]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Компьютерное железо]]></category>
+      <category><![CDATA[сервер]]></category><category><![CDATA[altos labs]]></category><category><![CDATA[компьютерное железо]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Проверка корневых структур на изоморфизм]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722292/</guid>
+      <link>https://habr.com/ru/post/722292/?utm_campaign=722292&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Задача проверки корневых (под)деревьев на изоморфизм является достаточно известной в рамках олимпиадного мира, однако представленная большинством авторов реализация основывается на неэффективном полиномиальном хэшировании. Проблема данного метода заключается в возможных возникновениях коллизий. В данной статье описан более простой метод, использующий красно-черное дерево (в народе std::map) за ту же асимптотику.</p> <a href="https://habr.com/ru/post/722292/?utm_campaign=722292&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 11:47:45 GMT</pubDate>
+      <dc:creator>Irval</dc:creator>
+      <category><![CDATA[C++]]></category><category><![CDATA[Алгоритмы]]></category><category><![CDATA[Хранение данных]]></category>
+      <category><![CDATA[c++]]></category><category><![CDATA[деревья]]></category><category><![CDATA[изоморфизм графов]]></category><category><![CDATA[проверка на изоморфизм]]></category><category><![CDATA[олимпиадные задачи]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Расширяем возможности Ansible: Ansible Vault]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722106/</guid>
+      <link>https://habr.com/ru/post/722106/?utm_campaign=722106&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Задачи автоматизации развертывания какого-либо ПО или изменения настроек системы практически всегда связаны с использованием учетных записей, обладающих необходимым набором прав для выполнения данных действий. И одна из самых важных проблем при использовании различных скриптов автоматизации состоит в том, что в этом сценарии приходится указывать учетные данные в открытом виде. Соответственно возникает проблема обеспечения безопасности этих данных, ведь к исходному коду скрипта может получить доступ любой пользователь, обладающий соответствующими правами. Кроме того, репозитории, в которых хранится исходный код сценариев тоже нуждаются в защите, так как здесь тоже любой имеющий доступ на чтение может узнать пароли. Конечно, можно попробовать хранить секретную информацию в отдельных файлах и считывать при выполнении сценария, но это не всегда возможно и часто требует дополнительного ручного труда, что несколько снижает преимущества автоматизации.</p><p></p> <a href="https://habr.com/ru/post/722106/?utm_campaign=722106&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 11:43:49 GMT</pubDate>
+      <dc:creator>Andrey_Biryukov</dc:creator>
+      <category><![CDATA[Блог компании OTUS]]></category><category><![CDATA[DevOps]]></category>
+      <category><![CDATA[ansible]]></category><category><![CDATA[ansible vault]]></category><category><![CDATA[playbook]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Вас похекали! Как мы приносим клиентам дурные вести из Даркнета]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721986/</guid>
+      <link>https://habr.com/ru/post/721986/?utm_campaign=721986&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Наверняка вы слышали, что в TOR не протолкнуться от сотрудников полиции и агентов ФБР. В то же время, говорят, что на <em>Серьезные хакерские форумы</em> пускают только своих, и безопасникам нечего ловить в даркнете. И в том, и в другом есть доля истины, но в чем она заключается? Есть ли польза от мониторинга даркнета?</p><p>Под катом поговорим про одно из самых тонких и закрытых направлений работы в ИБ, вокруг которого ходит много обоснованных и не очень слухов. Аналитики Бастион согласились рассказать, что к чему. А бонусом идет список инструментов, которые помогут самостоятельно исследовать сетевой андеграунд.</p><p></p> <a href="https://habr.com/ru/post/721986/?utm_campaign=721986&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 10:10:02 GMT</pubDate>
+      <dc:creator>SantrY</dc:creator>
+      <category><![CDATA[Блог компании Бастион]]></category><category><![CDATA[Децентрализованные сети]]></category><category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Социальные сети и сообщества]]></category>
+      <category><![CDATA[даркнет]]></category><category><![CDATA[мониторинг даркнета]]></category><category><![CDATA[tor]]></category><category><![CDATA[i2p]]></category><category><![CDATA[telegram]]></category><category><![CDATA[андеграунд]]></category><category><![CDATA[opensourse]]></category><category><![CDATA[отслеживание инцидентов]]></category><category><![CDATA[реагирование на инциденты]]></category><category><![CDATA[парсинг]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Автоматизация подачи инициатив сотрудниками. Часть 2]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722254/</guid>
+      <link>https://habr.com/ru/post/722254/?utm_campaign=722254&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Всем привет! Мы уже рассказывали о&nbsp;внутренней системе подачи, сбора и обработки инициатив сотрудников «Банк идей», реализованной в&nbsp;логистической компании ПГК, в&nbsp;одной из <a href="https://habr.com/ru/company/pgk/blog/667778/">прошлых статей</a>. В&nbsp;этот раз остановимся подробнее на&nbsp;функции «калькулятор эффектов», которая вызвала интерес в&nbsp;прошлом материале. Про&nbsp;сам инструмент, его интерфейс и разные опции рассказал руководитель направления архитектуры ИТСМ Дмитрий Бессонов. </p><p></p> <a href="https://habr.com/ru/post/722254/?utm_campaign=722254&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 09:52:23 GMT</pubDate>
+      <dc:creator>FreightOne</dc:creator>
+      <category><![CDATA[Блог компании Первая грузовая компания (ПГК)]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[ERP-системы]]></category><category><![CDATA[Управление проектами]]></category><category><![CDATA[Управление продуктом]]></category>
+      <category><![CDATA[бережливое производство]]></category><category><![CDATA[идеи для бизнеса]]></category><category><![CDATA[производственная система]]></category><category><![CDATA[тикет-система]]></category><category><![CDATA[erp-системы]]></category><category><![CDATA[инициативы]]></category><category><![CDATA[калькулятор]]></category><category><![CDATA[методики]]></category><category><![CDATA[формулы расчета]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Как Discord хранит триллионы сообщений]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722124/</guid>
+      <link>https://habr.com/ru/post/722124/?utm_campaign=722124&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/mx/wl/_j/mxwl_jvuepertjrii0hckwvvnt0.png"></div><br>
+В 2017 году мы написали пост о том, <a href="https://discord.com/blog/how-discord-stores-billions-of-messages" rel="nofollow noopener noreferrer">как храним миллиарды сообщений</a> [<a href="https://habr.com/ru/post/323694/">перевод</a> на Хабре]. В нём мы рассказали о том, как начали с использования MongoDB, но потом выполнили миграцию данных в Cassandra, потому что искали надёжную, устойчивую к сбоям базу данных, имеющую относительно низкую стоимость обслуживания. Мы знали, что будем расти, так и произошло!<br>
+<br>
+Нам нужна была база данных, способная расти вместе с нами, но чтобы стоимость обслуживания не росла вместе с объёмом хранимых данных. К сожалению, оказалось, что это не так — кластер Cassandra демонстрировал серьёзные проблемы с производительностью, поэтому нам требовалось всё больше усилий, чтобы просто поддерживать его, не говоря уже о совершенствовании.<br>
+<br>
+Спустя почти шесть лет мы многое изменили; изменился и способ хранения сообщений.<br> <a href="https://habr.com/ru/post/722124/?utm_campaign=722124&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 09:25:38 GMT</pubDate>
+      <dc:creator>PatientZero</dc:creator>
+      <category><![CDATA[Мессенджеры]]></category><category><![CDATA[Администрирование баз данных]]></category><category><![CDATA[Rust]]></category><category><![CDATA[Хранение данных]]></category>
+      <category>discord</category><category>rust</category><category>scylladb</category><category>scylla</category><category>cassandra</category>
+    </item>
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Все публикации в потоке Научпоп</title>
+    <link>https://habr.com/ru/flows/popsci/all/</link>
+    <description><![CDATA[Все публикации в потоке Научпоп на Хабре]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:17:44 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[Износ основных средств — мобильное приложение на Flutter]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722562/</guid>
+      <link>https://habr.com/ru/post/722562/?utm_campaign=722562&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Приветствую. </p><p>Хочу продемонстрировать мобильное приложение, написанное с использованием фреймворка Flutter, «Начисление износа основных средств» (линейным методом). Данная статья, думаю, будет полезна новичкам, которые изучают Dart / Flutter, но которые уже «выросли из штанишек»  «Hello world» :).  А само приложение полезно бухгалтерам для расчета износа.</p><p></p> <a href="https://habr.com/ru/post/722562/?utm_campaign=722562&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:55:20 GMT</pubDate>
+      <dc:creator>acvatoris</dc:creator>
+      <category><![CDATA[Разработка мобильных приложений]]></category><category><![CDATA[Dart]]></category><category><![CDATA[Финансы в IT]]></category><category><![CDATA[Flutter]]></category>
+      <category><![CDATA[dart]]></category><category><![CDATA[flutter]]></category><category><![CDATA[flutter mobile development]]></category><category><![CDATA[амортизация]]></category><category><![CDATA[бухгалтерия]]></category><category><![CDATA[износ]]></category><category><![CDATA[чистая архитектура]]></category><category><![CDATA[flutter app]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[progressive_plots или ускоряем построение графиков]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722556/</guid>
+      <link>https://habr.com/ru/post/722556/?utm_campaign=722556&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Здравствуйте, меня зовут Николай Стрекопытов и большую часть карьеры я работал на стыке R&amp;D и Deep Learning и в задачах возникающих в этих нишах часто невозможно написать какие-то автотесты и не всегда понятно где вообще может быть проблема поэтому нужно визуально исследовать графики каких-то алгоритмически-заданных функций или показаний с девайса при разных параметрах, а хочется эти графики изучить в максимально детализированном варианте, что почти всегда занимает неприлично большое количество времени.</p><p>Я подумал, что можно вычислять значения функции в узлах не в порядке "перебираем каждую строчку столбца, а затем переключаемся на следующий столбец", а в каком-то более хитром порядке И выводить результат не через часы вычислений, а по мере извлечения информации, а в точках, в которых еще не была вычислена функция показывать результат интерполяции. Собственно в этой статье я хочу описать как я разработал прототип библиотеки, которая решает эту задачу и в комментариях с удовольствием вычитаю дельные замечания.</p><p></p> <a href="https://habr.com/ru/post/722556/?utm_campaign=722556&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:36:57 GMT</pubDate>
+      <dc:creator>nstrek</dc:creator>
+      <category><![CDATA[Open source]]></category><category><![CDATA[Python]]></category><category><![CDATA[Математика]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[графики]]></category><category><![CDATA[machine learning]]></category><category><![CDATA[deep learning]]></category><category><![CDATA[r&amp;amp;d]]></category><category><![CDATA[optimization]]></category><category><![CDATA[graphics]]></category><category><![CDATA[машинное обучение]]></category><category><![CDATA[нейросети]]></category><category><![CDATA[нейронные сети]]></category><category><![CDATA[глубокое обучение]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как преодолеть границу роста мощностей?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722546/</guid>
+      <link>https://habr.com/ru/post/722546/?utm_campaign=722546&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/97/6i/qi/976iqilsxdtucmnaz2dvphbef1y.jpeg" alt="image"><br>
+<br>
+Вычислительные ресурсы <a href="https://cloud.mts.ru/services/virtual-infrastructure/?utm_source=habr.com&amp;utm_medium=owned_media_neuro&amp;utm_content=article&amp;utm_term=neuro" rel="nofollow noopener noreferrer">виртуальных дата-центров</a> практически не ограничены. Однако, если ваша компания генерирует большое количество данных, в конце концов целесообразность работы с обычными ЦОД будет под вопросом. Чем больше расстояние между локацией с серверами и местом сбора данных, тем ниже скорость вычислений.<br>
+<br>
+В этом контексте набирают обороты так называемые граничные вычисления (edge computing). В такой парадигме данные обрабатывают на «границе сети» как можно ближе к клиентам. Переход к edge-инсталляциям имеет жизненно важное значение для решения проблем с задержками и построения действительно интеллектуальных и автономных систем, таких как беспилотный транспорт. <br>
+<br>
+Однако обработка данных на местах имеет свои проблемы. В первую очередь, с энергоемкостью и скоростью вычислений. И одно из перспективных решений, способных предложить выход из ситуации, — это <b>нейроморфные системы</b>.<br>
+<br> <a href="https://habr.com/ru/post/722546/?utm_campaign=722546&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:16:21 GMT</pubDate>
+      <dc:creator>randall</dc:creator>
+      <category><![CDATA[Блог компании CloudMTS]]></category><category><![CDATA[Высокая производительность]]></category><category><![CDATA[Искусственный интеллект]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Процессоры]]></category>
+      <category><![CDATA[нейроморфный чип]]></category><category><![CDATA[нейроморфные системы]]></category><category><![CDATA[нейроморфный процессор]]></category><category><![CDATA[ИИ]]></category><category><![CDATA[процессор]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Не можете измерить — не сможете улучшить: как мы используем метрики в разработке автотестов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722378/</guid>
+      <link>https://habr.com/ru/post/722378/?utm_campaign=722378&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Привет! Меня зовут Александр, я работаю QAA менеджером в компании Wrike, начинал с позиции QAA инженера в далеком 2010-ом и был первым в этой роли. За 12 лет нам удалось построить крутую команду и создать систему контроля качества, которая позволяет быстро и без багов деплоить продуктовый код в продакшен.&nbsp;</p><p>В статье я расскажу три истории из опыта нашей команды, которые наглядно показывают, что без правильно подобранных метрик сложно оценивать и отслеживать изменения в текущих процессах. Статья будет полезна, если вы хотите осознанно и качественно подходить к процессу разработки тестов, контролировать и улучшать этот процесс, используя данные, а также уметь оценивать результаты проведенных экспериментов.</p><p></p> <a href="https://habr.com/ru/post/722378/?utm_campaign=722378&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 10:24:52 GMT</pubDate>
+      <dc:creator>alshurov</dc:creator>
+      <category><![CDATA[Блог компании Wrike]]></category><category><![CDATA[Тестирование IT-систем]]></category><category><![CDATA[Java]]></category><category><![CDATA[Управление разработкой]]></category><category><![CDATA[Статистика в IT]]></category>
+      <category><![CDATA[автотестирование]]></category><category><![CDATA[qa automation]]></category><category><![CDATA[qaa]]></category><category><![CDATA[development]]></category><category><![CDATA[java]]></category><category><![CDATA[metrics]]></category><category><![CDATA[метрики процесса]]></category><category><![CDATA[wrike]]></category><category><![CDATA[wriketechclub]]></category><category><![CDATA[блог компании wrike]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Я нашёл 213 уязвимостей безопасности в кодовой базе при помощи GPT-3]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722520/</guid>
+      <link>https://habr.com/ru/post/722520/?utm_campaign=722520&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/webt/6l/lv/_t/6llv_tiuizppef3wcpv7fbqvd9a.png"></div><br>
+<i>«Меня удручает ваш уровень кибербезопасности»</i><br>
+<br>
+<strong>Краткая сводка</strong>: GPT-3 обнаружила 213 уязвимостей безопасности в <a href="https://github.com/chris-koch-penn/gpt3_security_vulnerability_scanner" rel="nofollow noopener noreferrer">git-репозитории</a>. Для сравнения: один из лучших коммерческих инструментов на рынке (разработанный респектабельной компанией, которая занимается кибербезопасностью) нашёл лишь 99 проблем; впрочем, этот инструмент предоставляет контекст в более структурированном формате. После ручной проверки случайной выборки 50 из 213 уязвимостей, выявленных GPT-3, только одна оказалась ложноположительной. У обоих инструментов было много ложноотрицательных результатов.<br> <a href="https://habr.com/ru/post/722520/?utm_campaign=722520&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 09:30:34 GMT</pubDate>
+      <dc:creator>Beeline_tech</dc:creator>
+      <category><![CDATA[Блог компании билайн]]></category><category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category>gpt-3</category><category>уязвимости</category><category>ИИ</category><category>искусственный интеллект</category><category>алгоритмы</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Выгорание программиста. Интересная работа — самая опасная]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722000/</guid>
+      <link>https://habr.com/ru/post/722000/?utm_campaign=722000&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/722000/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/cw/w9/_q/cww9_qw1bidtbdpzr_irmi4qrbe.jpeg"></div></a><br>
+Среди айтишников мало жизнерадостных людей… Скорее наоборот, многие выглядят несчастными, а если провести анкетирование, то <a href="https://www.usehaystack.io/blog/83-of-developers-suffer-from-burnout-haystack-analytics-study-finds" rel="nofollow noopener noreferrer">83% проявляют признаки выгорания</a>, хотя до <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/job.4030020205" rel="nofollow noopener noreferrer">крайней степени истощения и цинизма</a> ещё не дошли. Но постоянная когнитивная нагрузка и хронический стресс ведут к закономерному результату:<br>
+<br>
+<ul>
+<li><a href="https://codesubmit.io/blog/developer-burnout/" rel="nofollow noopener noreferrer">выгорание</a>,<br>
+</li>
+<li>физическая деградация,<br>
+</li>
+<li>депрессия,<br>
+</li>
+<li>ранний уход из профессии.</li>
+</ul><br>
+Все эти последствия хорошо предсказуемы. Поэтому их можно предотвратить.<br> <a href="https://habr.com/ru/post/722000/?utm_campaign=722000&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 09:00:03 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Управление персоналом]]></category><category><![CDATA[Карьера в IT-индустрии]]></category><category><![CDATA[Здоровье]]></category>
+      <category><![CDATA[ruvds_статьи]]></category><category><![CDATA[выгорание]]></category><category><![CDATA[интересная работа]]></category><category><![CDATA[саббатикал]]></category><category><![CDATA[баланс ценностей]]></category><category><![CDATA[смысл жизни]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Использование ChatGPT в судебном процессе]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722500/</guid>
+      <link>https://habr.com/ru/post/722500/?utm_campaign=722500&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>По&nbsp;практиковал использование ChatGPT при&nbsp;решении юридических задач в&nbsp;процессе подготовки к&nbsp;судебному процессу. Пример реальный&nbsp;— взрыв&nbsp;бытового газа в&nbsp;многоэтажном доме. </p><p>Готовил и опубликовал материал на&nbsp;специализированном юридическом ресурсе, поэтому стиль работы достаточно сложен для&nbsp;восприятия, но&nbsp;надеюсь на&nbsp;конструктивную критику.</p><p></p> <a href="https://habr.com/ru/post/722500/?utm_campaign=722500&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 08:21:25 GMT</pubDate>
+      <dc:creator>Sistemaalex</dc:creator>
+      <category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[chatgpt]]></category><category><![CDATA[искусственный интеллект]]></category><category><![CDATA[нейросети]]></category><category><![CDATA[судебный процесс]]></category><category><![CDATA[право]]></category><category><![CDATA[юриспруденция]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Легендарный игровой смартфон PlayStation — таких больше не делают! Оживляем и смотрим на Sony Ericsson Xperia Play]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721782/</guid>
+      <link>https://habr.com/ru/post/721782/?utm_campaign=721782&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/w0/fc/k5/w0fck5mqkmxkd6fajnuq0azcgsc.jpeg" alt="image"><br>
+<br>
+В наше время под игровыми смартфонами принято понимать девайсы с мощным железом, большими дисплеями, хорошим разрешением. И всё вроде бы отлично: полноценные порты таких игр, как Genshin Impact или PUBG, пытаются вывести смартфоны как класс полноценных устройств для игр. Но всю малину портит один нюанс: отсутствие хардварных кнопок. Геймпады для смартфонов, которые предлагают лишь пару триггеров и джойстик на тачскрине в качестве стиков выглядят смешно. Но так было не всегда: когда-то Sony Ericsson сделали настоящий PlayStation-смартфон с механизмом слайдера, причём в один год с выходом PS Vita! И сегодня мы с вами: соберем из двух устройств одно (и поразимся продуманности девайсов от Sony), оценим удобство Xperia Play как в качестве смартфона, так и в качестве игровой консоли, посмотрим на эксклюзивы и оценим, как девайс проявляет себя в эмуляторах. Интересно узнать, что же это за чудо от Sony? Тогда добро пожаловать под кат! <a href="https://habr.com/ru/post/721782/?utm_campaign=721782&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 08:01:09 GMT</pubDate>
+      <dc:creator>bodyawm</dc:creator>
+      <category><![CDATA[Блог компании Timeweb Cloud]]></category><category><![CDATA[Гаджеты]]></category><category><![CDATA[Смартфоны]]></category>
+      <category><![CDATA[timeweb_статьи]]></category><category><![CDATA[смартфоны]]></category><category><![CDATA[Genshin Impact]]></category><category><![CDATA[PUBG]]></category><category><![CDATA[GPU]]></category><category><![CDATA[N-Gage]]></category><category><![CDATA[Sony Ericsson]]></category><category><![CDATA[PlayStation 1]]></category><category><![CDATA[Xperia Play]]></category><category><![CDATA[iPhone]]></category><category><![CDATA[Adreno]]></category><category><![CDATA[PSP]]></category><category><![CDATA[Android]]></category><category><![CDATA[Google]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Куда глаза глядят: умные контактные линзы с GPS-навигацией]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722240/</guid>
+      <link>https://habr.com/ru/post/722240/?utm_campaign=722240&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/zh/gm/dk/zhgmdk95p0ld1xmdprjxq1glyry.png"><br>
+<br>
+Классическая научно-фантастическая литература для современного читателя является прекрасным инструментом взглянуть на то, как писатели прошлого представляли себе технологии будущего. Многое из того, что считалось футуризмом, для нас стало обыденной реальность. Некоторые технологии пока не обрели финальную форму, но работа над ними неутолимо идет к этому. Среди таких технологий особое место занимает дополненная реальность (<i>augmented reality</i> или AR). Реализация AR сопряжена с рядом трудностей, в том числе и в проектировании работоспособного и удобного носимого устройства. Ученые из Ульсанского национальный институт науки и технологий (Ульсан, Южная Корея) решили, что громоздкие шлемы и странные очки это пережиток прошлого, будущее за умными линзами. Из чего были сделаны линзы дополненной реальности, какова схема их работы, и какими функциями они обладают? Ответы на эти вопросы мы найдем в докладе ученых. <a href="https://habr.com/ru/post/722240/?utm_campaign=722240&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 08:00:18 GMT</pubDate>
+      <dc:creator>Dmytro_Kikot</dc:creator>
+      <category><![CDATA[Блог компании ua-hosting.company]]></category><category><![CDATA[Научно-популярное]]></category><category><![CDATA[AR и VR]]></category><category><![CDATA[Носимая электроника]]></category>
+      <category><![CDATA[виртуальная реальность]]></category><category><![CDATA[дополненная реальность]]></category><category><![CDATA[vr]]></category><category><![CDATA[ar]]></category><category><![CDATA[контактные линзы]]></category><category><![CDATA[навигация]]></category><category><![CDATA[gps]]></category><category><![CDATA[электрохромные дисплеи]]></category><category><![CDATA[носимая электроника]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Смотрю в книгу — вижу «фигу». Техника «абсорбирования» учебников SQ3R вместо пассивного чтения]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721468/</guid>
+      <link>https://habr.com/ru/post/721468/?utm_campaign=721468&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Школа и ВУЗ приучают читать учебники от корки до корки, помещая ученика в своего рода линейный таймлайн — вот начало книги, вот конец. А между ними середина. Двигайся вперед, листай страницы дальше. То, что прочитано — уже выучено. А хочешь повторить — загляни в заметки.</p><p>В общем, чрезвычайно «эффективный» подход...</p><p>А ведь надо совсем немного — из-под пелены букв достать ключевую суть и запомнить ее навсегда. Это идеальный результат прочтения любого учебника. </p><p></p> <a href="https://habr.com/ru/post/721468/?utm_campaign=721468&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 08:00:01 GMT</pubDate>
+      <dc:creator>gov0run</dc:creator>
+      <category><![CDATA[Блог компании FirstVDS]]></category><category><![CDATA[GTD]]></category><category><![CDATA[Учебный процесс в IT]]></category><category><![CDATA[Лайфхаки для гиков]]></category><category><![CDATA[Мозг]]></category>
+      <category><![CDATA[техника чтения]]></category><category><![CDATA[SQ3R]]></category><category><![CDATA[память]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Угнали все мои телеграм каналы на 50к+ подписчиков. Вернул спустя месяц. План действий]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722356/</guid>
+      <link>https://habr.com/ru/post/722356/?utm_campaign=722356&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Привет, чемпион!<br><br>Недавно у меня угнали несколько телеграм каналов. Рассказываю, как вовзращал и что делать, чтоб с вами такого не произошло. <br><br>Будем считать, что читатель этой статьи столкнулся с кражей своих доступов к телеграм каналу. Кратко расскажу мою историю и далее пошаговый план действий. </p><p></p> <a href="https://habr.com/ru/post/722356/?utm_campaign=722356&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 07:32:11 GMT</pubDate>
+      <dc:creator>Aleron75</dc:creator>
+      <category><![CDATA[Социальные сети и сообщества]]></category>
+      <category><![CDATA[телеграм]]></category><category><![CDATA[канал]]></category><category><![CDATA[взлом]]></category><category><![CDATA[мошшеничество]]></category><category><![CDATA[scam]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Инъекция от синдрома выученной беспомощности для ChatGPT: или как промтами (почти) выиграть NeurIPS соревнование IGLU]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722474/</guid>
+      <link>https://habr.com/ru/post/722474/?utm_campaign=722474&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Прошлый год был насыщен релизами мощных инструментов в области искусственного интеллекта, включая Stable Diffusion, Dalle-2 и ChatGPT. Сейчас нам кажется важным получить опыт работы с крупными нейронными сетями и понять, где и как их можно применять. В этом посте мы расскажем, как использовали ChatGPT в соревновании IGLU (Interactive Grounded Language Understanding) на конференции NeurPS 2022&nbsp; для обработки и анализа текстовых команд с помощью (не)простых запросов. Мы верим, что технологии должны служить людям и помогать решать сложные задачи и проблемы. Надеемся, что наш опыт будет интересен и полезен для вас!</p><p></p> <a href="https://habr.com/ru/post/722474/?utm_campaign=722474&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 07:28:32 GMT</pubDate>
+      <dc:creator>Tviskaron</dc:creator>
+      <category><![CDATA[Блог компании AIRI]]></category><category><![CDATA[Искусственный интеллект]]></category><category><![CDATA[Natural Language Processing]]></category>
+      <category><![CDATA[chatgpt]]></category><category><![CDATA[neurips]]></category><category><![CDATA[IGLU]]></category><category><![CDATA[NLP]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Apple Pro Weekly News (06.03 – 12.03.23)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722442/</guid>
+      <link>https://habr.com/ru/post/722442/?utm_campaign=722442&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Это наш 50&nbsp;выпуск, отметим его исчерпывающими подробностями про&nbsp;новый iPhone 14&nbsp;в&nbsp;жёлтом цвете. А&nbsp;также множество новостей для&nbsp;тестировщиков и разработчиков, с&nbsp;рассказом, какие новинки нас ждут уже в&nbsp;самое ближайшее время в&nbsp;релизе. Сервис Apple для&nbsp;прослушивания классической музыки&nbsp;— уже в&nbsp;конце месяца, утекли детали гарнитуры смешанной реальности, а&nbsp;ещё Apple получила Оскар. Есть что&nbsp;рассказать, пусть выпуск и выходит запоздало :)</p><p></p> <a href="https://habr.com/ru/post/722442/?utm_campaign=722442&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Перейти к новостям</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 05:10:02 GMT</pubDate>
+      <dc:creator>aaplpro</dc:creator>
+      <category><![CDATA[Гаджеты]]></category><category><![CDATA[Компьютерное железо]]></category><category><![CDATA[Смартфоны]]></category><category><![CDATA[IT-компании]]></category>
+      <category><![CDATA[Apple]]></category><category><![CDATA[iOS]]></category><category><![CDATA[macOS]]></category><category><![CDATA[tvOS]]></category><category><![CDATA[iPhone]]></category><category><![CDATA[iPad]]></category><category><![CDATA[Mac]]></category><category><![CDATA[Apple Music]]></category><category><![CDATA[Apple TV]]></category><category><![CDATA[Оскар]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Полное исключение категорий при поиске]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722446/</guid>
+      <link>https://habr.com/ru/post/722446/?utm_campaign=722446&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p><em>Добавление функционала, который позволяет пользователям выбирать определенные категории и полностью исключать другие при поиске, может стимулировать продавцов и владельцев сайтов к честному описанию категорий и свойств товаров или ресурсов без необходимости проверок модераторами или рассмотрения жалоб от пользователей.</em></p><p>Уровень взаимного доверия может сильно различаться в разных сообществах. На доверие влияют не только развитые социальные связи, но и полезные практики и протоколы общения. В сетевом сообществе уровень доверия между поисковиками, владельцами ресурсов и пользователями с начала века только падает. Владельцы ресурса стараются накручивать ранг в выдаче поисковой системы, а владельцы поисковой системы с этом борются, изменяя алгоритмы работы поисковика скрытым образом. В данной статье описывается возможность создания протоколов взаимодействия между поисковиком, владельцами ресурсов и пользователями, при которых ранг поискового запроса повышается при наличии корректных метаданных, предоставляемых владельцем ресурса поисковой системе, и снижается при наличии некорректных или избыточных метаданных исключительно благодаря структуре поискового запроса, а не благодаря проверке модераторами или скрытыми механизмами проверки поисковой системой.</p><p>В обсуждении статьи про <a href="https://habr.com/ru/news/t/707140/" rel="noopener noreferrer nofollow">угрозу поиску Google со стороны ChatGPT</a> ссылаются на список компаний <a href="https://killedbygoogle.com" rel="noopener noreferrer nofollow">Killed by Google</a>, но место под могилу Google давно определил себе сам, его коммерческая модель несовместима с качественным поиском и с качественным представлением информации. Чтобы приносить прибыль, результат поиска должен позволять незаметно подмешивать рекламу, «<em>Если Google даст вам идеальный ответ на запрос, вы не нажмёте ни на одну рекламную ссылку</em>». Применение ChatGPT и других систем искусственного интеллекта не влияет на модель монетраризации. Для повышения качества нужны не только новые механизмы, но коммерческая модель, стимулирующая улучшения. Такая модель есть у больших платформ электронной коммерции: AliExpress, Amazon, Озона, Яндекс Маркета, Wildberries и подобных. </p><p></p> <a href="https://habr.com/ru/post/722446/?utm_campaign=722446&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 03:23:43 GMT</pubDate>
+      <dc:creator>vignatovic</dc:creator>
+      <category><![CDATA[Поисковые технологии]]></category><category><![CDATA[Разработка под e-commerce]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Интернет-маркетинг]]></category><category><![CDATA[Социальные сети и сообщества]]></category>
+      <category><![CDATA[поиск]]></category><category><![CDATA[категоризация]]></category><category><![CDATA[категории]]></category><category><![CDATA[исключение]]></category><category><![CDATA[коммерциализация]]></category><category><![CDATA[модель монетизации]]></category><category><![CDATA[электронная коммерция]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как сканировать многостраничные двухсторонние документы, если под рукой только обычный сканер с автоподачей]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721846/</guid>
+      <link>https://habr.com/ru/post/721846/?utm_campaign=721846&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Нет проблемы&nbsp;быстро сканировать документы с&nbsp;любым количеством страниц, если под&nbsp;рукой есть сканер с&nbsp;устройством автоматической подачи. Однако часто МФУ имеют дуплексную двустороннюю печать и сканер, который умеет сканировать только с&nbsp;одной стороны, но&nbsp;имеет устройство автоматической подачи документов.</p><p>При&nbsp;этом сканирование больших двухсторонних документов выглядит проблемой, которая поедает большое количество времени.</p><p>Ведь если документ состоит всего из&nbsp;нескольких страниц, то нет необходимости связываться с&nbsp;командной строкой, потому что&nbsp;можно вручную склеить сканы в&nbsp;любой программе, которая работает с&nbsp;PDF, просто переставив местами страницы или&nbsp;даже вручную перевернув их на&nbsp;сканере.</p><p>Но&nbsp;что если документ А4&nbsp;формата имеет несколько десятков или&nbsp;даже сотен страниц как&nbsp;на&nbsp;фотографии?</p><p></p> <a href="https://habr.com/ru/post/721846/?utm_campaign=721846&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Используем консольную программу pdftk</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 00:07:03 GMT</pubDate>
+      <dc:creator>empenoso</dc:creator>
+      <category><![CDATA[Open source]]></category><category><![CDATA[PDF]]></category><category><![CDATA[Софт]]></category><category><![CDATA[Лайфхаки для гиков]]></category>
+      <category><![CDATA[PDFtk]]></category><category><![CDATA[pdf]]></category><category><![CDATA[сканирование]]></category><category><![CDATA[документы]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] 5 ключевых различий между GPT-4 и его предшественниками]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722436/</guid>
+      <link>https://habr.com/ru/post/722436/?utm_campaign=722436&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Новая модель искусственного интеллекта GPT-4 от OpenAI совершила свой большой дебют и уже используется во всем, начиная от виртуального волонтёра для слабовидящих и заканчивая улучшенным ботом для изучения языков в Duolingo. Но что отличает GPT-4 от предыдущих версий, таких как ChatGPT и GPT-3.5? Вот пять наиболее существенных различий между этими популярными системами.</p><p>Прежде всего, что означает само название? Хотя ChatGPT изначально описывался как GPT-3.5 (и, таким образом, находился на несколько итераций впереди GPT-3), сам по себе он не является версией крупной языковой модели OpenAI, а скорее представляет собой чат-интерфейс для той модели, которая его обеспечивает. Система ChatGPT, ставшая популярной за последние несколько месяцев, была способом взаимодействия с GPT-3.5, а теперь это способ взаимодействия с GPT-4.</p><p>Итак, давайте перейдём к различиям между привычным чат-ботом и его новым усовершенствованным преемником.</p><p></p> <a href="https://habr.com/ru/post/722436/?utm_campaign=722436&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 23:47:23 GMT</pubDate>
+      <dc:creator>zarytskiy</dc:creator>
+      <category><![CDATA[Поисковые технологии]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category>chatgpt</category><category>chatgpt4</category><category>chatgpt-4</category><category>gpt-4</category><category>gpt4</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Подробно рассматриваем обратное распространение ошибки для простой нейронной сети. Численный пример]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722422/</guid>
+      <link>https://habr.com/ru/post/722422/?utm_campaign=722422&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>В данной статье мы рассмотрим прямое распространение сигнала и обратное распространение ошибки в полносвязной нейронной сети. В результате получим весь набор формул, необходимых для её программной реализации. В завершении статьи приведён численный пример.<br><br>Надеемся, что статья будет интересной и полезной для всех, кто приступает к изучению глубинного обучения и нейронных сетей!</p><p></p> <a href="https://habr.com/ru/post/722422/?utm_campaign=722422&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">&nabla;</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 21:09:35 GMT</pubDate>
+      <dc:creator>Ars_magna_1308</dc:creator>
+      <category><![CDATA[Алгоритмы]]></category><category><![CDATA[Математика]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[artifical intelligence]]></category><category><![CDATA[machine learning]]></category><category><![CDATA[deep learning]]></category><category><![CDATA[neural networks]]></category><category><![CDATA[backpropagation]]></category><category><![CDATA[машинное обучение]]></category><category><![CDATA[глубинное обучение]]></category><category><![CDATA[нейронные сети]]></category><category><![CDATA[обратное распространение ошибки]]></category><category><![CDATA[cезон machine learning]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как Digital twins помогают создать автономную фабрику]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722420/</guid>
+      <link>https://habr.com/ru/post/722420/?utm_campaign=722420&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Подход к использованию концепции Digital twin для создания производства нового типа - автономной масштабируемой смарт фабрики.</p><p></p> <a href="https://habr.com/ru/post/722420/?utm_campaign=722420&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 20:52:28 GMT</pubDate>
+      <dc:creator>vasilii_robotech</dc:creator>
+      <category><![CDATA[Анализ и проектирование систем]]></category><category><![CDATA[Хранение данных]]></category><category><![CDATA[Робототехника]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[ai]]></category><category><![CDATA[robotics]]></category><category><![CDATA[digital twin]]></category><category><![CDATA[autonomy]]></category><category><![CDATA[data management]]></category><category><![CDATA[decision making]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Распознавание движений белой тростью с нуля. Часть первая]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722402/</guid>
+      <link>https://habr.com/ru/post/722402/?utm_campaign=722402&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p><img src="https://habrastorage.org/webt/2s/f4/l_/2sf4l_6koer5bkfrizqjpyiuduu.jpeg"></p><br>
+<p>Вы хотите создать простую капсулу, способную распознавать естественные движения трости? Хотите внедрить машинное обучение / искусственный интеллект на микроконтроллерах и других устройствах? Мы покажем, как создать <em>GesturePod</em> — самонастраиваемое устройство, которое распознает движения в режиме реального времени. Эта инструкция наглядно показывает, как при помощи GesturePod сделать интерактивной любую «белую трость». GesturePod упрощает доступ к смартфонам и другим домашним устройствам для людей с нарушениями зрения и пожилых людей. С помощью GesturePod можно управлять устройствами, выполняя движения тростью. К примеру, ответить на входящий звонок двойным покачиванием трости из стороны в сторону.</p> <a href="https://habr.com/ru/post/722402/?utm_campaign=722402&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 19:02:50 GMT</pubDate>
+      <dc:creator>honyaki</dc:creator>
+      <category><![CDATA[Блог компании SkillFactory]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Разработка под Arduino]]></category><category><![CDATA[Носимая электроника]]></category>
+      <category>skillfactory</category><category>ml</category><category>жесты</category><category>электроника</category><category>раснознавание жестов</category><category>белая трость</category><category>ble</category><category>Arduino</category><category>bluetooth</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[[recovery mode] Отвыкнуть от шума, или персональная камера сенсорной депривации]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722346/</guid>
+      <link>https://habr.com/ru/post/722346/?utm_campaign=722346&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Я вырос в маленьком и закрытом военном городке, где самая длинная улица была 2 километра и по ней, в среднем, проезжала одна машина за две-три минуты.&nbsp;</p><p>Когда я приехал поступать в МГУ, заселился в ДАСе на 15 этаже. После пятиэтажного городка это была очень впечатляющая перемена. Лето было жарким и окна всегда были распахнуты, сторона ДАСа, где я жил, выходила на Большую Черёмушкинскую улицу, не самую загруженную, по столичным меркам, но довольно оживленную. На такой высоте в комнату собирались звуки с половины города. Конечно, колоколов Ивана великого слышно не было, но разноголосый гомон плотно набивался в небольшую комнату.</p><p>Однажды, сильно заполночь, разговорившись с соседом-аспирантом, я посетовал на постоянный шум, наполняющий этот огромный город.&nbsp;</p><p>— Но ведь сейчас тихо! — Воскликнул сосед, который прожил в этом общежитии уже пять лет.</p><p>— Нет…</p><p></p> <a href="https://habr.com/ru/post/722346/?utm_campaign=722346&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Слушать дальше</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 15:46:20 GMT</pubDate>
+      <dc:creator>vconst</dc:creator>
+      <category><![CDATA[Гаджеты]]></category><category><![CDATA[Звук]]></category>
+      <category><![CDATA[sony]]></category><category><![CDATA[WH-1000XM4]]></category><category><![CDATA[шумоподавление]]></category><category><![CDATA[наушники]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

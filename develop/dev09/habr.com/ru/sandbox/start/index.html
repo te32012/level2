@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru" data-vue-meta="%7B%22lang%22:%7B%22ssr%22:%22ru%22%7D%7D">
+<head >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover,maximum-scale=1,user-scalable=0">
+  <meta name="referrer" content="unsafe-url">
+  <title>Самое важное / Песочница / Хабр</title>
+  <style>
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSxf6TF0.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    /* cyrillic */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveQhf6TF0.woff2) format('woff2');
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    /* latin-ext */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    /* latin */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/firasans/v11/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    /* non-breaking hyphen */
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/l/font?kit=KFOlCnqEu92Fr1MmEU9vBh0_IsHAlmrO6g&skey=ee881451c540fdec&v=v29) format('woff2');
+      unicode-range: U+02011;
+    }
+  </style>
+  <link rel="preload" href="https://assets.habr.com/habr-web/css/chunk-vendors.b6238726.css" as="style"><link rel="preload" href="https://assets.habr.com/habr-web/js/chunk-vendors.76685433.js" as="script"><link rel="preload" href="https://assets.habr.com/habr-web/css/app.59c6701f.css" as="style"><link rel="preload" href="https://assets.habr.com/habr-web/js/app.067cb56a.js" as="script"><link rel="preload" href="https://assets.habr.com/habr-web/css/sandbox.bb5e93c4.css" as="style"><link rel="preload" href="https://assets.habr.com/habr-web/js/sandbox.3b8d9569.js" as="script">
+  <link rel="stylesheet" href="https://assets.habr.com/habr-web/css/chunk-vendors.b6238726.css"><link rel="stylesheet" href="https://assets.habr.com/habr-web/css/app.59c6701f.css"><link rel="stylesheet" href="https://assets.habr.com/habr-web/css/sandbox.bb5e93c4.css">
+  <script>window.i18nFetch = new Promise((res, rej) => {
+          const xhr = new XMLHttpRequest();
+          xhr.open('GET', '/js/i18n/ru-compiled.bb54036e20d5f2f436c26e6c1769b6b8.json');
+          xhr.responseType = 'json';
+          xhr.onload = function(e) {
+            if (this.status === 200) {
+              res({ru: xhr.response});
+            } else {
+              rej(e);
+            }
+          };
+          xhr.send();
+        });</script>
+  
+  
+  <script src="//www.googletagservices.com/tag/js/gpt.js" async></script>
+  <style>.grecaptcha-badge{visibility: hidden;}</style>
+  <meta name="habr-version" content="2.116.0">
+  
+  <meta data-vue-meta="ssr" itemprop="image" content="/img/habr_ru.png" data-vmid="image:itemprop"><meta data-vue-meta="ssr" property="og:image" content="/img/habr_ru.png" data-vmid="og:image"><meta data-vue-meta="ssr" property="og:image:width" content="1200" data-vmid="og:image:width"><meta data-vue-meta="ssr" property="og:image:height" content="630" data-vmid="og:image:height"><meta data-vue-meta="ssr" property="aiturec:image" content="/img/habr_ru.png" data-vmid="aiturec:image"><meta data-vue-meta="ssr" name="twitter:image" content="/img/habr_ru.png" data-vmid="twitter:image"><meta data-vue-meta="ssr" property="vk:image" content="/img/habr_ru.png?format=vk" data-vmid="vk:image"><meta data-vue-meta="ssr" property="fb:app_id" content="444736788986613"><meta data-vue-meta="ssr" property="fb:pages" content="472597926099084"><meta data-vue-meta="ssr" name="twitter:card" content="summary_large_image"><meta data-vue-meta="ssr" name="twitter:site" content="@habr_com"><meta data-vue-meta="ssr" property="og:locale" content="ru_RU" data-vmid="og:locale"><meta data-vue-meta="ssr" property="og:type" content="website" data-vmid="og:type"><meta data-vue-meta="ssr" property="og:site_name" content="Хабр" data-vmid="og:site_name"><meta data-vue-meta="ssr" property="og:url" content="https://habr.com/ru/sandbox/start/" data-vmid="og:url"><meta data-vue-meta="ssr" property="og:title" content="Самое важное / Песочница / Хабр" data-vmid="og:title">
+  <link data-vue-meta="ssr" rel="image_src" href="/img/habr_ru.png" data-vmid="image:href"><link data-vue-meta="ssr" href="https://habr.com/ru/sandbox/start/" rel="canonical" data-vmid="canonical">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#303b44">
+  <meta name="msapplication-TileColor" content="#629FBC">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link
+    rel="shortcut icon"
+    type="image/png"
+    sizes="16x16"
+    href="https://assets.habr.com/habr-web/img/favicons/favicon-16.png"
+  >
+  <link
+    rel="shortcut icon"
+    type="image/png"
+    sizes="32x32"
+    href="https://assets.habr.com/habr-web/img/favicons/favicon-32.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="76x76"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-76.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="120x120"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="152x152"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-152.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="180x180"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-180.png"
+  >
+  <link
+    rel="apple-touch-icon"
+    type="image/png"
+    sizes="256x256"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-256.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1136x640.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2436x1125.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1792x828.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_828x1792.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1334x750.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2208x1242.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1125x2436.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1242x2208.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2732x2048.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2688x1242.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2224x1668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_750x1334.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2048x2732.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2388x1668.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2224.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_640x1136.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1668x2388.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_2048x1536.png"
+  >
+  <link
+    rel="apple-touch-startup-image"
+    media="screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+    href="https://assets.habr.com/habr-web/img/splashes/splash_1536x2048.png"
+  >
+  <link
+    rel="mask-icon"
+    color="#77a2b6"
+    href="https://assets.habr.com/habr-web/img/favicons/apple-touch-icon-120.svg"
+  >
+  <link
+    crossorigin="use-credentials"
+    href="/manifest.webmanifest"
+    rel="manifest"
+  >
+  <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
+  <script>window.yaContextCb = window.yaContextCb || []</script>
+  <script src="https://yandex.ru/ads/system/context.js" async></script>
+</head>
+<body>
+
+
+<div id="app" data-server-rendered="true" data-async-called="true"><div class="tm-layout__wrapper"><!----> <div></div> <!----> <header class="tm-header"><div class="tm-page-width"><div class="tm-header__container"><!----> <span class="tm-header__logo-wrap"><a href="/ru/" class="tm-header__logo tm-header__logo_ru"><svg height="16" width="16" class="tm-svg-img tm-header__icon"><title>Хабр</title> <use xlink:href="/img/habr-logo-ru.svg#logo"></use></svg></a> <span class="tm-header__beta-sign" style="display:none;">β</span></span> <div class="tm-dropdown tm-header__projects"><div class="tm-dropdown__head"><button class="tm-header__dropdown-toggle"><svg height="16" width="16" class="tm-svg-img tm-header__icon tm-header__icon_dropdown"><title>Открыть список</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#arrow-down"></use></svg></button></div> <!----></div> <a href="/ru/sandbox/start/" aria-current="page" class="tm-header__become-author-btn router-link-exact-active router-link-active">
+            Как стать автором
+          </a> <div class="tm-feature tm-header__feature tm-feature tm-feature_variant-inline"><!----></div> <!----> <!----></div></div></header> <div class="tm-layout"><div class="tm-page-progress-bar"></div> <div data-menu-sticky="true" class="tm-base-layout__header tm-base-layout__header_is-sticky"><div class="tm-page-width"><div class="tm-base-layout__header-wrapper"><div class="tm-main-menu"><div class="tm-main-menu__section"><nav class="tm-main-menu__section-content"><!----> <a href="/ru/all/" class="tm-main-menu__item">
+        Все потоки
+      </a> <a href="/ru/flows/develop/" class="tm-main-menu__item">
+          Разработка
+        </a><a href="/ru/flows/admin/" class="tm-main-menu__item">
+          Администрирование
+        </a><a href="/ru/flows/design/" class="tm-main-menu__item">
+          Дизайн
+        </a><a href="/ru/flows/management/" class="tm-main-menu__item">
+          Менеджмент
+        </a><a href="/ru/flows/marketing/" class="tm-main-menu__item">
+          Маркетинг
+        </a><a href="/ru/flows/popsci/" class="tm-main-menu__item">
+          Научпоп
+        </a></nav></div></div> <div class="tm-header-user-menu tm-base-layout__user-menu"><a href="/ru/search/" class="tm-header-user-menu__item tm-header-user-menu__search"><svg height="24" width="24" class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_search tm-header-user-menu__icon_dark"><title>Поиск</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#search"></use></svg></a> <!----> <!----> <!----> <div class="tm-header-user-menu__item tm-header-user-menu__user_desktop"><div class="tm-dropdown"><div class="tm-dropdown__head"><svg height="24" width="24" data-test-id="menu-toggle-guest" class="tm-svg-img tm-header-user-menu__icon tm-header-user-menu__icon_dark"><title>Профиль</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#header-user"></use></svg> <!----></div> <!----></div> <!----></div> <!----></div></div></div></div> <!----> <div class="tm-page-width"></div> <main class="tm-layout__container"><div class="tm-page"><div class="tm-page-width"><!----> <div class="tm-page__wrapper"><div class="tm-page__main tm-page__main_has-sidebar"><div class="pull-down"><!----> <div class="pull-down__header" style="height:0px;"><div class="pull-down__content" style="bottom:10px;"><svg height="24" width="24" class="tm-svg-img pull-down__arrow"><title>Обновить</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#pull-arrow"></use></svg></div></div> <div class="tm-page__top"><div class="tm-section-name"><h1 class="tm-section-name__text">
+    Как стать автором
+  </h1> </div> <div class="tm-tabs tm-tabs_page-header tm-tabs"><div class="tm-tabs__scroll-area"><span class="tm-tabs__tab-item"><a href="/ru/sandbox/start/" aria-current="page" data-test-id="tab-link-active" class="tm-tabs__tab-link router-link-exact-active  tm-tabs__tab-link tm-tabs__tab-link_active">
+        Самое важное
+        <!----> <!----></a></span><span class="tm-tabs__tab-item"><a href="/ru/sandbox/invited/" class="tm-tabs__tab-link tm-tabs__tab-link">
+        Новые авторы
+        <!----> <!----></a></span><span class="tm-tabs__tab-item"><a href="/ru/sandbox/" class="tm-tabs__tab-link tm-tabs__tab-link">
+        Ожидают приглашения
+        <!----> <!----></a></span></div> <!----></div> <!----></div> <div class="about-subpage"><p>
+      На Хабре интересуются IT и всеми сторонами современной жизни: программированием, технологиями, дизайном, наукой, образованием, играми, карьерой, здоровьем. Не обязательно писать хардкорно, но важно, чтобы была польза. Если у вас уже есть крутой материал на другой площадке, запостите его и здесь, чтобы сообщество Хабра тоже его оценило.
+    </p> <p>
+      Если пост полезен и хорошо написан, его прочитают десятки тысяч человек. К тому же он появится у нас в
+      <a href="https://vk.com/habr" rel="noopener noreferrer nofollow" target="_blank">ВК</a>,
+      <a href="https://www.facebook.com/habrahabr.ru/" rel="noopener noreferrer nofollow" target="_blank">Фейсбуке</a> и
+      <a href="https://t.me/habr_com" rel="noopener noreferrer nofollow" target="_blank">Телеграме</a>.
+      А, может быть, и попадет в почтовую рассылку лучшего за неделю.
+    </p> <h2>Как всё произойдет</h2> <p>
+      Вы пишете первый пост, его
+      <a href="/ru/docs/help/sandbox/">
+        проверяют модераторы
+      </a>,
+      и, если всё хорошо, отправляют в основную ленту Хабра, где он набирает просмотры, комментарии и рейтинг. В дальнейшем премодерация уже не понадобится. Если с постом что-то не так, вас попросят его доработать.
+    </p> <a href="https://habr.com/kek/v1/auth/habrahabr/?back=/ru/sandbox/start/&amp;hl=ru" rel="nofollow" class="tm-write-button">
+      Написать пост
+    </a> <h2>Зачем вообще писать</h2> <ol><li>
+        Написать пост — значит как следует разложить всё по полочкам, обобщить опыт и поделиться им с другими. Приносить пользу чертовски приятно, попробуйте.
+      </li> <li>
+        Никогда не угадаешь, кто прочитает ваш пост. Часто это те, кто разбирается в вопросе на голову лучше вас. Фидбэк от таких людей — возможно, самое ценное, что вы приобретете на Хабре.
+      </li> <li>
+        Ваши публикации — это ваша репутация. Они лучше резюме расскажут, кто вы, чем занимаетесь и в чем разбираетесь.
+      </li> <li>
+        За первый крутой пост вы получите полноправный аккаунт и плюс в карму.
+      </li> <li>
+        В дальнейшем за статьи с высоким рейтингом по профильным темам мы можем поощрять материально. Для этого на Хабре есть Программа поощрения авторов.
+      </li></ol> <h2>Какой формат выбрать</h2> <p>
+      Определитесь, что вы хотите написать. На Хабре есть несколько распространенных форматов. К каждому из них мы написали краткую инструкцию — они помогут структурировать текст.
+    </p> <ul><li><strong>Новости</strong> <br>
+        Первыми узнали о сбое в Сети? Увидели новый продукт раньше всех? Прочитали свежий законопроект? Поделитесь с остальными.
+        <br></li> <li><strong>Кейсы</strong> <br>
+        Организовали умный дом за 10к рублей? Переехали в Новую Зеландию писать код по распознаванию киви? Пишите пост, это же очень интересно.
+        <br></li> <li><strong>Туториалы</strong> <br>
+        Справились с непростой задачей? Расскажите по пунктам, как ее решить — читатели будут благодарны.
+        <br></li> <li><strong>Ретроспективы</strong> <br>
+        Помните в подробностях, как зарождались вещи, к которым уже все привыкли? Кайф! Это то, что приятно почитать долгими зимними вечерами!
+        <br></li> <li><strong>Обзоры</strong> <br>
+        Вы перепробовали кучу моноколес, стриминговых сервисов или сред разработки? Поделитесь, что там к чему, на что лучше обратить внимание.
+        <br></li> <li><strong>Мнения</strong> <br>
+        У вас особый взгляд на острый вопрос? Хотите это обсудить? Напишите, что думаете, и готовьтесь провести вечер в комментариях.
+        <br></li> <li><strong>Справочные</strong> <br>
+        Вы глубоко изучили сложную тему? Готовы рассказать на пальцах, как все устроено? Дерзайте!
+        <br></li> <li><strong>Интервью</strong> <br>
+        Есть доступ к человеку с необычным опытом? Срочно берите его в охапку и задавайте вопросы. А что он ответил, потом расскажите Хабру.
+        <br></li> <li><strong>Дайджесты</strong> <br>
+        Накопилась подборка интересных ссылок и хочется поделиться своими открытиями? Вперед! Мы тут очень любознательные и с большим кругозором.
+        <br></li> <li><strong>Репортажи</strong> <br>
+        Попали на знаковое мероприятие? Расскажите о самом интересном сообществу Хабра.
+        <br></li> <li><strong>Аналитика</strong> <br>
+        Уловили тренды, понимаете что станет с рынком через полгода, нравится строить графики и диаграммы? Поделитесь, ведь обобщать данные не каждому дано.
+        <br></li></ul> <h2>Как писать классно</h2> <p>На случай, если вы не знаете, как подступиться к тому или иному формату, мы написали короткие гайды, о том, как сделать ваши материалы полезными и оформить так, чтобы было удобно читать.</p> <ul><li><a href="/docs/authors/news/">
+          Написать новость и не облажаться
+        </a></li> <li><a href="/docs/authors/case/">
+          Описать кейс, чтобы было полезно
+        </a></li> <li><a href="/docs/authors/tutorial/">
+          Составить понятный туториал
+        </a></li> <li><a href="/docs/authors/interview/">
+          Взять интервью круче, чем Дудь
+        </a></li> <li><a href="/docs/authors/retrospective/">
+          Сделать ретроспективу всем на зависть
+        </a></li> <li><a href="/docs/authors/review/">
+          Написать полезный обзор
+        </a></li> <li><a href="/docs/authors/infocards/">
+          Составить исчерпывающую справочную
+        </a></li> <li><a href="/docs/authors/opinion/">
+          Оформить мнение в пост на Хабре
+        </a></li> <li><a href="/docs/authors/digest/">
+          Составить информативный дайджест
+        </a></li> <li><a href="/docs/authors/report/">
+          Сделать внятный репортаж
+        </a></li></ul> <h2>Чем ещё можем помочь</h2> <h3>Направим в нужное русло</h3> <p>
+      Не уверены, стоит ли писать пост? Напишите нам на <a href="mailto:neo@habr.team">neo@habr.team</a>. В письме расскажите о себе и в чём будет польза вашего материала. Лучше, если у вас уже будут намётки или хотя бы план статьи. Редакторы зададут уточняющие вопросы и, если нужно, предложат правки, чтобы отточить текст и направить его точно в цель.<br> <strong>Важно:</strong> если вы представитель компании, пишите на <a href="mailto:corp@habr.team">corp@habr.team</a>.
+    </p> <h3>Найдем спикеров</h3> <p>
+      Здорово, когда в тексте несколько взглядов на один вопрос. Если вы пишете о том, как обучали нейросеть не пускать кошку в дом, хорошо бы найти фелинолога, который расскажет про психологию котиков, и ИИ-инженера, который прокомментирует программное решение. Не знаете, где искать таких людей? Мы поможем.
+    </p> <h3>Аккредитуем</h3> <p>
+      Хотите попасть на профильное мероприятие? Отправьте нам письмо, мы свяжемся с организаторами и попробуем вас аккредитовать. В ответ мы ждем, что вы напишете о самом интересном с конференции — заодно попробуете себя в роли корреспондента.
+    </p> <a href="https://habr.com/kek/v1/auth/habrahabr/?back=/ru/sandbox/start/&amp;hl=ru" rel="nofollow" class="tm-write-button">
+      Написать пост
+    </a> <!----></div></div></div> <div class="tm-page__sidebar"><div data-async-called="true" class="tm-layout-sidebar"><div class="tm-layout-sidebar__placeholder_initial"></div> <div class="tm-sexy-sidebar tm-sexy-sidebar_initial" style="margin-top:0px;"><section class="tm-block tm-block"><header class="tm-block__header tm-block__header"><div class="tm-block__header-container"><h2 class="tm-block__title tm-block__title">Новые авторы</h2> </div> <!----></header> <div class="tm-block__body tm-block__body"><ul class="tm-article-list-block__list"><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2023-03-15T11:55:20.000Z" title="2023-03-15, 14:55">2 часа назад</time></div></div> <h2 class="tm-article-title tm-article-title_sidebar"><a href="/ru/post/722562/" class="tm-article-title__link"><span>Износ основных средств — мобильное приложение на Flutter</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Количество просмотров</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-views"></use></svg> <span class="tm-icon-counter__value">470</span></span> <!----> <!----> <div title="Читать комментарии" class="tm-article-comments-counter-link tm-data-icons__item"><a href="/ru/post/722562/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      2
+    </span></a> <!----></div>  <DIV class="v-portal" style="display:none;"></DIV></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2023-03-15T11:36:57.000Z" title="2023-03-15, 14:36">2 часа назад</time></div></div> <h2 class="tm-article-title tm-article-title_sidebar"><a href="/ru/post/722556/" class="tm-article-title__link"><span>progressive_plots или ускоряем построение графиков</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Количество просмотров</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-views"></use></svg> <span class="tm-icon-counter__value">312</span></span> <!----> <!----> <div title="Читать комментарии" class="tm-article-comments-counter-link tm-data-icons__item"><a href="/ru/post/722556/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      0
+    </span></a> <!----></div>  <DIV class="v-portal" style="display:none;"></DIV></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2023-03-15T09:23:43.000Z" title="2023-03-15, 12:23">4 часа назад</time></div></div> <h2 class="tm-article-title tm-article-title_sidebar"><a href="/ru/post/722518/" class="tm-article-title__link"><span>Численно решаем волновое уравнение разностной схемой</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Количество просмотров</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-views"></use></svg> <span class="tm-icon-counter__value">986</span></span> <!----> <!----> <div title="Читать комментарии" class="tm-article-comments-counter-link tm-data-icons__item"><a href="/ru/post/722518/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      1
+    </span></a> <!----></div>  <DIV class="v-portal" style="display:none;"></DIV></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2023-03-15T09:22:51.000Z" title="2023-03-15, 12:22">4 часа назад</time></div></div> <h2 class="tm-article-title tm-article-title_sidebar"><a href="/ru/post/722516/" class="tm-article-title__link"><span>Расти и делись: создание шрифта для фестиваля G8</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Количество просмотров</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-views"></use></svg> <span class="tm-icon-counter__value">336</span></span> <!----> <!----> <div title="Читать комментарии" class="tm-article-comments-counter-link tm-data-icons__item"><a href="/ru/post/722516/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      0
+    </span></a> <!----></div>  <DIV class="v-portal" style="display:none;"></DIV></div></article></li><li class="tm-article-list-block__item"><article class="tm-article-snippet-block-sidebar tm-article-snippet-block-sidebar_preview"><div class="tm-article-snippet-block__user-meta"><div class="tm-article-snippet-block__date"><time datetime="2023-03-15T06:43:18.000Z" title="2023-03-15, 09:43">7 часов назад</time></div></div> <h2 class="tm-article-title tm-article-title_sidebar"><a href="/ru/post/722466/" class="tm-article-title__link"><span>Переходим на Flutter: за и против</span></a></h2> <div class="tm-data-icons"><!----> <!----> <span class="tm-icon-counter tm-data-icons__item"><svg height="24" width="24" class="tm-svg-img tm-icon-counter__icon"><title>Количество просмотров</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-views"></use></svg> <span class="tm-icon-counter__value">1.3K</span></span> <!----> <!----> <div title="Читать комментарии" class="tm-article-comments-counter-link tm-data-icons__item"><a href="/ru/post/722466/comments/" class="tm-article-comments-counter-link__link"><svg height="24" width="24" class="tm-svg-img tm-article-comments-counter-link__icon"><title>Комментарии</title> <use xlink:href="/img/megazord-v28.617e16ca..svg#counter-comments"></use></svg> <span class="tm-article-comments-counter-link__value">
+      20
+    </span></a> <!----></div>  <DIV class="v-portal" style="display:none;"></DIV></div></article></li> <!----></ul></div> <!----></section> <!----></div></div></div></div></div></div></main> <!----></div> <div class="tm-footer-menu"><div class="tm-page-width"><div class="tm-footer-menu__container"><div class="tm-footer-menu__block"><p class="tm-footer-menu__block-title">
+          Ваш аккаунт
+        </p> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="/kek/v1/auth/habrahabr/?back=/ru/sandbox/start/&amp;hl=ru" rel="nofollow" target="_self">
+                Войти
+              </a></li><li class="tm-footer-menu__list-item"><a href="/kek/v1/auth/habrahabr-register/?back=/ru/sandbox/start/&amp;hl=ru" rel="nofollow" target="_self">
+                Регистрация
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><p class="tm-footer-menu__block-title">
+          Разделы
+        </p> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="/ru/" class="footer-menu__item-link router-link-active">
+                Публикации
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/news/" class="footer-menu__item-link">
+                Новости
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/hubs/" class="footer-menu__item-link">
+                Хабы
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/companies/" class="footer-menu__item-link">
+                Компании
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/users/" class="footer-menu__item-link">
+                Авторы
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/sandbox/" class="footer-menu__item-link router-link-active">
+                Песочница
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><p class="tm-footer-menu__block-title">
+          Информация
+        </p> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="/ru/docs/help/" class="footer-menu__item-link">
+                Устройство сайта
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/docs/authors/codex/" class="footer-menu__item-link">
+                Для авторов
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/docs/companies/corpblogs/" class="footer-menu__item-link">
+                Для компаний
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/docs/docs/transparency/" class="footer-menu__item-link">
+                Документы
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://account.habr.com/info/agreement" target="_blank">
+                Соглашение
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://account.habr.com/info/confidential/" target="_blank">
+                Конфиденциальность
+              </a></li></ul></div></div><div class="tm-footer-menu__block"><p class="tm-footer-menu__block-title">
+          Услуги
+        </p> <div class="tm-footer-menu__block-content"><ul class="tm-footer-menu__list"><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/corporate-blogs/" target="_blank">
+                Корпоративный блог
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/advertising/" target="_blank">
+                Медийная реклама
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/native-special/" target="_blank">
+                Нативные проекты
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/education-programs/" target="_blank">
+                Образовательные программы
+              </a></li><li class="tm-footer-menu__list-item"><a href="https://company.habr.com/ru/hello-startup/" target="_blank">
+                Стартапам
+              </a></li><li class="tm-footer-menu__list-item"><a href="/ru/megaprojects/" class="footer-menu__item-link">
+                Мегапроекты
+              </a></li></ul></div></div></div></div></div> <div class="tm-footer"><div class="tm-page-width"><div class="tm-footer__container"><!----> <div class="tm-footer__social"><a href="https://www.facebook.com/habrahabr.ru" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Facebook</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-facebook"></use></svg></a><a href="https://twitter.com/habr_com" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Twitter</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-twitter"></use></svg></a><a href="https://vk.com/habr" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>VK</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-vkontakte"></use></svg></a><a href="https://telegram.me/habr_com" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Telegram</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-telegram"></use></svg></a><a href="https://www.youtube.com/channel/UCd_sTwKqVrweTt4oAKY5y4w" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Youtube</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-youtube"></use></svg></a><a href="https://zen.yandex.ru/habr" rel="nofollow noopener noreferrer" target="_blank" class="tm-svg-icon__wrapper tm-social-icons__icon"><svg height="16" width="16" class="tm-svg-img tm-svg-icon"><title>Яндекс Дзен</title> <use xlink:href="/img/social-icons-sprite.svg#social-logo-zen"></use></svg></a></div> <DIV class="v-portal" style="display:none;"></DIV> <button class="tm-footer__link"><!---->
+        Настройка языка
+      </button> <a href="/ru/feedback/" class="tm-footer__link">
+        Техническая поддержка
+      </a> <a href="/berserk-mode-nope" class="tm-footer__link">
+        Вернуться на старую версию
+      </a> <div class="tm-footer-copyright"><span class="tm-copyright"><span class="tm-copyright__years">© 2006–2023, </span> <span class="tm-copyright__name"><a href="https://company.habr.com/" rel="noopener" target="_blank" class="tm-copyright__link">Habr</a></span></span></div></div></div></div> <!----> <!----></div> <div class="vue-portal-target"></div></div>
+<script>window.__INITIAL_STATE__={"adblock":{"hasAcceptableAdsFilter":false,"hasAdblock":false},"articlesList":{"articlesList":{},"articlesIds":{},"isLoading":false,"pagesCount":{},"route":{},"reasonsList":null,"view":"cards","lastVisitedRoute":{},"ssrCommentsArticleIds":[],"karma":{"userReasonsList":null}},"authorContribution":{"authors":{}},"betaTest":{"currentAnnouncement":null,"announcements":{},"announcementCards":null,"announcementComments":{},"announcementCommentThreads":{},"announcementCommentingStatuses":{},"archivedList":[]},"authorStatistics":{"articleRefs":{},"articleIds":{},"pagesCount":{},"route":{},"viewsCount":[],"maxStatsCount":{}},"career":{"seoLandings":[],"hubs":""},"comments":{"articleComments":{},"articlePinnedComments":{},"searchCommentsResults":null,"pagesCount":null,"commentAccess":{},"scrollParents":{},"pageArticleComments":{"lastViewedComment":0,"postId":null,"lastCommentTimestamp":"","moderated":[],"moderatedIds":[],"commentRoute":""}},"companies":{"companyRefs":{},"companyIds":{},"companyTopIds":{},"pagesCount":{},"companyProfiles":{},"companiesCategories":[],"companiesCategoriesTotalCount":0,"companiesWidgets":{},"companiesWorkers":{},"companiesFans":{},"route":{},"isLoading":false,"companyWorkersLoading":false,"companyFansLoading":false,"vacancies":{},"companiesGalleries":{},"companiesBanners":{},"companiesLandingVacancies":{},"companiesTechnologies":{},"workplaceInfo":null},"companyAdmin":{"companyInfo":null,"companyInfoLoading":false,"faqArticles":null,"brandingPreviewImageUrl":null,"jivoStatus":0,"adminNotifications":null},"companiesContribution":{"hubs":{},"flows":{},"companyRefs":{}},"companyHubsContribution":{"contributionRefs":{"hubRefs":{},"hubIds":{}}},"conversation":{"messages":[],"respondent":null,"isLoadMore":false},"conversations":{"conversations":[],"unreadCount":0,"pagesCount":0},"desktopState":{"desktopFl":null,"desktopHl":null,"isChecked":false,"isLoginDemanded":false},"docs":{"menu":{},"articles":{},"mainMenu":[],"loading":{"main":false,"dropdown":false,"article":false}},"feature":{"isProbablyVisible":true},"flows":{"updates":{"countNewPostsBySubscription":null,"countNewPostsAll":69,"countNewNewsAll":53},"flows":[{"alias":"develop","id":"1","route":{"name":"FLOW_PAGE","params":{"flowName":"develop"}}},{"alias":"admin","id":"6","route":{"name":"FLOW_PAGE","params":{"flowName":"admin"}}},{"alias":"design","id":"2","route":{"name":"FLOW_PAGE","params":{"flowName":"design"}}},{"alias":"management","id":"3","route":{"name":"FLOW_PAGE","params":{"flowName":"management"}}},{"alias":"marketing","id":"4","route":{"name":"FLOW_PAGE","params":{"flowName":"marketing"}}},{"alias":"popsci","id":"7","route":{"name":"FLOW_PAGE","params":{"flowName":"popsci"}}}]},"global":{"isPwa":false,"device":"desktop","isHabrCom":true},"hubs":{"hubRefs":{},"hubIds":{},"pagesCount":{},"isLoading":false,"route":{}},"hubsBlock":{"hubRefs":{},"hubIds":{}},"i18n":{"fl":"ru","hl":"ru"},"info":{"infoPage":{},"isLoading":true},"location":{"urlStruct":{"protocol":null,"slashes":null,"auth":null,"host":null,"port":null,"hostname":null,"hash":null,"search":null,"query":{},"pathname":null,"path":null,"href":""}},"me":{"user":null,"uuid":null,"ppgDemanded":false,"karmaResetInfo":{"canReincarnate":null,"wasReincarnated":null,"currentScore":null},"notes":null},"modal":{"modals":[]},"mostReadingList":{"mostReadingListIds":[],"mostReadingListRefs":null,"promoPost":null},"ppa":{"articles":{},"card":null,"transactions":null,"totalTransactions":null,"isAccessible":null},"projectsBlocks":{"activeBlocks":{}},"promoData":{"isLoading":false,"hasLoaded":false,"featurer":null,"megaposts":null,"promoLinks":null,"promoPosts":null},"pullRefresh":{"shouldRefresh":false},"sandbox":{"articleIds":{"MOST_IMPORTANT_SANBOX_INFO":["722562","722556","722518","722516","722466"]},"articleRefs":{"722466":{"id":"722466","timePublished":"2023-03-15T06:43:18+00:00","isCorporative":false,"lang":"ru","titleHtml":"Переходим на Flutter: за и против","editorVersion":"2.0","postType":"article","postLabels":[{"type":"sandbox","data":null}],"author":{"id":"2924729","alias":"Holofox","fullname":"Данил Абдрафиков","avatarUrl":"\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Favatars\u002F8c0\u002Ff9f\u002Feb7\u002F8c0f9feb76e01812f0cb59534f2e5f12.jpg","speciality":"Мобильный разработчик"},"statistics":{"commentsCount":20,"favoritesCount":9,"readingCount":1318,"score":8,"votesCount":8,"votesCountPlus":8,"votesCountMinus":0},"hubs":[{"id":"359","alias":"programming","type":"collective","title":"Программирование","titleHtml":"Программирование","isProfiled":true,"relatedData":null},{"id":"548","alias":"ios_dev","type":"collective","title":"Разработка под iOS","titleHtml":"Разработка под iOS","isProfiled":true,"relatedData":null},{"id":"17107","alias":"android_dev","type":"collective","title":"Разработка под Android","titleHtml":"Разработка под Android","isProfiled":true,"relatedData":null},{"id":"17712","alias":"dart","type":"collective","title":"Dart","titleHtml":"Dart","isProfiled":true,"relatedData":null},{"id":"22176","alias":"flutter","type":"collective","title":"Flutter","titleHtml":"Flutter","isProfiled":true,"relatedData":null}],"flows":[{"id":"1","alias":"develop","title":"Разработка","titleHtml":"Разработка"}],"relatedData":null,"leadData":{"textHtml":"\u003Cp\u003EПривет, Хабр!\u003Cbr\u003E\u003Cbr\u003EМеня зовут Данил Абдрафиков и уже более пяти лет я занимаюсь мобильной разработкой, три из которых — на Flutter. Последние несколько лет я разрабатываю продукты для энтерпрайза в TAGES, и за это время у меня успел накопиться определенный опыт, которым я бы хотел поделиться с вами в сегодняшней статье. Я расскажу, что нужно знать опытному мобильному разработчику для перехода на Flutter, с какими особенностями можно столкнуться и стоит ли вообще переходить на него.\u003C\u002Fp\u003E\u003Cp\u003EЧтобы вам было удобнее знакомиться с инструментами и технологиями, используемыми во \u003Ca href=\"https:\u002F\u002Fflutter.dev\u002F\" rel=\"noopener noreferrer nofollow\"\u003E\u003Cu\u003EFlutter\u003C\u002Fu\u003E\u003C\u002Fa\u003E, в материале будут упоминания нативных языков и инструментов, приближенных к привычному представлению процесса мобильной разработки.\u003C\u002Fp\u003E\u003Cp\u003E\u003C\u002Fp\u003E","imageUrl":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F88c\u002F48e\u002F513\u002F88c48e51388197c8819a611a4bd9430b.png","buttonTextHtml":"Читать далее","image":{"url":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F88c\u002F48e\u002F513\u002F88c48e51388197c8819a611a4bd9430b.png","fit":"cover","positionY":0,"positionX":0}},"status":"published","plannedPublishTime":null,"checked":null,"format":null,"readingTime":8,"complexity":"low","tags":[{"titleHtml":"flutter"},{"titleHtml":"kotlin"},{"titleHtml":"dart"},{"titleHtml":"swift"},{"titleHtml":"google"},{"titleHtml":"apple"},{"titleHtml":"кроссплатформенная разработка"},{"titleHtml":"мобильная разработка"},{"titleHtml":"material design"},{"titleHtml":"mobile"}]},"722516":{"id":"722516","timePublished":"2023-03-15T09:22:51+00:00","isCorporative":false,"lang":"ru","titleHtml":"Расти и делись: создание шрифта для фестиваля G8","editorVersion":"2.0","postType":"article","postLabels":[{"type":"sandbox","data":null}],"author":{"id":"2581123","alias":"TypeType","fullname":null,"avatarUrl":"","speciality":""},"statistics":{"commentsCount":0,"favoritesCount":0,"readingCount":336,"score":3,"votesCount":3,"votesCountPlus":3,"votesCountMinus":0},"hubs":[{"id":"348","alias":"typography","type":"collective","title":"Типографика","titleHtml":"Типографика","isProfiled":true,"relatedData":null}],"flows":[{"id":"2","alias":"design","title":"Дизайн","titleHtml":"Дизайн"}],"relatedData":null,"leadData":{"textHtml":"\u003Cp\u003E\u003Ca href=\"https:\u002F\u002Fggggggggfest.com\u002Fru\" rel=\"noopener noreferrer nofollow\"\u003EФестиваль креативных индустрий G8\u003C\u002Fa\u003E&nbsp;представил публике свою айдентику 2022&nbsp;года. Ассоциации приходят сразу: делящиеся клетки, органика и&nbsp;единение человека с&nbsp;природой.\u003C\u002Fp\u003E\u003Cp\u003EИменно по&nbsp;принципу «расти и&nbsp;делись» был собран фирменный стиль, над которым работала большая команда. Студия шрифтового дизайна&nbsp;\u003Ca href=\"https:\u002F\u002Ftypetype.ru\u002F\" rel=\"noopener noreferrer nofollow\"\u003ETypeType\u003C\u002Fa\u003E&nbsp;— один из&nbsp;участников креативного процесса по&nbsp;созданию шрифта и&nbsp;логотипа.\u003C\u002Fp\u003E\u003Cp\u003E\u003C\u002Fp\u003E","imageUrl":null,"buttonTextHtml":"Читать далее","image":{"url":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F8eb\u002F610\u002F81a\u002F8eb61081a955892559d9dc00c3ab74ae.gif","fit":"cover","positionY":0,"positionX":0}},"status":"published","plannedPublishTime":null,"checked":null,"format":null,"readingTime":2,"complexity":null,"tags":[{"titleHtml":"шрифт"},{"titleHtml":"айдентика"},{"titleHtml":"дизайн"},{"titleHtml":"графический дизайн"},{"titleHtml":"дизайн шрифтов"},{"titleHtml":"фирменный стиль"},{"titleHtml":"шрифты веба"}]},"722518":{"id":"722518","timePublished":"2023-03-15T09:23:43+00:00","isCorporative":false,"lang":"ru","titleHtml":"Численно решаем волновое уравнение разностной схемой","editorVersion":"2.0","postType":"article","postLabels":[{"type":"sandbox","data":null}],"author":{"id":"3415503","alias":"XuMukMK","fullname":null,"avatarUrl":"","speciality":""},"statistics":{"commentsCount":1,"favoritesCount":11,"readingCount":986,"score":11,"votesCount":11,"votesCountPlus":11,"votesCountMinus":0},"hubs":[{"id":"359","alias":"programming","type":"collective","title":"Программирование","titleHtml":"Программирование","isProfiled":true,"relatedData":null},{"id":"17812","alias":"maths","type":"collective","title":"Математика","titleHtml":"Математика","isProfiled":true,"relatedData":null}],"flows":[{"id":"1","alias":"develop","title":"Разработка","titleHtml":"Разработка"}],"relatedData":null,"leadData":{"textHtml":"\u003Cp\u003EДля меня уравнения в частных производных -- это очень красивая история из студенчества.  Почему? Это невероятно красиво. Но что особенно стало для меня захватывающим, так это то, что дифуры в широком смысле прикладной математики -- это тот самый пример, когда математика и компьютер используются вместе, чтобы представить некоторую компьютерную модель вполне реальных процессов. Как вы уже, наверное, догадались, речь пойдёт про то, как вообще можно попробовать решать дифференциальные уравнения в частных производных на компьютере. Мы попробуем это сделать на примере волнового уравнения и с использованием уже ставших привычными python, scipy и numpy. Если вы примерно помните математику, но панически боялись дифуров или они просто как-то обошли вас стороной, то добро пожаловать.\u003C\u002Fp\u003E\u003Cp\u003E\u003C\u002Fp\u003E","imageUrl":null,"buttonTextHtml":"Читать далее","image":{"url":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fcae\u002F4ee\u002F490\u002Fcae4ee49046d04fc4618b9c17ea6f99d.jpg","fit":"cover","positionY":5,"positionX":6}},"status":"published","plannedPublishTime":null,"checked":null,"format":null,"readingTime":9,"complexity":"medium","tags":[{"titleHtml":"волновое уравнение"},{"titleHtml":"разностная схема"},{"titleHtml":"численные методы"},{"titleHtml":"дифференциальные уравнения"}]},"722556":{"id":"722556","timePublished":"2023-03-15T11:36:57+00:00","isCorporative":false,"lang":"ru","titleHtml":"progressive_plots или ускоряем построение графиков","editorVersion":"2.0","postType":"article","postLabels":[{"type":"sandbox","data":null}],"author":{"id":"898001","alias":"nstrek","fullname":null,"avatarUrl":"","speciality":""},"statistics":{"commentsCount":0,"favoritesCount":7,"readingCount":312,"score":9,"votesCount":9,"votesCountPlus":9,"votesCountMinus":0},"hubs":[{"id":"144","alias":"open_source","type":"collective","title":"Open source","titleHtml":"Open source","isProfiled":true,"relatedData":null},{"id":"340","alias":"python","type":"collective","title":"Python","titleHtml":"Python","isProfiled":true,"relatedData":null},{"id":"17812","alias":"maths","type":"collective","title":"Математика","titleHtml":"Математика","isProfiled":true,"relatedData":null},{"id":"19439","alias":"machine_learning","type":"collective","title":"Машинное обучение","titleHtml":"Машинное обучение","isProfiled":true,"relatedData":null},{"id":"21922","alias":"artificial_intelligence","type":"collective","title":"Искусственный интеллект","titleHtml":"Искусственный интеллект","isProfiled":false,"relatedData":null}],"flows":[{"id":"1","alias":"develop","title":"Разработка","titleHtml":"Разработка"},{"id":"7","alias":"popsci","title":"Научпоп","titleHtml":"Научпоп"}],"relatedData":null,"leadData":{"textHtml":"\u003Cp\u003EЗдравствуйте, меня зовут Николай Стрекопытов и большую часть карьеры я работал на стыке R&amp;D и Deep Learning и в задачах возникающих в этих нишах часто невозможно написать какие-то автотесты и не всегда понятно где вообще может быть проблема поэтому нужно визуально исследовать графики каких-то алгоритмически-заданных функций или показаний с девайса при разных параметрах, а хочется эти графики изучить в максимально детализированном варианте, что почти всегда занимает неприлично большое количество времени.\u003C\u002Fp\u003E\u003Cp\u003EЯ подумал, что можно вычислять значения функции в узлах не в порядке \"перебираем каждую строчку столбца, а затем переключаемся на следующий столбец\", а в каком-то более хитром порядке И выводить результат не через часы вычислений, а по мере извлечения информации, а в точках, в которых еще не была вычислена функция показывать результат интерполяции. Собственно в этой статье я хочу описать как я разработал прототип библиотеки, которая решает эту задачу и в комментариях с удовольствием вычитаю дельные замечания.\u003C\u002Fp\u003E\u003Cp\u003E\u003C\u002Fp\u003E","imageUrl":null,"buttonTextHtml":"Читать далее","image":{"url":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F23e\u002F53c\u002Fb44\u002F23e53cb44d8091617456ef05f7e1238b.png","fit":"cover","positionY":0,"positionX":0}},"status":"published","plannedPublishTime":null,"checked":null,"format":null,"readingTime":4,"complexity":"medium","tags":[{"titleHtml":"графики"},{"titleHtml":"machine learning"},{"titleHtml":"deep learning"},{"titleHtml":"r&amp;amp;d"},{"titleHtml":"optimization"},{"titleHtml":"graphics"},{"titleHtml":"машинное обучение"},{"titleHtml":"нейросети"},{"titleHtml":"нейронные сети"},{"titleHtml":"глубокое обучение"}]},"722562":{"id":"722562","timePublished":"2023-03-15T11:55:20+00:00","isCorporative":false,"lang":"ru","titleHtml":"Износ основных средств — мобильное приложение на Flutter","editorVersion":"2.0","postType":"article","postLabels":[{"type":"sandbox","data":null}],"author":{"id":"3505933","alias":"acvatoris","fullname":"Харюк Петр","avatarUrl":"\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Favatars\u002F868\u002Fee3\u002F5ef\u002F868ee35efd2f6347cb323376eec11b0e.png","speciality":""},"statistics":{"commentsCount":2,"favoritesCount":4,"readingCount":470,"score":1,"votesCount":3,"votesCountPlus":2,"votesCountMinus":1},"hubs":[{"id":"6345","alias":"mobile_dev","type":"collective","title":"Разработка мобильных приложений","titleHtml":"Разработка мобильных приложений","isProfiled":true,"relatedData":null},{"id":"17712","alias":"dart","type":"collective","title":"Dart","titleHtml":"Dart","isProfiled":true,"relatedData":null},{"id":"21928","alias":"finance","type":"collective","title":"Финансы в IT","titleHtml":"Финансы в IT","isProfiled":false,"relatedData":null},{"id":"22176","alias":"flutter","type":"collective","title":"Flutter","titleHtml":"Flutter","isProfiled":true,"relatedData":null}],"flows":[{"id":"1","alias":"develop","title":"Разработка","titleHtml":"Разработка"},{"id":"7","alias":"popsci","title":"Научпоп","titleHtml":"Научпоп"}],"relatedData":null,"leadData":{"textHtml":"\u003Cp\u003EПриветствую. \u003C\u002Fp\u003E\u003Cp\u003EХочу продемонстрировать мобильное приложение, написанное с использованием фреймворка Flutter, «Начисление износа основных средств» (линейным методом). Данная статья, думаю, будет полезна новичкам, которые изучают Dart \u002F Flutter, но которые уже «выросли из штанишек»  «Hello world» :).  А само приложение полезно бухгалтерам для расчета износа.\u003C\u002Fp\u003E\u003Cp\u003E\u003C\u002Fp\u003E","imageUrl":null,"buttonTextHtml":"Читать далее","image":{"url":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F16a\u002Fb58\u002F1a2\u002F16ab581a280257eedfab392e3d564855.jpeg","fit":"cover","positionY":0,"positionX":0}},"status":"published","plannedPublishTime":null,"checked":null,"format":null,"readingTime":3,"complexity":"low","tags":[{"titleHtml":"dart"},{"titleHtml":"flutter"},{"titleHtml":"flutter mobile development"},{"titleHtml":"амортизация"},{"titleHtml":"бухгалтерия"},{"titleHtml":"износ"},{"titleHtml":"чистая архитектура"},{"titleHtml":"flutter app"}]}},"pagesCount":{"MOST_IMPORTANT_SANBOX_INFO":200},"route":{"name":"MOST_IMPORTANT_SANBOX_INFO","params":{"hl":"ru"},"query":{}},"lastVisitedRoute":{},"isLoading":false},"search":{"searchQueryError":null},"settingsOther":{"inputs":{"uiLang":{"errors":[],"ref":null,"value":""},"articlesLangEnglish":{"errors":[],"ref":null,"value":false},"articlesLangRussian":{"errors":[],"ref":null,"value":false},"agreement":{"errors":[],"ref":null,"value":false},"email":{"errors":[],"ref":null,"value":true},"digest":{"errors":[],"ref":null,"value":true}}},"similarList":{"similarListIds":[],"similarListRefs":null},"ssr":{"error":null,"isDataLoaded":false,"isDataLoading":false,"isHydrationFailed":false,"isServer":false},"stories":{"stories":[{"id":"story-300","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F733\u002Ff4f\u002Fcfb\u002F733f4fcfb4ea40096d8b3b233eeabed7.png","title":"Хабр Новости","link":"https:\u002F\u002Fu.habr.com\u002FDaBkU"},"title":"Tesla Bot в Atomic Heart","lang":"ru","startTime":"2023-03-15T14:00:00+03:00","finishTime":"2023-03-17T23:59:00+03:00","slides":[{"id":"story-300_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F92b\u002F5db\u002Fa88\u002F92b5dba8866be4b38399b6c27b1c8f66.jpg","button":null},{"id":"story-300_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F1af\u002F4b9\u002F1fb\u002F1af4b91fba77623e6042130d7acc081b.jpg","button":null},{"id":"story-300_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F427\u002F695\u002F8f5\u002F4276958f56d2451cf11d1a0f3ed3c4a8.jpg","button":{"title":"Подробнее","link":"https:\u002F\u002Fu.habr.com\u002FDaBkU","colorType":"light"}}]},{"id":"story-298","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F861\u002F278\u002F7b0\u002F8612787b0e2137d8cf487ce655a8bc60.png","title":"Хабр Новости","link":"https:\u002F\u002Fu.habr.com\u002FR9kas"},"title":"Робопсы патрулируют ЦОД в Цюрихе","lang":"ru","startTime":"2023-03-15T13:52:00+03:00","finishTime":"2023-03-17T22:30:00+03:00","slides":[{"id":"story-298_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F86c\u002F3e9\u002Fb24\u002F86c3e9b2404091d1675b4e82fbc670c2.jpg","button":null},{"id":"story-298_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F338\u002F37a\u002Ff4e\u002F33837af4e14c4502f1262273cff0be0b.jpg","button":null},{"id":"story-298_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Ffad\u002F29f\u002F78b\u002Ffad29f78bc03ca9d473d2da93629fa5f.jpg","button":{"title":"Подробнее","link":"https:\u002F\u002Fu.habr.com\u002FR9kas","colorType":"light"}}]},{"id":"story-296","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fd59\u002Fa4b\u002Fc74\u002Fd59a4bc74deec559888728bac63c8744.png","title":"Хабр Карьера","link":"https:\u002F\u002Fu.habr.com\u002FfnoO9"},"title":"Кем работать в IT: Scrum-мастер","lang":"ru","startTime":"2023-03-14T11:10:00+03:00","finishTime":"2023-03-21T23:59:00+03:00","slides":[{"id":"story-296_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F50c\u002Ff4e\u002Fb0b\u002F50cf4eb0b63bacf94fe49737d0e00958.png","button":null},{"id":"story-296_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F4cf\u002F981\u002Fb95\u002F4cf981b95ef9afeb773d191612ddfec3.png","button":null},{"id":"story-296_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F3ab\u002Fe79\u002F5da\u002F3abe795da78dcd4c1f951a7eb6481608.png","button":{"title":"Подробнее","link":"https:\u002F\u002Fu.habr.com\u002FfnoO9","colorType":"dark"}},{"id":"story-296_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F72f\u002Fe3e\u002F46f\u002F72fe3e46faaf60ec518100b155b61d73.png","button":{"title":"Подробнее","link":"https:\u002F\u002Fu.habr.com\u002FfnoO9","colorType":"dark"}},{"id":"story-296_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F471\u002F060\u002F9a1\u002F4710609a1dfa6a508fef8ec62f031621.png","button":{"title":"Подробнее","link":"https:\u002F\u002Fu.habr.com\u002FfnoO9","colorType":"dark"}},{"id":"story-296_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F67f\u002F49b\u002F88c\u002F67f49b88c5e399b4d75c560288b72796.png","button":{"title":"Подробнее","link":"https:\u002F\u002Fu.habr.com\u002FfnoO9","colorType":"dark"}}]},{"id":"story-280","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F8f3\u002Ff89\u002Faa5\u002F8f3f89aa500a5fc407f7e1e927002ce0.png","title":"Geek Travel","link":null},"title":"Где в России покататься на дрезине","lang":"ru","startTime":"2023-03-09T10:00:00+03:00","finishTime":"2023-03-19T23:59:00+03:00","slides":[{"id":"story-280_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fb44\u002F68b\u002Fd51\u002Fb4468bd51494723807a4438f03a9824d.jpg","button":null},{"id":"story-280_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F3aa\u002Fafe\u002F0fb\u002F3aaafe0fb803c0043aff70ae407a6da0.jpg","button":null},{"id":"story-280_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fca6\u002F8ed\u002F3d8\u002Fca68ed3d8251f5e25034d27c4e73da3a.jpg","button":null},{"id":"story-280_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Ff02\u002Ff05\u002Fafd\u002Ff02f05afda6f5925e4aaa3748953575c.jpg","button":null},{"id":"story-280_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fca9\u002Fa6a\u002Fad2\u002Fca9a6aad2113a292566924b015a44d88.jpg","button":null},{"id":"story-280_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F4f8\u002F708\u002Faa9\u002F4f8708aa9526b05dd8bc0e23dbbb59d7.jpg","button":null},{"id":"story-280_7","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F2af\u002F9d2\u002F852\u002F2af9d2852a460d69364e0969cbb7d04f.jpg","button":null}]},{"id":"story-288","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F81b\u002F4f7\u002F1e8\u002F81b4f71e8fdc766f6d91491a5179ecb0.png","title":"Хабр Карьера","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fusers\u002Fhabr_career\u002Fposts\u002F"},"title":"Разбор резюме специалистов на Хабр Карьере","lang":"ru","startTime":"2023-03-08T13:00:00+03:00","finishTime":"2023-03-15T23:59:00+03:00","slides":[{"id":"story-288_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F85a\u002F0ec\u002Fde0\u002F85a0ecde038a35f01ff328a3e67f5450.png","button":null},{"id":"story-288_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F885\u002F078\u002F3e1\u002F8850783e127c042f4db7a31cbe43c561.png","button":null},{"id":"story-288_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F876\u002F34c\u002F5b8\u002F87634c5b855ea18469a3024e386bb160.png","button":{"title":"Смотреть разбор","link":"https:\u002F\u002Fu.habr.com\u002FyDfoT","colorType":"dark"}}]},{"id":"story-278","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F3b2\u002F2b9\u002F874\u002F3b22b9874c30d2e95f06e8ba591d7226.png","title":"Хабр","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fblog\u002F"},"title":"Схватил за мозг","lang":"ru","startTime":"2023-03-06T11:00:00+03:00","finishTime":"2023-03-19T23:59:00+03:00","slides":[{"id":"story-278_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F6d2\u002F515\u002F649\u002F6d2515649a98ebff0fff2c95f13aa9e6.jpg","button":null},{"id":"story-278_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F6ba\u002F37c\u002F756\u002F6ba37c75671941bb212e0bf815f99550.jpg","button":{"title":"Что оказалось?","link":"https:\u002F\u002Fu.habr.com\u002Fbrain01","colorType":"light"}},{"id":"story-278_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F702\u002Fbe8\u002Fa8f\u002F702be8a8fe21d483936df54dc074b96a.jpg","button":{"title":"Осознать","link":"https:\u002F\u002Fu.habr.com\u002Fbrain02","colorType":"light"}},{"id":"story-278_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F9e2\u002F2c2\u002F499\u002F9e22c2499018c37dbb4064053ef7e0a0.jpg","button":{"title":"Отложить таблетку","link":"https:\u002F\u002Fu.habr.com\u002Fbrain03","colorType":"dark"}},{"id":"story-278_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F756\u002F85f\u002F99b\u002F75685f99b00f7a2323028948818a1b66.jpg","button":{"title":"Смотреть советы","link":"https:\u002F\u002Fu.habr.com\u002Fbrain04","colorType":"dark"}},{"id":"story-278_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F442\u002F9a8\u002F159\u002F4429a8159a4280575a30cf1bbbdb3b08.jpg","button":{"title":"Уделить внимание","link":"https:\u002F\u002Fu.habr.com\u002Fbrain05","colorType":"light"}},{"id":"story-278_7","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F892\u002Fe3e\u002Fa8b\u002F892e3ea8b4ad8934c6858348943804fd.jpg","button":{"title":"Записать нужное","link":"https:\u002F\u002Fu.habr.com\u002Fbrain06","colorType":"light"}},{"id":"story-278_8","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Ffa5\u002Ffe9\u002F7bb\u002Ffa5fe97bb1ec4af1e7b1e164171b795c.jpg","button":{"title":"Какое именно?","link":"https:\u002F\u002Fu.habr.com\u002Fbrain07","colorType":"light"}}]},{"id":"story-276","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F371\u002F16e\u002F9ae\u002F37116e9aec24a99308b5d55fd3385062.png","title":"Хабр","link":"https:\u002F\u002Fu.habr.com\u002Fstories_habrapp"},"title":"Приложение Хабра для Android и iOS","lang":"ru","startTime":"2023-03-06T10:00:00+03:00","finishTime":"2023-03-19T23:59:00+03:00","slides":[{"id":"story-276_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F5d5\u002Fadb\u002F1dd\u002F5d5adb1dd2abf6a2e7f8956f4879eced.jpg","button":{"title":"Вот это новость!","link":"https:\u002F\u002Fu.habr.com\u002Fstories_habrapp","colorType":"light"}},{"id":"story-276_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F2e1\u002Fd75\u002F99c\u002F2e1d7599c38e3c11d124d5e8beece6cc.jpg","button":{"title":"А что у вас за стек?","link":"https:\u002F\u002Fu.habr.com\u002Fstories_habrapp","colorType":"dark"}},{"id":"story-276_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F448\u002Fe83\u002F1f9\u002F448e831f9da9256729dff47718aefdab.jpg","button":{"title":"Перейти к приложению","link":"https:\u002F\u002Fu.habr.com\u002FK8Ib8","colorType":"light"}},{"id":"story-276_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Faa0\u002F395\u002F080\u002Faa0395080db2f6eebbc22620a3153c1c.jpg","button":{"title":"Перейти к приложению","link":"https:\u002F\u002Fu.habr.com\u002FFatyV","colorType":"dark"}}]},{"id":"story-272","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F82b\u002Fdd7\u002F7d8\u002F82bdd77d8ef7304d3b1b599191c2bb1c.png","title":"Сезоны Хабра","link":"https:\u002F\u002Fu.habr.com\u002F5P6i7"},"title":"Открыт сезон ML","lang":"ru","startTime":"2023-03-02T09:00:41+03:00","finishTime":"2023-03-31T20:53:00+03:00","slides":[{"id":"story-272_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F27f\u002Fd3a\u002Fddf\u002F27fd3addfe06da09592bdcf61db15795.jpg","button":null},{"id":"story-272_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F935\u002F582\u002F992\u002F935582992e378add33c898451b2a0d9f.jpg","button":null},{"id":"story-272_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fe13\u002Feb8\u002Fa24\u002Fe13eb8a24b60622d3da72fd6e7ed3fda.jpg","button":null},{"id":"story-272_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fa85\u002F83f\u002F5cc\u002Fa8583f5ccfae747135343f0e68c84112.jpg","button":{"title":"Подробнее","link":"https:\u002F\u002Fu.habr.com\u002F5P6i7","colorType":"light"}},{"id":"story-272_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F60d\u002F1cb\u002F98c\u002F60d1cb98cdd42d2696ebc0ec54740a23.jpg","button":{"title":"Подробнее","link":"https:\u002F\u002Fu.habr.com\u002F5P6i7","colorType":"light"}}]},{"id":"story-262","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F2fa\u002Fc8a\u002Fba8\u002F2fac8aba82b995297abea595da7990d1.png","title":"Хабр","link":"https:\u002F\u002Fhabr.com\u002Fru\u002Fcompany\u002Fhabr\u002Fblog\u002F"},"title":"Наука сна","lang":"ru","startTime":"2023-02-28T12:15:00+03:00","finishTime":"2023-03-15T23:59:00+03:00","slides":[{"id":"story-262_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fa90\u002F725\u002F61c\u002Fa9072561c280c46933ff54fd8702cade.jpg","button":null},{"id":"story-262_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Ffd7\u002F658\u002F956\u002Ffd7658956ea825b1c317c7f688c48058.jpg","button":{"title":"Читать лекцию","link":"https:\u002F\u002Fu.habr.com\u002Fson01","colorType":"light"}},{"id":"story-262_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F366\u002Fd2e\u002F707\u002F366d2e70725209177fa82a4119139c86.jpg","button":{"title":"При чём же?","link":"https:\u002F\u002Fu.habr.com\u002Fson02","colorType":"light"}},{"id":"story-262_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F4bd\u002F40f\u002F731\u002F4bd40f731bfbf571a709dd2f357f06b4.jpg","button":{"title":"Заглянуть в дневник","link":"https:\u002F\u002Fu.habr.com\u002Fson03","colorType":"light"}},{"id":"story-262_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F944\u002F7ad\u002Fe2f\u002F9447ade2f38c3c36790be75bf4462047.jpg","button":{"title":"Последствия","link":"https:\u002F\u002Fu.habr.com\u002Fson04","colorType":"light"}},{"id":"story-262_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F74c\u002Fce1\u002F4dc\u002F74cce14dc903b245dca90df3f2747abb.jpg","button":{"title":"Смотреть список","link":"https:\u002F\u002Fu.habr.com\u002Fson05","colorType":"light"}},{"id":"story-262_7","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fbc9\u002Fa62\u002F9f0\u002Fbc9a629f0c5ef2027cf7796749a06914.jpg","button":{"title":"Следы в истории","link":"https:\u002F\u002Fu.habr.com\u002Fson06","colorType":"light"}},{"id":"story-262_8","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F085\u002F0ee\u002F868\u002F0850ee868132e1ec4ec3b24caf7e719a.jpg","button":{"title":"Что придумали?","link":"https:\u002F\u002Fu.habr.com\u002Fson07","colorType":"light"}}]},{"id":"story-152","author":{"logo":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fa49\u002F0d3\u002F609\u002Fa490d3609f29b6dfc53a7b88ab47ca64.png","title":"Хабр","link":"https:\u002F\u002Fu.habr.com\u002Fstory_HiM-anketa"},"title":"Сеньоры — очень странные люди","lang":"ru","startTime":"2023-01-23T11:00:00+03:00","finishTime":"2023-03-31T23:59:00+03:00","slides":[{"id":"story-152_1","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fbbb\u002F901\u002F063\u002Fbbb9010630ae483ed1f41ec4e2572c13.png","button":null},{"id":"story-152_2","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F4f8\u002F66c\u002F14f\u002F4f866c14f0ca8999334438d7f17c0e3a.png","button":null},{"id":"story-152_3","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F6b9\u002Fa07\u002Fa61\u002F6b9a07a612df213ac3a1c179301828df.png","button":null},{"id":"story-152_4","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Ff6b\u002Fadb\u002Fb99\u002Ff6badbb9969d7e34ef4f7492767c6a77.png","button":null},{"id":"story-152_5","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fd9c\u002F9ac\u002F878\u002Fd9c9ac878bec5b494699e0080dd2e813.png","button":null},{"id":"story-152_6","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fdb1\u002Faf9\u002Fc3b\u002Fdb1af9c3bb557f6cee698cf67610f977.png","button":null},{"id":"story-152_7","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002F5cf\u002Fbed\u002F65b\u002F5cfbed65bd20b7051b1aac2b9d6e807e.png","button":null},{"id":"story-152_8","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Ffa8\u002F251\u002F4a9\u002Ffa82514a9471cd455339e97178d8c021.png","button":null},{"id":"story-152_9","image":"https:\u002F\u002Fhabrastorage.org\u002Fgetpro\u002Fhabr\u002Fupload_files\u002Fbd5\u002F901\u002Fe95\u002Fbd5901e952d9cf638355a3cc8b0c0911.png","button":{"title":"Хочу помочь джуну","link":"https:\u002F\u002Fu.habr.com\u002Fstory_HiM-anketa","colorType":"light"}}]}]},"technotext":{"years":[],"technotextDocForNominees":null,"technotextDocForWinners":null,"technotextInfo":{},"technotextInfoLoading":false,"technotextWinners":{},"technotextWinnersLoading":false},"userHubsContribution":{"contributionRefs":{"hubRefs":{},"hubIds":{}}},"userInvites":{"availableInvites":0,"usedInvitesIds":[],"usedInvitesRefs":{},"usedInvitesPagesCount":0,"unusedInvitesIds":[],"unusedInvitesRefs":{},"unusedInvitesPagesCount":0},"userVotes":{"karmaVotesList":[],"karmaVotesPagesCount":null,"karmaVotesListLoading":false,"commentsVotesList":[],"commentsVotesPagesCount":null,"commentsVotesListLoading":false,"postsVotesList":[],"postsVotesPagesCount":null,"postsVotesListLoading":false,"userVotesList":[],"userVotesPagesCount":null,"userVotesListLoading":false},"users":{"authorRefs":{},"authorIds":{},"pagesCount":{},"authorProfiles":{},"userHubs":{},"userInvitations":{},"authorFollowers":{},"authorFollowed":{},"userSpecialization":{},"karmaStats":[],"statistics":null,"isLoading":false,"authorFollowersLoading":false,"authorFollowedLoading":false,"userHubsLoading":false,"userInvitationsLoading":false,"route":{}},"viewport":{"prevScrollY":{},"scrollY":0,"width":0},"tracker":{"items":{},"pagesCache":{},"markedViewedSilently":{},"markedRead":{},"unreadCounters":{"applications":null,"system":null,"mentions":null,"subscribers":null,"posts_and_comments":null},"unviewedCounters":{"applications":null,"system":null,"mentions":null,"subscribers":null,"posts_and_comments":null}}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script>
+<script src="https://assets.habr.com/habr-web/js/chunk-vendors.76685433.js" defer></script><script src="https://assets.habr.com/habr-web/js/sandbox.3b8d9569.js" defer></script><script src="https://assets.habr.com/habr-web/js/app.067cb56a.js" defer></script>
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-726094-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+  
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(24049213, "init", {
+      defer:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:false,
+    });
+  </script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/24049213" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+  </noscript>
+  
+    <script type="text/javascript">
+      window.addEventListener('load', function () {
+        setTimeout(() => {
+          const img = new Image();
+          img.src = 'https://vk.com/rtrg?p=VK-RTRG-421343-57vKE';
+        }, 0);
+      });
+    </script>
+  
+<script src="/js/ads.js" onload="window['zhY4i4nJ9K'] = true"></script>
+</body>
+</html>

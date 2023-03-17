@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Результаты поиска по запросу «[IRI]»</title>
+    <link>https://habr.com/ru/</link>
+    <description><![CDATA[Результаты поиска по запросу «[IRI]»]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:20:00 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[Переходим на &quot;/национальный/адрес&quot; вместо &quot;/nacionalnyi/adres&quot;?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/94205/</guid>
+      <link>https://habr.com/ru/post/94205/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[&nbsp; <a href="https://habr.com/ru/post/94205/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Fri, 21 May 2010 15:36:55 GMT</pubDate>
+      <dc:creator>Grox</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[url]]></category><category><![CDATA[uri]]></category><category><![CDATA[iri]]></category><category><![CDATA[национальный url]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[URI — сложно о простом (Часть 1)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/232385/</guid>
+      <link>https://habr.com/ru/post/232385/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/files/bd4/4cc/c3e/bd44ccc3e6df448e952967572648d0d3.jpg" alt="image"/><br/>
+<br/>
+Привет хабр!<br/>
+<br/>
+Появилось таки некоторое количество времени, и я решил написать сий пост, идея которого возникла уже давно.<br/>
+Связан он будет будет с такой, казалось бы, простой вещью, как URI, детальному рассмотрению которой в рунете уделяется как-то мало внимания.<br/>
+<br/>
+&quot;<i>Пфф, ссылки они и в Африке ссылки, чего тут разбираться?</i>&quot; — скажете вы, тогда я задам вопрос: <br/>
+<br/>
+<i>Что есть что и куда нас приведет?</i><br/>
+<ul>
+<li><code>http://example.com</code></li>
+<li><code>www.example.com</code></li>
+<li><code>//www.example.com</code></li>
+<li><code>mailto:user@example.com</code></li>
+</ul><br/>
+Если вы не знаете однозначного ответа или вам просто интересно <s>и если вы не боитесь огромного количества трехбуквенных аббревиатур</s> — милости прошу под кат.<br/>
+ <a href="https://habr.com/ru/post/232385/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sat, 11 Jul 2015 22:33:43 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[URL]]></category><category><![CDATA[URI]]></category><category><![CDATA[URN]]></category><category><![CDATA[IRI]]></category><category><![CDATA[гиперссылки]]></category><category><![CDATA[ссылки]]></category><category><![CDATA[домены]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Мой URL — это не ваш URL]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/301516/</guid>
+      <link>https://habr.com/ru/post/301516/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/files/24b/4ab/8bd/24b4ab8bd2b8487c8f8d45581d704d71.jpg"/><br/>
+<br/>
+Когда давным-давно в 1996 году я приступил к работе над программой httpget, предшественницей проекта Curl, я написал свой первый синтаксический анализатор URL. Как раз тогда этот универсальный адрес получил название <a href="https://www.ietf.org/rfc/rfc1738.txt">URL</a>: Uniform Resource Locator (единый указатель ресурсов). Его спецификация была опубликована IETF в 1994 году. Аббревиатура «URL» была затем использована как источник вдохновения для названия инструмента и проекта <a href="https://curl.haxx.se/">Curl</a>.<br/>
+<br/>
+Термин «URL» был позднее изменён; его стали называть <a href="https://www.ietf.org/rfc/rfc3986.txt">URI</a> (Uniform Resource Identifier — единый идентификатор ресурсов), согласно спецификации, опубликованной в 2005 году, однако основное сохранилось: синтаксис для строки, задающей онлайн-ресурс и указывающей протокол для получения этого ресурса. Мы требуем, чтобы curl принимал указатели URL, как определено данной спецификацией RFC 3986. Ниже я расскажу, почему на самом деле это не совсем так.<br/>
+ <a href="https://habr.com/ru/post/301516/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Mon, 23 May 2016 17:16:22 GMT</pubDate>
+      <dc:creator>LukinB</dc:creator>
+      <category><![CDATA[IT-стандарты]]></category><category><![CDATA[Браузеры]]></category>
+      <category>Интернет</category><category>браузеры</category><category>URL</category><category>стандарты</category><category>URI</category><category>IRI</category><category>curl</category><category>WHATWG</category>
+    </item>
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

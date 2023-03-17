@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Все публикации в потоке Менеджмент</title>
+    <link>https://habr.com/ru/flows/management/all/</link>
+    <description><![CDATA[Все публикации в потоке Менеджмент на Хабре]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:16:43 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[Лучшие языки программирования для изучения в 2023 году | Голосование]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722586/</guid>
+      <link>https://habr.com/ru/post/722586/?utm_campaign=722586&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Программирование постоянно развивается, а с ним и языки программирования, которые используются разработчиками. Чтобы быть успешным в мире IT, важно выбрать актуальный и востребованный язык программирования для изучения. Мы решили провести голосование, чтобы выяснить, какие языки программирования считаются самыми актуальными и популярными, а какие самыми неактуальными среди представленных в 2023 году по версии пользователей Habr. </p><p></p> <a href="https://habr.com/ru/post/722586/?utm_campaign=722586&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 13:01:14 GMT</pubDate>
+      <dc:creator>zarytskiy</dc:creator>
+      <category><![CDATA[Программирование]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Карьера в IT-индустрии]]></category><category><![CDATA[Учебный процесс в IT]]></category>
+      <category><![CDATA[языки программирования]]></category><category><![CDATA[языки программирования список]]></category><category><![CDATA[популярные языки программирования]]></category><category><![CDATA[языки программирования 2023]]></category><category><![CDATA[обучение программированию]]></category><category><![CDATA[изучение программирования]]></category><category><![CDATA[python]]></category><category><![CDATA[javascript]]></category><category><![CDATA[java]]></category><category><![CDATA[c++]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Кто такой бизнес-аналитик?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722572/</guid>
+      <link>https://habr.com/ru/post/722572/?utm_campaign=722572&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Бизнес-аналитик - это профессионал, который играет важную роль в успешной работе компании. Он является связующим звеном между бизнесом и сферой АйТи. Бизнес-аналитик изучает бизнес-процессы организации, выявляет возможные проблемы и находит эффективные решения. Он использует свои знания и опыт, чтобы помочь компаниям оптимизировать свои бизнес-процессы, что в свою очередь увеличивает эффективность работы, снижает издержки и повышает конкурентоспособность компании.</p><p></p> <a href="https://habr.com/ru/post/722572/?utm_campaign=722572&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 12:19:32 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS]]></category><category><![CDATA[Анализ и проектирование систем]]></category><category><![CDATA[Управление продуктом]]></category>
+      <category><![CDATA[бизнес-анализ]]></category><category><![CDATA[бизнес аналитика]]></category><category><![CDATA[бизнес аналитик]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как преодолеть границу роста мощностей?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722546/</guid>
+      <link>https://habr.com/ru/post/722546/?utm_campaign=722546&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/97/6i/qi/976iqilsxdtucmnaz2dvphbef1y.jpeg" alt="image"><br>
+<br>
+Вычислительные ресурсы <a href="https://cloud.mts.ru/services/virtual-infrastructure/?utm_source=habr.com&amp;utm_medium=owned_media_neuro&amp;utm_content=article&amp;utm_term=neuro" rel="nofollow noopener noreferrer">виртуальных дата-центров</a> практически не ограничены. Однако, если ваша компания генерирует большое количество данных, в конце концов целесообразность работы с обычными ЦОД будет под вопросом. Чем больше расстояние между локацией с серверами и местом сбора данных, тем ниже скорость вычислений.<br>
+<br>
+В этом контексте набирают обороты так называемые граничные вычисления (edge computing). В такой парадигме данные обрабатывают на «границе сети» как можно ближе к клиентам. Переход к edge-инсталляциям имеет жизненно важное значение для решения проблем с задержками и построения действительно интеллектуальных и автономных систем, таких как беспилотный транспорт. <br>
+<br>
+Однако обработка данных на местах имеет свои проблемы. В первую очередь, с энергоемкостью и скоростью вычислений. И одно из перспективных решений, способных предложить выход из ситуации, — это <b>нейроморфные системы</b>.<br>
+<br> <a href="https://habr.com/ru/post/722546/?utm_campaign=722546&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 11:16:21 GMT</pubDate>
+      <dc:creator>randall</dc:creator>
+      <category><![CDATA[Блог компании CloudMTS]]></category><category><![CDATA[Высокая производительность]]></category><category><![CDATA[Искусственный интеллект]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Процессоры]]></category>
+      <category><![CDATA[нейроморфный чип]]></category><category><![CDATA[нейроморфные системы]]></category><category><![CDATA[нейроморфный процессор]]></category><category><![CDATA[ИИ]]></category><category><![CDATA[процессор]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Не можете измерить — не сможете улучшить: как мы используем метрики в разработке автотестов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722378/</guid>
+      <link>https://habr.com/ru/post/722378/?utm_campaign=722378&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Привет! Меня зовут Александр, я работаю QAA менеджером в компании Wrike, начинал с позиции QAA инженера в далеком 2010-ом и был первым в этой роли. За 12 лет нам удалось построить крутую команду и создать систему контроля качества, которая позволяет быстро и без багов деплоить продуктовый код в продакшен.&nbsp;</p><p>В статье я расскажу три истории из опыта нашей команды, которые наглядно показывают, что без правильно подобранных метрик сложно оценивать и отслеживать изменения в текущих процессах. Статья будет полезна, если вы хотите осознанно и качественно подходить к процессу разработки тестов, контролировать и улучшать этот процесс, используя данные, а также уметь оценивать результаты проведенных экспериментов.</p><p></p> <a href="https://habr.com/ru/post/722378/?utm_campaign=722378&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 10:24:52 GMT</pubDate>
+      <dc:creator>alshurov</dc:creator>
+      <category><![CDATA[Блог компании Wrike]]></category><category><![CDATA[Тестирование IT-систем]]></category><category><![CDATA[Java]]></category><category><![CDATA[Управление разработкой]]></category><category><![CDATA[Статистика в IT]]></category>
+      <category><![CDATA[автотестирование]]></category><category><![CDATA[qa automation]]></category><category><![CDATA[qaa]]></category><category><![CDATA[development]]></category><category><![CDATA[java]]></category><category><![CDATA[metrics]]></category><category><![CDATA[метрики процесса]]></category><category><![CDATA[wrike]]></category><category><![CDATA[wriketechclub]]></category><category><![CDATA[блог компании wrike]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Выгорание программиста. Интересная работа — самая опасная]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722000/</guid>
+      <link>https://habr.com/ru/post/722000/?utm_campaign=722000&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/722000/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/cw/w9/_q/cww9_qw1bidtbdpzr_irmi4qrbe.jpeg"></div></a><br>
+Среди айтишников мало жизнерадостных людей… Скорее наоборот, многие выглядят несчастными, а если провести анкетирование, то <a href="https://www.usehaystack.io/blog/83-of-developers-suffer-from-burnout-haystack-analytics-study-finds" rel="nofollow noopener noreferrer">83% проявляют признаки выгорания</a>, хотя до <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/job.4030020205" rel="nofollow noopener noreferrer">крайней степени истощения и цинизма</a> ещё не дошли. Но постоянная когнитивная нагрузка и хронический стресс ведут к закономерному результату:<br>
+<br>
+<ul>
+<li><a href="https://codesubmit.io/blog/developer-burnout/" rel="nofollow noopener noreferrer">выгорание</a>,<br>
+</li>
+<li>физическая деградация,<br>
+</li>
+<li>депрессия,<br>
+</li>
+<li>ранний уход из профессии.</li>
+</ul><br>
+Все эти последствия хорошо предсказуемы. Поэтому их можно предотвратить.<br> <a href="https://habr.com/ru/post/722000/?utm_campaign=722000&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 09:00:03 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Управление персоналом]]></category><category><![CDATA[Карьера в IT-индустрии]]></category><category><![CDATA[Здоровье]]></category>
+      <category><![CDATA[ruvds_статьи]]></category><category><![CDATA[выгорание]]></category><category><![CDATA[интересная работа]]></category><category><![CDATA[саббатикал]]></category><category><![CDATA[баланс ценностей]]></category><category><![CDATA[смысл жизни]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[«Школа 21» в 2022 году: результаты работы и планы на будущее]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722490/</guid>
+      <link>https://habr.com/ru/post/722490/?utm_campaign=722490&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Привет, Хабр! Сегодня продолжаем рассказывать о нашем образовательном проекте, который называется «Школа 21». Ему в 2023 году исполняется уже пять лет. Школа позволяет кандидатам старше 18 лет, которые успешно прошли отборочные этапы, бесплатно получить развитие навыков, востребованных в сфере IT. О том, что такое «Школа 21» и в чём особенность её методологии, мы уже <a href="https://habr.com/ru/company/sberbank/blog/506950/">рассказывали</a>. А сейчас поговорим о том, каких результатов удалось достичь и что ждёт нашу школу программирования в будущем.</p><p></p> <a href="https://habr.com/ru/post/722490/?utm_campaign=722490&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Расскажите больше, пожалуйста!</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 08:02:47 GMT</pubDate>
+      <dc:creator>Sber</dc:creator>
+      <category><![CDATA[Блог компании Сбер]]></category><category><![CDATA[Управление проектами]]></category><category><![CDATA[Учебный процесс в IT]]></category><category><![CDATA[Карьера в IT-индустрии]]></category>
+      <category><![CDATA[управление проектами]]></category><category><![CDATA[управление проектами и командой]]></category><category><![CDATA[учебный процесс в it]]></category><category><![CDATA[it]]></category><category><![CDATA[it-компании]]></category><category><![CDATA[карьера]]></category><category><![CDATA[карьера в it-индустрии]]></category><category><![CDATA[карьера программиста]]></category><category><![CDATA[карьера в it]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Смотрю в книгу — вижу «фигу». Техника «абсорбирования» учебников SQ3R вместо пассивного чтения]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721468/</guid>
+      <link>https://habr.com/ru/post/721468/?utm_campaign=721468&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Школа и ВУЗ приучают читать учебники от корки до корки, помещая ученика в своего рода линейный таймлайн — вот начало книги, вот конец. А между ними середина. Двигайся вперед, листай страницы дальше. То, что прочитано — уже выучено. А хочешь повторить — загляни в заметки.</p><p>В общем, чрезвычайно «эффективный» подход...</p><p>А ведь надо совсем немного — из-под пелены букв достать ключевую суть и запомнить ее навсегда. Это идеальный результат прочтения любого учебника. </p><p></p> <a href="https://habr.com/ru/post/721468/?utm_campaign=721468&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 08:00:01 GMT</pubDate>
+      <dc:creator>gov0run</dc:creator>
+      <category><![CDATA[Блог компании FirstVDS]]></category><category><![CDATA[GTD]]></category><category><![CDATA[Учебный процесс в IT]]></category><category><![CDATA[Лайфхаки для гиков]]></category><category><![CDATA[Мозг]]></category>
+      <category><![CDATA[техника чтения]]></category><category><![CDATA[SQ3R]]></category><category><![CDATA[память]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Что такое вообще сопровождение сотрудника в процессе выполнения поставленной задачи?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722404/</guid>
+      <link>https://habr.com/ru/post/722404/?utm_campaign=722404&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Вообще изначально, я хотел написать другую статью, на тему “Как правильно сопровождать сотрудника во время выполнения задачи”, но я понял, что перед этим важно написать о принципах, которые будут лежать в основе моих методов сопровождения.</p><p>Меня зовут Андрей Глушко. Я менеджер ИТ проектов, занимаюсь менторством, прошёл путь от разработчика до руководителя, в своих подходах опираюсь в первую очередь на людей, а потом уже на практики.</p><p></p> <a href="https://habr.com/ru/post/722404/?utm_campaign=722404&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 07:55:04 GMT</pubDate>
+      <dc:creator>dreikaaa</dc:creator>
+      <category><![CDATA[Управление разработкой]]></category><category><![CDATA[Управление проектами]]></category><category><![CDATA[Управление персоналом]]></category>
+      <category><![CDATA[управление людьми]]></category><category><![CDATA[управление проектами]]></category><category><![CDATA[управление командой]]></category><category><![CDATA[сопровождение]]></category><category><![CDATA[мотивация сотрудников]]></category><category><![CDATA[организация работы]]></category><category><![CDATA[контроль сотрудников]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Все про разработку в ОАЭ]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/720378/</guid>
+      <link>https://habr.com/ru/post/720378/?utm_campaign=720378&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Всем привет!</p><p>В&nbsp;этой статье я хочу на&nbsp;опыте мужа и знакомых рассказать что&nbsp;из&nbsp;себя представляет разработка в&nbsp;ОАЭ. Отдельно рекомендую изучить эту статью перед тем, как&nbsp;решитесь принимать оффер из&nbsp;ОАЭ или&nbsp;из&nbsp;другой страны Ближнего Востока, ситуация будет примерно такой&nbsp;же, а&nbsp;может и хуже.</p><p></p> <a href="https://habr.com/ru/post/720378/?utm_campaign=720378&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 07:50:02 GMT</pubDate>
+      <dc:creator>RecruitMeNow</dc:creator>
+      <category><![CDATA[IT-эмиграция]]></category><category><![CDATA[Карьера в IT-индустрии]]></category>
+      <category><![CDATA[разработка]]></category><category><![CDATA[оаэ]]></category><category><![CDATA[дубай]]></category><category><![CDATA[абу-даби]]></category><category><![CDATA[эмираты]]></category><category><![CDATA[релокация]]></category><category><![CDATA[релокация в оаэ]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Оплачиваемое хобби: как из студента стать ментором курса]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722458/</guid>
+      <link>https://habr.com/ru/post/722458/?utm_campaign=722458&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Гарантирует ли Слёрм трудоустройство? Нет: об этом мы сразу честно говорим на страницах всех наших курсов. Но помогает ли Слёрм получить работу? Да! И пример в подтверждение этому — история нашего студента Артёма Примы, который после DevOps Upgrade стал ментором курса.&nbsp;</p><p>Далее — история Артёма, о том, как он стал ментором и впечатления от взаимодействия со студентами: что им даётся проще, а что — сложнее.</p><p></p> <a href="https://habr.com/ru/post/722458/?utm_campaign=722458&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 07:00:02 GMT</pubDate>
+      <dc:creator>Polina_Averina</dc:creator>
+      <category><![CDATA[Блог компании Southbridge]]></category><category><![CDATA[IT-инфраструктура]]></category><category><![CDATA[Карьера в IT-индустрии]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[Kubernetes]]></category>
+      <category><![CDATA[kubernetes]]></category><category><![CDATA[k8s]]></category><category><![CDATA[it-инфраструктура]]></category><category><![CDATA[devops]]></category><category><![CDATA[карьера ит-специалиста]]></category><category><![CDATA[карьера в it-индустрии]]></category><category><![CDATA[карьера в it]]></category><category><![CDATA[docker]]></category><category><![CDATA[ansible]]></category><category><![CDATA[terraform]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Если управленец задумался об эффективности удаленной работы]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722406/</guid>
+      <link>https://habr.com/ru/post/722406/?utm_campaign=722406&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>В&nbsp;последнее время все больше компаний начали отказываться от&nbsp;удаленной работы в&nbsp;пользу гибридного формата, а&nbsp;то и полностью очного. Тему подогревают новостные ленты, сообщающие что&nbsp;Amazon, Яндекс, Tesla объявили о&nbsp;полной и частичной отмене удаленки.</p><p>Как&nbsp;принять решение управленцу, засомневавшемуся в&nbsp;эффективности удаленной работы. Предлагаю обсудить эту тему.</p><p></p> <a href="https://habr.com/ru/post/722406/?utm_campaign=722406&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 06:50:51 GMT</pubDate>
+      <dc:creator>Nataly_Burtseva</dc:creator>
+      <category><![CDATA[Управление персоналом]]></category><category><![CDATA[Удалённая работа]]></category>
+      <category><![CDATA[удаленная работа]]></category><category><![CDATA[эффективность работы]]></category><category><![CDATA[менеджмент]]></category><category><![CDATA[управление персоналом.]]></category><category><![CDATA[смк]]></category><category><![CDATA[iso 9001]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Снова про ARIS. Коллекция «велосипедов» для разработчика]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722418/</guid>
+      <link>https://habr.com/ru/post/722418/?utm_campaign=722418&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Нестандартные подходы к написанию скриптов, разработка собственных библиотек и  другая полезная информация для разработчиков скриптов ARIS.</p><p>Если Вы уже знаете что такое ARIS, то добро пожаловать. Если нет, то можете прочитать вот <a href="https://habr.com/ru/post/645425/" rel="noopener noreferrer nofollow">эту статью</a>.</p><p></p> <a href="https://habr.com/ru/post/722418/?utm_campaign=722418&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 06:07:12 GMT</pubDate>
+      <dc:creator>kitmarty</dc:creator>
+      <category><![CDATA[JavaScript]]></category><category><![CDATA[Java]]></category><category><![CDATA[ERP-системы]]></category>
+      <category><![CDATA[ARIS]]></category><category><![CDATA[javascript]]></category><category><![CDATA[java]]></category><category><![CDATA[субд]]></category><category><![CDATA[reports]]></category><category><![CDATA[docx]]></category><category><![CDATA[word]]></category><category><![CDATA[отчеты]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Apple Pro Weekly News (06.03 – 12.03.23)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722442/</guid>
+      <link>https://habr.com/ru/post/722442/?utm_campaign=722442&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Это наш 50&nbsp;выпуск, отметим его исчерпывающими подробностями про&nbsp;новый iPhone 14&nbsp;в&nbsp;жёлтом цвете. А&nbsp;также множество новостей для&nbsp;тестировщиков и разработчиков, с&nbsp;рассказом, какие новинки нас ждут уже в&nbsp;самое ближайшее время в&nbsp;релизе. Сервис Apple для&nbsp;прослушивания классической музыки&nbsp;— уже в&nbsp;конце месяца, утекли детали гарнитуры смешанной реальности, а&nbsp;ещё Apple получила Оскар. Есть что&nbsp;рассказать, пусть выпуск и выходит запоздало :)</p><p></p> <a href="https://habr.com/ru/post/722442/?utm_campaign=722442&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Перейти к новостям</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 05:10:02 GMT</pubDate>
+      <dc:creator>aaplpro</dc:creator>
+      <category><![CDATA[Гаджеты]]></category><category><![CDATA[Компьютерное железо]]></category><category><![CDATA[Смартфоны]]></category><category><![CDATA[IT-компании]]></category>
+      <category><![CDATA[Apple]]></category><category><![CDATA[iOS]]></category><category><![CDATA[macOS]]></category><category><![CDATA[tvOS]]></category><category><![CDATA[iPhone]]></category><category><![CDATA[iPad]]></category><category><![CDATA[Mac]]></category><category><![CDATA[Apple Music]]></category><category><![CDATA[Apple TV]]></category><category><![CDATA[Оскар]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Полное исключение категорий при поиске]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722446/</guid>
+      <link>https://habr.com/ru/post/722446/?utm_campaign=722446&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p><em>Добавление функционала, который позволяет пользователям выбирать определенные категории и полностью исключать другие при поиске, может стимулировать продавцов и владельцев сайтов к честному описанию категорий и свойств товаров или ресурсов без необходимости проверок модераторами или рассмотрения жалоб от пользователей.</em></p><p>Уровень взаимного доверия может сильно различаться в разных сообществах. На доверие влияют не только развитые социальные связи, но и полезные практики и протоколы общения. В сетевом сообществе уровень доверия между поисковиками, владельцами ресурсов и пользователями с начала века только падает. Владельцы ресурса стараются накручивать ранг в выдаче поисковой системы, а владельцы поисковой системы с этом борются, изменяя алгоритмы работы поисковика скрытым образом. В данной статье описывается возможность создания протоколов взаимодействия между поисковиком, владельцами ресурсов и пользователями, при которых ранг поискового запроса повышается при наличии корректных метаданных, предоставляемых владельцем ресурса поисковой системе, и снижается при наличии некорректных или избыточных метаданных исключительно благодаря структуре поискового запроса, а не благодаря проверке модераторами или скрытыми механизмами проверки поисковой системой.</p><p>В обсуждении статьи про <a href="https://habr.com/ru/news/t/707140/" rel="noopener noreferrer nofollow">угрозу поиску Google со стороны ChatGPT</a> ссылаются на список компаний <a href="https://killedbygoogle.com" rel="noopener noreferrer nofollow">Killed by Google</a>, но место под могилу Google давно определил себе сам, его коммерческая модель несовместима с качественным поиском и с качественным представлением информации. Чтобы приносить прибыль, результат поиска должен позволять незаметно подмешивать рекламу, «<em>Если Google даст вам идеальный ответ на запрос, вы не нажмёте ни на одну рекламную ссылку</em>». Применение ChatGPT и других систем искусственного интеллекта не влияет на модель монетраризации. Для повышения качества нужны не только новые механизмы, но коммерческая модель, стимулирующая улучшения. Такая модель есть у больших платформ электронной коммерции: AliExpress, Amazon, Озона, Яндекс Маркета, Wildberries и подобных. </p><p></p> <a href="https://habr.com/ru/post/722446/?utm_campaign=722446&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 03:23:43 GMT</pubDate>
+      <dc:creator>vignatovic</dc:creator>
+      <category><![CDATA[Поисковые технологии]]></category><category><![CDATA[Разработка под e-commerce]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Интернет-маркетинг]]></category><category><![CDATA[Социальные сети и сообщества]]></category>
+      <category><![CDATA[поиск]]></category><category><![CDATA[категоризация]]></category><category><![CDATA[категории]]></category><category><![CDATA[исключение]]></category><category><![CDATA[коммерциализация]]></category><category><![CDATA[модель монетизации]]></category><category><![CDATA[электронная коммерция]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Девятый круг санкций: что грозит в Китаю со стороны новой инициативы США по блокированию доступа к производству чипов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722440/</guid>
+      <link>https://habr.com/ru/post/722440/?utm_campaign=722440&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<img src="https://habrastorage.org/r/w1560/webt/3j/t5/77/3jt577obrluna56weiplwp_yobe.jpeg" alt="image"><br>
+<br>
+У процесса производства современных чипов есть слабое место — литографическое оборудование. Если это оборудование по какой-то причине недоступно для компании-производителя, то все останавливается. У большинства производителей, которые так либо иначе связаны с США, все хорошо. Но вот у китайских компаний ситуация весьма незавидная.<br>
+<br>
+Все потому, что Штаты <a href="https://www.tomshardware.com/news/new-us-sanctions-against-china-chip-sector-may-set-it-back-by-decade" rel="nofollow noopener noreferrer">накладывают новые санкции</a> против производителей чипов из Поднебесной, включая одного из лидеров отрасли — компании SMIC. Ранее мы уже писали о <a href="https://habr.com/ru/company/selectel/blog/588386/">санкциях</a>, но сейчас их, похоже, ужесточают. Подробности — под катом.<br> <a href="https://habr.com/ru/post/722440/?utm_campaign=722440&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 00:43:37 GMT</pubDate>
+      <dc:creator>Seleditor</dc:creator>
+      <category><![CDATA[Блог компании Selectel]]></category><category><![CDATA[Исследования и прогнозы в IT]]></category><category><![CDATA[Производство и разработка электроники]]></category>
+      <category><![CDATA[китай]]></category><category><![CDATA[США]]></category><category><![CDATA[санкции]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как автоматизация на базе «1С УНФ» помогла сократить расходы на производство в 4 раза]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722414/</guid>
+      <link>https://habr.com/ru/post/722414/?utm_campaign=722414&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p><strong>Кейс реальной автоматизации</strong> </p><p><strong>О компании</strong></p><p>Компания «ВХМ24» занимается производством и продажей металлических конструкций для предприятий, в сферу деятельности которых входит хранение и переработка зерновых культур. На производстве изготавливают оборудование на заказ, учитывая разнообразные требования Заказчика.</p><p></p> <a href="https://habr.com/ru/post/722414/?utm_campaign=722414&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 20:45:56 GMT</pubDate>
+      <dc:creator>systembiz</dc:creator>
+      <category><![CDATA[Управление проектами]]></category><category><![CDATA[1С]]></category>
+      <category><![CDATA[автоматизация]]></category><category><![CDATA[автоматизация бизнеса]]></category><category><![CDATA[кейс]]></category><category><![CDATA[1с]]></category><category><![CDATA[системный анализ бизнес-процессов]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как я веду переписки в мессенджерах, чтобы собеседники не отваливались в процессе]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722348/</guid>
+      <link>https://habr.com/ru/post/722348/?utm_campaign=722348&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>В первую очередь это, конечно, касается общения с потенциальными клиентами, но со временем привычка перешла и на все остальные переписки.</p><p>Итак, чтобы собеседник не отвалился в процессе общения, нужно:</p><p>1. Определиться с целью, которую мы хотим достичь в результате разговора;<br>2. Заканчивать каждую свою фразу вопросом до тех пор, пока эта цель не будет достигнута.</p><p>Приведу пример в рамках продажи рекламы в Телеграм-канале. <strong>З</strong> — заказчик. <strong>А</strong> — админ канала (он же фрилансер).</p><p>Цель админа: продать размещение рекламы в своём канале.</p><p><strong>З</strong>: Здравствуйте! Продаёте рекламу на канале таком-то?<br><strong>А</strong>: Да, продаём! 1000/24/2. Обращайтесь!</p><p><em>Всё, вопроса в конце нет, поэтому клиент может спокойно отваливаться. Давайте кое-что поправим:</em></p><p></p> <a href="https://habr.com/ru/post/722348/?utm_campaign=722348&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 14:47:22 GMT</pubDate>
+      <dc:creator>Ekamelev</dc:creator>
+      <category><![CDATA[Фриланс]]></category><category><![CDATA[Удалённая работа]]></category>
+      <category><![CDATA[диалоги]]></category><category><![CDATA[переписки]]></category><category><![CDATA[переговоры]]></category><category><![CDATA[фриланс]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[“Чтоб не зазнавались”, или Ошибки руководителя при работе с хорошими сотрудниками]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722334/</guid>
+      <link>https://habr.com/ru/post/722334/?utm_campaign=722334&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/post_images/8df/25e/f4e/8df25ef4e82535df524c24045c3271f3.png" alt="image"><br>
+<br>
+В прошлой <a href="https://t.me/OS_management/156" rel="nofollow noopener noreferrer">статье</a> мы рассмотрели 3 ключевые ошибки, которые совершает руководитель при работе с нелояльными сотрудниками. Сейчас же хочу рассмотреть ошибки, которые руководитель допускает по отношению к лучшим сотрудникам.<br>
+<hr><br>
+<h2>1. Руководитель недостаточно времени уделяет хорошим сотрудникам</h2><br>
+Когда что-то работает хорошо, людям свойственно не обращать на это никакого внимания. Это относится ко всему: техника, системы, бизнес, люди…. Вот так и руководитель: сотрудникам, которые работают хорошо он уделяет времени в разы меньше нежели плохим.<br>
+Почему так происходит? Как правило, руководитель даже не задумывается над этим. Ведь странно было-бы предположить, что руководитель осознанно решил больше уделять времени именно плохим сотрудникам…. Просто эти сотрудники постоянно на виду: с ними вечно проблемы, их работа вечно не доделана до конца, им постоянно нужно что-то напоминать и плотно контролировать. Вот руководитель и работает с ними: обучает, заставляет, убеждает, мотивирует, критикует и иногда хвалит…. Как следствие, у него не остается времени на хороших сотрудников. <a href="https://habr.com/ru/post/722334/?utm_campaign=722334&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 14:05:16 GMT</pubDate>
+      <dc:creator>IvanBatechko</dc:creator>
+      <category><![CDATA[Управление персоналом]]></category>
+      <category><![CDATA[менеджмент]]></category><category><![CDATA[регулярный менеджмент]]></category><category><![CDATA[управление персоналом]]></category><category><![CDATA[персоналозависимость]]></category><category><![CDATA[мотивация сотрудников]]></category><category><![CDATA[поощрение сотрудников]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Полгода без тестировщика]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722142/</guid>
+      <link>https://habr.com/ru/post/722142/?utm_campaign=722142&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Тестировщики нужны, чтобы не было багов. Тестировщик спасает софт от погружения в пучину безумия, без него не построить качественный продукт. Без тестировщика команда постоянно будет тушить пожары на проде, софт будет глючным. Один человек спасает команде много времени и нервов, а компании экономит кучу денег.</p><p>Ведь так?</p><p>Мы провели эксперимент и проверили это на практике. Больше полугода наша команда проработала без тестировщика, перестроив свою работу.</p><p></p> <a href="https://habr.com/ru/post/722142/?utm_campaign=722142&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Что из этого получилось?</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 13:27:13 GMT</pubDate>
+      <dc:creator>Captain_Jack</dc:creator>
+      <category><![CDATA[Блог компании Maxilect]]></category><category><![CDATA[Ненормальное программирование]]></category><category><![CDATA[Тестирование IT-систем]]></category><category><![CDATA[Тестирование веб-сервисов]]></category><category><![CDATA[Управление разработкой]]></category>
+      <category><![CDATA[автоматизация тестирования]]></category><category><![CDATA[управление разработкой]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как менять работу без стресса: идём в гости в компанию через прелогин]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722102/</guid>
+      <link>https://habr.com/ru/post/722102/?utm_campaign=722102&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Заходит как-то айтишник в LinkedIn. Поскроллил вакансии, ответил рекрутеру, получил оффер в переписке. Или на почту? Или в мессенджере?&nbsp;</p><p>Поиск работы — это стресс от собеседований, сомнения, удобно ли пинговать по вакансии, десятки сообщений. Я вижу найм 2.0 как понятный roadmap, буквально не вставая с дивана. Расскажу, что из этого получилось сделать и какие идеи лежат в бэклоге нашей HR Tech-команды.&nbsp;</p><p>Читайте статью, если вы разрабатываете мобильные приложения, делаете продукты для бизнеса, нанимаете или сами с болью проходите собеседования. </p><p></p> <a href="https://habr.com/ru/post/722102/?utm_campaign=722102&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 12:45:51 GMT</pubDate>
+      <dc:creator>Sardok_86</dc:creator>
+      <category><![CDATA[Блог компании Альфа-Банк]]></category><category><![CDATA[Разработка мобильных приложений]]></category><category><![CDATA[Управление проектами]]></category><category><![CDATA[Управление персоналом]]></category>
+      <category><![CDATA[мобильное приложение]]></category><category><![CDATA[адаптация]]></category><category><![CDATA[найм]]></category><category><![CDATA[hr]]></category><category><![CDATA[оффер]]></category><category><![CDATA[воронка найма]]></category><category><![CDATA[hr tech]]></category><category><![CDATA[вовлечение пользователей]]></category><category><![CDATA[коммуникации]]></category><category><![CDATA[inhouse разработки]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

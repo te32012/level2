@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Разработка веб-сайтов – Делаем веб лучше</title>
+    <link>https://habr.com/ru/hub/webdev/all/</link>
+    <description><![CDATA[Разработка веб-сайтов – Делаем веб лучше]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:18:13 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+          
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Возможности JavaScript и TypeScript последних лет. Часть 1]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722450/</guid>
+      <link>https://habr.com/ru/post/722450/?utm_campaign=722450&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/ma/po/lv/mapolvqq4uunxfqoaviv3g9km9y.jpeg"><br>
+<p><br>
+Hello, world!</p><br>
+<p>Представляю вашему вниманию перевод первой части <a href="https://betterprogramming.pub/all-javascript-and-typescript-features-of-the-last-3-years-629c57e73e42" rel="nofollow noopener noreferrer">этой замечательной статьи</a>, посвященной возможностям JS и TS последних трех лет, которые вы могли пропустить.</p><br>
+<p>В первой части мы поговорим о возможностях JS, во второй — о возможностях TS.</p><br>
+<p>Это первая часть.</p><br>
+<p><em>Обратите внимание</em>: название почти каждой возможности — это также ссылка на соответствующий раздел MDN.</p> <a href="https://habr.com/ru/post/722450/?utm_campaign=722450&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 14:01:03 GMT</pubDate>
+      <dc:creator>aio350</dc:creator>
+      <category><![CDATA[Блог компании Timeweb Cloud]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[TypeScript]]></category><category><![CDATA[Разработка веб-сайтов]]></category>
+      <category>timeweb_статьи_перевод</category><category>javascript</category><category>typescript</category><category>ts</category><category>feature</category><category>возможность</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Оптимизируем изображения в HTML]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721972/</guid>
+      <link>https://habr.com/ru/post/721972/?utm_campaign=721972&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Вместе со Стивом Сьюэллом, CEO Builder.io, разбираемся, почему с точки зрения оптимизации производительности изображения лучше загружать через HTML, а не через CSS.&nbsp;</p><p></p> <a href="https://habr.com/ru/post/721972/?utm_campaign=721972&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 15 Mar 2023 05:47:50 GMT</pubDate>
+      <dc:creator>bapxat</dc:creator>
+      <category><![CDATA[Блог компании Нетология]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[HTML]]></category><category><![CDATA[Браузеры]]></category>
+      <category>html</category><category>background-image</category><category>img</category><category>оптимизация изображений</category><category>разработка сайтов</category><category>оптимизация</category><category>браузеры</category><category>frontend</category><category>оптимизация графики</category><category>фоновое изображение</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Главное из мира Python за февраль 2023]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/722008/</guid>
+      <link>https://habr.com/ru/post/722008/?utm_campaign=722008&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Раз в месяц мы в Moscow Python Podcast собираемся и обсуждаем новые релизы, PEP, заинтересовавшие нас инструменты и статьи. Под катом — текстовая выжимка из обсуждения. </p><p></p> <a href="https://habr.com/ru/post/722008/?utm_campaign=722008&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 06:06:54 GMT</pubDate>
+      <dc:creator>Voldar</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Python]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Django]]></category><category><![CDATA[Flask]]></category>
+      <category><![CDATA[python]]></category><category><![CDATA[rust]]></category><category><![CDATA[mypy]]></category><category><![CDATA[pydantic]]></category><category><![CDATA[phylum]]></category><category><![CDATA[pypi]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Встраивание WebGL в HTML-страницу с помощью Three.JS]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721912/</guid>
+      <link>https://habr.com/ru/post/721912/?utm_campaign=721912&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p><strong><a href="https://articles-simbirsoft.github.io/demo/">demo</a>, <a href="https://github.com/articles-simbirsoft/demo"><u>github</u></a></strong>  </p><p>Приветствую! Я Алексей, frontend‑разработчик в&nbsp;SimbirSoft. Вы, возможно, видели потрясающие веб‑сайты, представленные на <a href="https://www.awwwards.com">www.awwwards.com</a>. Это онлайн‑каталог лучших веб‑сайтов, который оценивает и награждает творческие и инновационные работы веб‑дизайнеров и разработчиков. На&nbsp;этом сайте можно найти множество примеров креативного веб‑дизайна, анимаций и визуальных эффектов. Такие удивительные анимации обычно разрабатываются с&nbsp;использованием WebGL. Эта технология позволяет более свободно и творчески подходить к&nbsp;созданию впечатляющих визуальных эффектов без&nbsp;ущерба для&nbsp;производительности. Для&nbsp;работы с&nbsp;WebGL используются такие библиотеки, как&nbsp;Three.js, PIXIJS или&nbsp;BABYLON, которые также популярны при&nbsp;создании игр.</p><p>В&nbsp;данной статье мы рассмотрим совмещение WebGL‑анимации с&nbsp;прокруткой страницы HTML, используя библиотеку Three.js. Работа с&nbsp;ней во&nbsp;многом схожа с&nbsp;работой 3D‑редактора (3ds Max, Maya, Blender и&nbsp;т.&nbsp;д.). Для&nbsp;получения результата в&nbsp;виде картинки или&nbsp;анимации необходимо создать сцену, поместить в&nbsp;нее камеру, создать примитив (геометрию или 3D‑модель), создать источник освещения и запустить процесс рендеринга. </p><p>Эта статья будет полезна middle и senior фронтенд‑разработчикам, которые хотят ознакомиться с&nbsp;Three. В&nbsp;статье очень мало теории и вводных материалов, акцент сделан на&nbsp;практической части. Если вы совсем не&nbsp;знаете, как&nbsp;работает <a href="https://threejs.org/"><u>Three.js</u></a>  и шейдеры, рекомендую вначале ознакомиться с&nbsp;этой технологией, а&nbsp;после вернуться к&nbsp;статье.</p><p></p> <a href="https://habr.com/ru/post/721912/?utm_campaign=721912&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 14 Mar 2023 05:35:15 GMT</pubDate>
+      <dc:creator>SimbirSoft_frontend</dc:creator>
+      <category><![CDATA[Блог компании SimbirSoft]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[Программирование]]></category>
+      <category><![CDATA[three.js]]></category><category><![CDATA[webgl]]></category><category><![CDATA[shaders]]></category><category><![CDATA[туториал]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] О трудном и утомительном пути от идеи до веб-сайта]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721998/</guid>
+      <link>https://habr.com/ru/post/721998/?utm_campaign=721998&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/721998/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/4m/os/fv/4mosfva1-ayfds0fjy26hqnekvw.jpeg"></div></a><br>
+2017 год. Я уже около шести лет работаю в компании, продающей кубики Рубика, и начинаю испытывать зуд от желания попробовать что-то новое. Несколько лет проработав с физическими товарами, я осознал, что всегда хотел работать в полностью онлайновом и виртуальном бизнесе, в котором не придётся иметь дело с материальными продуктами (и не испытывать связанной с ними головной боли).<br> <a href="https://habr.com/ru/post/721998/?utm_campaign=721998&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Mon, 13 Mar 2023 14:00:02 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Монетизация веб-сервисов]]></category><category><![CDATA[Карьера в IT-индустрии]]></category>
+      <category>ruvds_перевод</category><category>разработка сайтов</category><category>api</category><category>shopify</category><category>изучение программирования</category><category>реализация идей</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Свой мониторинг сайтов: от идеи до реализации]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/720488/</guid>
+      <link>https://habr.com/ru/post/720488/?utm_campaign=720488&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>У&nbsp;моей команды много сайтов на&nbsp;поддержке, а&nbsp;в&nbsp;нашей стране много праздников. В&nbsp;праздники интернет продолжает работать, реклама продолжает крутиться, люди продолжают покупать на&nbsp;сайтах, а&nbsp;значит и сайты должны функционировать 24/7&nbsp;вне зависимости от&nbsp;цвета дня календаря. А&nbsp;как&nbsp;узнать, что&nbsp;все в&nbsp;порядке, если ты жаришь шашлык на&nbsp;даче в 100&nbsp;км. от&nbsp;столицы? Все очевидно&nbsp;— нужен сервис, который будет мониторить сайты и пинговать дежурного программиста, если что‑то пошло не&nbsp;так...</p><p></p> <a href="https://habr.com/ru/post/720488/?utm_campaign=720488&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Mon, 13 Mar 2023 09:31:32 GMT</pubDate>
+      <dc:creator>babilonsuxx</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Управление проектами]]></category>
+      <category><![CDATA[веб-сервисы]]></category><category><![CDATA[разработка]]></category><category><![CDATA[полезное]]></category><category><![CDATA[техподдержка]]></category><category><![CDATA[мониторинг]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Проводим тестирование и анализ поиска в интернет магазине]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721968/</guid>
+      <link>https://habr.com/ru/post/721968/?utm_campaign=721968&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>В интернет-магазинах день за днем происходят сотни тысяч визитов, и каждый из них может стать потенциальной покупкой для компании. Анализ поведения пользователей на сайте является ключевым моментом в развитии любого интернет-магазина, позволяя определить причины, по которым пользователи покидают сайт, и выработать соответствующие решения.  </p><p>В данной статье мы рассмотрим результаты анализа поведения пользователей на сайте Кабель РФ<sup><sub>[ссылка удалена модератором]</sub></sup>,&nbsp; на примере данных, полученных из Яндекс.Метрики, Google аналитики и UI тестирования. Данные были собраны методом веб-аналитики и представляют собой набор показателей, таких как количество визитов, отказов, длительность сессии и др.</p><p>Возможно кому-то будет полезен некий алгоритм анализа и тестирования работы поиска на конкретном примере.</p><p></p> <a href="https://habr.com/ru/post/721968/?utm_campaign=721968&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Mon, 13 Mar 2023 09:14:47 GMT</pubDate>
+      <dc:creator>Mazkonik</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Usability]]></category>
+      <category><![CDATA[поиск]]></category><category><![CDATA[веб-тестирование]]></category><category><![CDATA[тестирование]]></category><category><![CDATA[аналитика]]></category><category><![CDATA[интернет-магазин]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Использование Rust в Веб-Разработке]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721856/</guid>
+      <link>https://habr.com/ru/post/721856/?utm_campaign=721856&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Всем привет! Наверно многие уже знают про язык программирования Rust. Но если кто не знает, Rust - &nbsp;мультипарадигмальный компилируемый язык программирования общего назначения. Всем известно что Rust в основном используется для создания CLI приложений и системного программирования, но у него есть другие области. Например - разработка видео-игр, но мы не об этом. Сегодня я бы хотел обсудить веб-программирование на Rust.</p><p></p> <a href="https://habr.com/ru/post/721856/?utm_campaign=721856&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее...</a>]]></description>
+      
+      <pubDate>Sun, 12 Mar 2023 15:58:13 GMT</pubDate>
+      <dc:creator>lambda59</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Rust]]></category>
+      <category><![CDATA[Rust]]></category><category><![CDATA[BackEnd]]></category><category><![CDATA[FrontEnd]]></category><category><![CDATA[Web]]></category><category><![CDATA[Rust Web]]></category><category><![CDATA[actix-web]]></category><category><![CDATA[rocket]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Стартап в Соло. Часть 3: упрощаем продукт]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721748/</guid>
+      <link>https://habr.com/ru/post/721748/?utm_campaign=721748&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>В предыдущей статье я рассказал, как появилась идея <a href="https://telegram-feedback.com/" rel="noopener noreferrer nofollow"><u>Telegram чата для сайта</u></a>, как создавался MVP и сколько пользователей было вначале. В этой статье я расскажу, как я улучшал конверсию из регистрации в подключенный на сайт виджет, а также как начал анализировать источники новых пользователей.  </p> <a href="https://habr.com/ru/post/721748/?utm_campaign=721748&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Sat, 11 Mar 2023 15:12:08 GMT</pubDate>
+      <dc:creator>RostislavDugin</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Развитие стартапа]]></category>
+      <category><![CDATA[стартап]]></category><category><![CDATA[pet-project]]></category><category><![CDATA[react]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Распознавание речи через Deepgram API в PWA]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721668/</guid>
+      <link>https://habr.com/ru/post/721668/?utm_campaign=721668&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Распознавание речи — штука довольно прикольная и не очень полезная. С одной стороны голосовой интерфейс для общения с роботами в фантастике является обычным, наверное, годов с 60-х, а с другой стороны — в наше время голосовой интерфейс не продвинулся сильно дальше &quot;<em>Алиса, а какая у нас погода на завтра?</em>&quot;. Для того, чтобы самому составить мнение о текущих возможностях систем распознования речи, я попробовал использовать сервис <a href="https://deepgram.com/" rel="nofollow noopener noreferrer">Deepgram</a> в браузерном приложении. Команда сервиса в ноябре прошлого года привлекла дополнительное финансирование в размере $47 млн. и с оптимизмом смотрит в будущее. Сервис хорош тем, что распознаёт русский язык (не все STT-сервисы это делают), даёт приличный кредит для тестирования возможностей (из 150 промо-денег я израсходовал меньше 0.50 &quot;на поиграться&quot;), не требует серверной части (всё работает из браузера). Готовая демка — <a href="https://deepgram.demo.wiredgeese.com/" rel="nofollow noopener noreferrer">тут</a>, детали — под катом.</p><br>
+<p><img src="https://habrastorage.org/webt/bh/lv/de/bhlvdeddwgazezwjfc14icta4ia.png" alt="КДПВ"></p> <a href="https://habr.com/ru/post/721668/?utm_campaign=721668&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sat, 11 Mar 2023 08:25:15 GMT</pubDate>
+      <dc:creator>flancer</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category><![CDATA[deepgram]]></category><category><![CDATA[speech recognition]]></category><category><![CDATA[progressive web apps]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Рано выбрасывать iframe в 2022-м году]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/716084/</guid>
+      <link>https://habr.com/ru/post/716084/?utm_campaign=716084&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Многие считают, что iframe это что-то древнее и небезопасное, лучше не марать об это руки и не использовать. У него сложилась довольно грязная репутация.&nbsp; Но, на самом деле, есть ситуации, где он просто незаменим. Побуду неким адвокатом iframe и расскажу, чем он хорош.</p><p>Меня зовут Андрей Кузнецов, я занимаюсь версткой с 2005 года, был flash-ром до 2012 года, сейчас работаю в компании «Рунет Бизнес Системы» frontend-лидом. Мы занимаемся интернет-эквайрингом, всевозможными оплатами в Интернете и всеми сопутствующими процессами. Подробно расскажу, что умеет iframe на данный момент времени, о его развитии. Из этих знаний уже можно что-то лепить, конструировать и решать те самые задачи, которые помогают развиваться бизнесу.</p><p></p> <a href="https://habr.com/ru/post/716084/?utm_campaign=716084&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Fri, 10 Mar 2023 09:15:41 GMT</pubDate>
+      <dc:creator>and_kuznetsov</dc:creator>
+      <category><![CDATA[Блог компании Конференции Олега Бунина (Онтико)]]></category><category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[iframe]]></category><category><![CDATA[clickjacking attack]]></category><category><![CDATA[X-Frame Options]]></category><category><![CDATA[Browser in Browser]]></category><category><![CDATA[фишинговый сайт]]></category><category><![CDATA[технология Порталы]]></category><category><![CDATA[content security policy]]></category><category><![CDATA[bitb]]></category><category><![CDATA[cors]]></category><category><![CDATA[pci dss]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Типизируй с нами, типизируй, как мы…]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721346/</guid>
+      <link>https://habr.com/ru/post/721346/?utm_campaign=721346&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Сказ о том, как я каррирование типизировал</p><p></p> <a href="https://habr.com/ru/post/721346/?utm_campaign=721346&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Thu, 09 Mar 2023 13:52:28 GMT</pubDate>
+      <dc:creator>SumarokovVladimir</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[TypeScript]]></category>
+      <category><![CDATA[typescript]]></category><category><![CDATA[curry]]></category><category><![CDATA[currying]]></category><category><![CDATA[типизация]]></category><category><![CDATA[типы]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Кастомная стратегия виртуального скроллинга для просмотра pdf]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721220/</guid>
+      <link>https://habr.com/ru/post/721220/?utm_campaign=721220&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Angular CDK имеет широкие возможности для скроллинга плоского списка. Если размер каждого элемента одинаков, то можно воспользоваться <code>FixedSizeVirtualScrollStrategy</code>: всего лишь нужно прокинуть размер элемента в пикселях, проитерироваться по данным и виртуальный скроллинг готов. Но что делать, если размер элементов разный? Данную проблему можно решить кастомной стратегией виртуального скроллинга. В данной статье мы рассмотрим как построить такую стратегию для pdf-документов.</p><p></p> <a href="https://habr.com/ru/post/721220/?utm_campaign=721220&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Thu, 09 Mar 2023 07:57:23 GMT</pubDate>
+      <dc:creator>mishqua</dc:creator>
+      <category><![CDATA[Блог компании Bimeister]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[Angular]]></category><category><![CDATA[TypeScript]]></category>
+      <category><![CDATA[angular]]></category><category><![CDATA[typescript]]></category><category><![CDATA[scroll]]></category><category><![CDATA[virtual scroll]]></category><category><![CDATA[scrolling]]></category><category><![CDATA[cdk]]></category><category><![CDATA[infinite scrolling]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] CSS сolor-сontrast(): пошаговое руководство]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/721164/</guid>
+      <link>https://habr.com/ru/post/721164/?utm_campaign=721164&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p><img src="https://habrastorage.org/getpro/habr/post_images/274/5f5/bf5/2745f5bf5e937166b62269f323afa7f5.png"></p><br>
+<p>Если вы испытывали раздражение из-за невозможности легко перемещаться по сайту, с высокой вероятностью вы столкнулись с недоступностью в том или ином виде. Недоступность и неприятные впечатления от использования схожи. Если вам сложно прочитать мелкий шрифт, то человеку с нарушениями зрения, возможно, вообще не прочитает его.</p><br>
+<p>Функция <code>color-contrast()</code> используется для удобства чтения, придания необходимого контраста между текстом и фоном на веб-странице. Это особенно важно для людей с нарушениями зрения, которым трудно прочитать текст с низким контрастом.</p> <a href="https://habr.com/ru/post/721164/?utm_campaign=721164&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 08 Mar 2023 20:39:50 GMT</pubDate>
+      <dc:creator>honyaki</dc:creator>
+      <category><![CDATA[Блог компании SkillFactory]]></category><category><![CDATA[Веб-дизайн]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[CSS]]></category>
+      <category>skillfactory</category><category>css</category><category>контраст</category><category>цвета</category><category>функции</category><category>доступность</category><category>wcag</category><category>детали</category><category>веб</category><category>дизайн</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Будни техпода. Разворачиваем сайт из конструктора на vds за 130 рублей]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/720012/</guid>
+      <link>https://habr.com/ru/post/720012/?utm_campaign=720012&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<a href="https://habr.com/ru/company/ruvds/blog/720012/"><div style="text-align:center;"><img src="https://habrastorage.org/webt/46/iy/bs/46iybshybz-nbfsnpsriamqzhbo.png"></div></a><br>
+Думаю ни для кого не секрет, что одной из наиболее популярных задач, которую выполняют VDS серверы, является хостинг веб-сайтов. Очевидно, и вопросов на эту тему нам в поддержку приходит немало. Интересуются как возможностью заказать готовый сайт, так и параметрами сервера, которых будет достаточно для работы сайта. Кто-то и вовсе думает, что само понятие хостинга уже подразумевает под собой наличие готового сайта на нём, и сильно удивляются, когда обнаруживают чистую операционную систему на сервере. Сразу оговорюсь, данную статью я задумал в первую очередь для не совсем опытных пользователей, кто не знаком или не хочет разбираться в вёрстке и cms-системах, но при этом хотел бы иметь собственный небольшой сайт. Мы пошагово, но не сильно углубляясь, рассмотрим этапы начиная с создания сайта и заканчивая его размещением на VDS сервере.<br> <a href="https://habr.com/ru/post/720012/?utm_campaign=720012&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 08 Mar 2023 10:00:02 GMT</pubDate>
+      <dc:creator>oldadmin</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Хостинг]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Системное администрирование]]></category><category><![CDATA[Серверное администрирование]]></category>
+      <category><![CDATA[ruvds_статьи]]></category><category><![CDATA[будни_техпода]]></category><category><![CDATA[vps]]></category><category><![CDATA[vds]]></category><category><![CDATA[виртуальный сервер]]></category><category><![CDATA[личный сайт]]></category><category><![CDATA[блог]]></category><category><![CDATA[статичные сайты]]></category><category><![CDATA[домен]]></category><category><![CDATA[LAMP]]></category><category><![CDATA[FTP]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Стартап в соло. Часть 2: идея и первая версия]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/720998/</guid>
+      <link>https://habr.com/ru/post/720998/?utm_campaign=720998&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Продолжаю рассказывать о том, как я запустил свой Telegram чат для сайта. В этой статье расскажу о том, как выглядела первая версия продукта, из каких технических компонентов состояла на этапе MVP и как это всё выглядело визуально.</p><p></p> <a href="https://habr.com/ru/post/720998/?utm_campaign=720998&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 07 Mar 2023 12:48:52 GMT</pubDate>
+      <dc:creator>RostislavDugin</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Развитие стартапа]]></category>
+      <category><![CDATA[стартап]]></category><category><![CDATA[nodejs]]></category><category><![CDATA[react]]></category><category><![CDATA[pet-project]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Синий свет — зеленый свет: релизим без даунтаймов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/720986/</guid>
+      <link>https://habr.com/ru/post/720986/?utm_campaign=720986&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Привет! Меня зовут Николай Тихонов, я работаю в команде Tinkoff eCommerce. Я начинал как фронтендер, а потом стал писать бэкенд и занялся CI/CD. А дальше — FullStack Ops и руководство процессами и собственной командой. Сегодня расскажу про FrontOps, blue-green и релизы без даунтайма. Эта статья — текстовая адаптация моего доклада для FrontendConf 2022.&nbsp;</p><p>С минимальными знаниями Ops-технологий фронтендер может показывать каждому пользователю, что он сделал, и в одиночку реализовывать крутые продукты. А релизы с даунтаймом все еще существуют и не дают клиентам пользоваться продуктом ночью, поэтому в этой статье поговорим про практику blue-green.</p><p></p> <a href="https://habr.com/ru/post/720986/?utm_campaign=720986&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 07 Mar 2023 12:07:46 GMT</pubDate>
+      <dc:creator>luckywastaken</dc:creator>
+      <category><![CDATA[Блог компании Конференции Олега Бунина (Онтико)]]></category><category><![CDATA[Блог компании TINKOFF]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[DevOps]]></category>
+      <category><![CDATA[frontend]]></category><category><![CDATA[frontendconf]]></category><category><![CDATA[frontops]]></category><category><![CDATA[deploy]]></category><category><![CDATA[deployment]]></category><category><![CDATA[zero downtime]]></category><category><![CDATA[ci/cd]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как избежать проблем при запуске MVP]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/720896/</guid>
+      <link>https://habr.com/ru/post/720896/?utm_campaign=720896&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Всем привет! Меня зовут Алексей Половинкин, и я отвечаю за&nbsp;Python в&nbsp;AGIMA. За&nbsp;последние 2&nbsp;года мне повезло запускать сразу 2&nbsp;крупных MVP‑проекта: классифайд автомобилей для&nbsp;Казахстана и проект в&nbsp;сфере телемедицины. За&nbsp;это время у&nbsp;меня и моей команды накопилось много опыта по&nbsp;запуску подобных проектов, и им хотелось&nbsp;бы поделиться. В&nbsp;этой статье рассказываю, как&nbsp;не&nbsp;допускать ошибок на&nbsp;этапе MVP и какие практики полезно внедрять сразу.</p><p></p> <a href="https://habr.com/ru/post/720896/?utm_campaign=720896&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 07 Mar 2023 11:03:31 GMT</pubDate>
+      <dc:creator>whoosaa</dc:creator>
+      <category><![CDATA[Блог компании AGIMA]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Python]]></category><category><![CDATA[Разработка мобильных приложений]]></category><category><![CDATA[Тестирование веб-сервисов]]></category>
+      <category><![CDATA[mvp]]></category><category><![CDATA[sso]]></category><category><![CDATA[логирование]]></category><category><![CDATA[автотесты]]></category><category><![CDATA[celery]]></category><category><![CDATA[dramatiq]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Полное руководство по Remix. Часть 2]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/720642/</guid>
+      <link>https://habr.com/ru/post/720642/?utm_campaign=720642&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/kg/nf/k1/kgnfk1erl4lfx35dipzjer7psn8.png"><br>
+<p><br>
+Привет, друзья!</p><br>
+<p>В этой серии статей я продолжаю рассказывать о <a href="https://remix.run/" rel="nofollow noopener noreferrer">Remix</a> — новом фреймворке для создания клиент-серверных веб-приложений на JavaScript (<a href="https://ru.reactjs.org/" rel="nofollow noopener noreferrer">React</a>) со встроенной поддержкой <a href="https://www.typescriptlang.org/" rel="nofollow noopener noreferrer">TypeScript</a>.</p><br>
+<p>Remix позволяет разрабатывать так называемые PESPA (Progressive Enhancement Single Page Apps — одностраничные приложения с возможностью прогрессивного улучшения). Это означает следующее:</p><br>
+<ul>
+<li>почти весь код приложения &quot;живет&quot; на сервере;</li>
+<li>приложение остается функциональным даже при отсутствии JS;</li>
+<li>JS используется только для прогрессивного улучшения UX (User Experience — пользовательский опыт).</li>
+</ul><br>
+<p>Подробнее о PESPA и других архитектурах веб-приложений можно почитать <a href="https://habr.com/ru/company/timeweb/blog/695798/">здесь</a>.</p><br>
+<p>Очевидно, что разработчики Remix вдохновлялись <a href="https://nextjs.org/" rel="nofollow noopener noreferrer">Next.js</a> и <a href="https://svelte.dev/" rel="nofollow noopener noreferrer">Svelte</a>.</p><br>
+<p>К слову, <a href="https://my-js.org/docs/guide/nextjs" rel="nofollow noopener noreferrer">здесь</a> вы найдете полное руководство по Next.js.</p><br>
+<p>В первой части мы прошлись по руководствам из официальной документации, во второй — более подробно рассмотрим возможности, предоставляемые Remix.</p><br>
+<p>Это часть номер два.</p><br>
+<p>Вот <a href="https://habr.com/ru/company/timeweb/blog/717156/">ссылка на часть номер раз</a>.</p> <a href="https://habr.com/ru/post/720642/?utm_campaign=720642&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 07 Mar 2023 08:01:12 GMT</pubDate>
+      <dc:creator>aio350</dc:creator>
+      <category><![CDATA[Блог компании Timeweb Cloud]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[ReactJS]]></category><category><![CDATA[TypeScript]]></category>
+      <category><![CDATA[timeweb_статьи]]></category><category><![CDATA[javascript]]></category><category><![CDATA[typescript]]></category><category><![CDATA[ts]]></category><category><![CDATA[react.js]]></category><category><![CDATA[reactjs]]></category><category><![CDATA[react]]></category><category><![CDATA[next.js]]></category><category><![CDATA[nextjs]]></category><category><![CDATA[remix]]></category><category><![CDATA[framework]]></category><category><![CDATA[pespa]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Эргономичный мониторинг на практике]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/719938/</guid>
+      <link>https://habr.com/ru/post/719938/?utm_campaign=719938&amp;utm_source=habrahabr&amp;utm_medium=rss</link>
+      <description><![CDATA[<p>Мониторинг проекта — это комплексная задача. В неё входит не только передача метрик, но и сбор логов, трейсов, health-чеки, правила для алертов и система их доставки до ответственных разработчиков.</p><p>Важно, чтобы мониторинг развивался планомерно в процессе разработки бизнес-логики. В этой статье я расскажу о том, как подойти к реализации мониторинга со стороны разработки так, чтобы он был полезен и удобен в использовании.  </p><p></p> <a href="https://habr.com/ru/post/719938/?utm_campaign=719938&amp;utm_source=habrahabr&amp;utm_medium=rss#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Mon, 06 Mar 2023 13:57:30 GMT</pubDate>
+      <dc:creator>Alekseyl</dc:creator>
+      <category><![CDATA[Блог компании KTS]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Python]]></category><category><![CDATA[DevOps]]></category><category><![CDATA[Kubernetes]]></category>
+      <category><![CDATA[мониторинг]]></category><category><![CDATA[kubernetes]]></category><category><![CDATA[grafana]]></category><category><![CDATA[grafana loki]]></category><category><![CDATA[логи]]></category><category><![CDATA[python]]></category>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

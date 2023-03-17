@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Результаты поиска по запросу «[гиперссылки]»</title>
+    <link>https://habr.com/ru/</link>
+    <description><![CDATA[Результаты поиска по запросу «[гиперссылки]»]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 15 Mar 2023 14:20:01 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+        <title>Хабр</title>
+      </image>
+
+          
+
+	<item>
+		<title><![CDATA[Юристы из Гарварда обратили внимание на проблему «мертвых» ссылок в интернете]]></title>
+    <guid isPermaLink="true">https://habr.com/ru/post/559206/</guid>
+		<link>https://habr.com/ru/post/559206/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+		<description><![CDATA[<p>Команда Гарвардской школы права изучила проблему «вымирания» ссылок и дрейфа контента в интернете. Исследователи проанализировали гиперссылки в статьях газеты New York Times начиная с запуска сайта NYT в 1996 году и до середины 2019 года. Исследование показало, что около четверти ссылок в статьях NYT нерабочие.</p> <a href="https://habr.com/ru/post/559206/#habracut">Читать далее</a>]]></description>
+		
+		<pubDate>Tue, 25 May 2021 13:49:45 GMT</pubDate>
+    <dc:creator>AnnieBronson</dc:creator>
+		<category><![CDATA[Разработка веб-сайтов]]></category>
+		<category><![CDATA[гиперссылки]]></category><category><![CDATA[гарвард]]></category><category><![CDATA[new york times]]></category>
+	</item>
+
+
+
+
+
+      <item>
+      <title><![CDATA[Класс для ссылок]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/106032/</guid>
+      <link>https://habr.com/ru/post/106032/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[В флэшовых сайтах пользователю не дают выбора открыть ссылку в том же окне или новом, как в html. Написался классик для гиперлинков во флеше.<br/>
+С зажатым контролом/коммандом или шифтом, клик по ссылке открывает новое окно и в контекстном меню добавлен соответствующий пункт.<br/>
+Плюс удобнее прописывать линк:<br/>
+<code>new TrulinkSwf(btn,&quot;page&quot;);</code> — для swfaddress;<br/>
+<code>new Trulink(btn,&quot;http://habrahabr.ru&quot;);</code> — для ссылок вне swf.<br/>
+<br/>
+<a href="http://rockmen.ru/trulink/">Пример</a><br/>
+<a href="http://rockmen.ru/trulink/trulink.zip">Скачать и пользовать</a> <a href="https://habr.com/ru/post/106032/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut"></a>]]></description>
+      
+      <pubDate>Tue, 12 Oct 2010 14:24:17 GMT</pubDate>
+      <dc:creator>Rockmen</dc:creator>
+      <category><![CDATA[Adobe Flash]]></category>
+      <category><![CDATA[flash]]></category><category><![CDATA[actionscript 3.0 class]]></category><category><![CDATA[гиперссылки]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Apple разрабатывает аудиогиперссылки]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/189498/</guid>
+      <link>https://habr.com/ru/post/189498/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/post_images/e51/34e/41e/e5134e41e87011722abca9848553072e.png" alt="image"/><br/>
+<br/>
+Apple работает над технологией аудиогиперссылок, которая будет использовать слышимые и неслышимые сигналы, встроенные в музыку или другие аудиодорожки, для ссылки на другие медиа или для запуска каких-нибудь функций, <a href="http://techcrunch.com/2013/08/08/apple-developing-audio-hyperlinks-a-way-for-audio-streams-to-link-to-other-media-or-control-devices/">пишет</a> TechCrunch. Это позволит устройствам выполнять ряд различных функций при обнаружении таких гиперссылок, прямо как действуют пользователи, когда видят обычные ссылки в Интернете.<br/>
+<br/>
+Такую аудиогиперссылку можно, например, встроить в подкаст, воспроизведение которого будет приостановлено при обнаружении ссылки либо для того, чтобы вернуться к более раннему фрагменту этого же подкаста, либо для воспроизведения другого аудиопотока, либо даже для открытия другого приложения, видео или другого сайта из Интернета. <br/>
+ <a href="https://habr.com/ru/post/189498/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Thu, 08 Aug 2013 18:21:49 GMT</pubDate>
+      <dc:creator>aleksandrit</dc:creator>
+      <category><![CDATA[IT-стандарты]]></category>
+      <category><![CDATA[Apple]]></category><category><![CDATA[аудиогиперссылки]]></category><category><![CDATA[гиперссылки]]></category><category><![CDATA[гипертекст]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[URI — сложно о простом (Часть 1)]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/232385/</guid>
+      <link>https://habr.com/ru/post/232385/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<img src="https://habrastorage.org/files/bd4/4cc/c3e/bd44ccc3e6df448e952967572648d0d3.jpg" alt="image"/><br/>
+<br/>
+Привет хабр!<br/>
+<br/>
+Появилось таки некоторое количество времени, и я решил написать сий пост, идея которого возникла уже давно.<br/>
+Связан он будет будет с такой, казалось бы, простой вещью, как URI, детальному рассмотрению которой в рунете уделяется как-то мало внимания.<br/>
+<br/>
+&quot;<i>Пфф, ссылки они и в Африке ссылки, чего тут разбираться?</i>&quot; — скажете вы, тогда я задам вопрос: <br/>
+<br/>
+<i>Что есть что и куда нас приведет?</i><br/>
+<ul>
+<li><code>http://example.com</code></li>
+<li><code>www.example.com</code></li>
+<li><code>//www.example.com</code></li>
+<li><code>mailto:user@example.com</code></li>
+</ul><br/>
+Если вы не знаете однозначного ответа или вам просто интересно <s>и если вы не боитесь огромного количества трехбуквенных аббревиатур</s> — милости прошу под кат.<br/>
+ <a href="https://habr.com/ru/post/232385/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Sat, 11 Jul 2015 22:33:43 GMT</pubDate>
+      <dc:creator>xobotyi</dc:creator>
+      <category><![CDATA[Разработка веб-сайтов]]></category>
+      <category><![CDATA[URL]]></category><category><![CDATA[URI]]></category><category><![CDATA[URN]]></category><category><![CDATA[IRI]]></category><category><![CDATA[гиперссылки]]></category><category><![CDATA[ссылки]]></category><category><![CDATA[домены]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Разработчики Mozilla выяснили, почему гиперссылки синие]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/574896/</guid>
+      <link>https://habr.com/ru/post/574896/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/25d/c54/6a1/25dc546a18420d536ae335d599ba33d0.jpg" alt="image"></div><br>
+Интернет проник во все аспекты нашей жизни, но мы уверены, что один аспект цифрового мира вы считаете чем-то само собой разумеющимся. Замечали ли вы, что множество ссылок, в частности, гипессылок, имеет синий цвет? Когда коллега спросил меня, почему ссылки синие, я была поражена. Я UX-дизайнер и создаю веб-сайты с 2001 года, и я всегда делала ссылки синими. Да, я отстаивала выбор конкретного оттенка синего и согласованное применение синего цвета, но никогда не задумывалась: почему же ссылки синие? Это просто был факт из жизни. Трава зелёная, гиперссылки синие. В нашей культуре настолько принято ассоциировать ссылки с синим цветом, что когда в 2016 году Google изменила цвет ссылок на чёрный, <a href="https://mashable.com/article/google-black-link-analysis" rel="nofollow noopener noreferrer">это вызвало разногласия</a>.<br>
+<br>
+Но теперь меня поглотил вопрос: ПОЧЕМУ же ссылки синие? КТО решил сделать их синими? КОГДА было принято это решение и КАК это решение оказалось таким влиятельным?<br> <a href="https://habr.com/ru/post/574896/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=search#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Fri, 27 Aug 2021 10:13:11 GMT</pubDate>
+      <dc:creator>PatientZero</dc:creator>
+      <category><![CDATA[Веб-дизайн]]></category><category><![CDATA[Accessibility]]></category><category><![CDATA[Браузеры]]></category><category><![CDATA[Графический дизайн]]></category><category><![CDATA[История IT]]></category>
+      <category>гиперссылки</category><category>браузеры</category><category>дизайн интерфейсов</category><category>история интернета</category><category>world wide web</category><category>mosaic</category><category>windows</category><category>internet explorer</category>
+    </item>
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>

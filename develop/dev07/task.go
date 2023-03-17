@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+	"sync"
+	"time"
+)
+
 /*
 === Or channel ===
 
@@ -33,6 +39,41 @@ start := time.Now()
 fmt.Printf(“fone after %v”, time.Since(start))
 */
 
-func main() {
+func MultiCannalUnion(channals ...<-chan interface{}) <-chan interface{} {
+	out := make(chan interface{})
+	waitGroup := sync.WaitGroup{}
+	waitGroup.Add(len(channals))
+	for _, channal := range channals {
+		go func(ch <-chan interface{}) {
+			for element := range ch {
+				out <- element
+			}
+			waitGroup.Done()
+		}(channal)
+	}
+	go func() {
+		waitGroup.Wait()
+		close(out)
+	}()
+	return out
+}
 
+func main() {
+	sig := func(after time.Duration) <-chan interface{} {
+		c := make(chan interface{})
+		go func() {
+			defer close(c)
+			time.Sleep(after)
+		}()
+		return c
+	}
+	t := time.Now()
+	<-MultiCannalUnion(
+		sig(6*time.Second),
+		sig(5*time.Second),
+		sig(2*time.Second),
+		sig(3*time.Second),
+		sig(1*time.Second),
+	)
+	fmt.Println("прошло времени с начала запуска программы", time.Since(t))
 }
