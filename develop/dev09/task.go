@@ -19,6 +19,9 @@ import (
 
 Программа должна проходить все тесты. Код должен проходить проверки go vet и golint.
 
+
+golangci-lint run --enable golint
+ok
 */
 
 type ConfigWget struct {

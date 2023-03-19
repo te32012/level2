@@ -91,3 +91,15 @@ type Context struct {
 func (c *Context) Content(s StrategyOrderGraph) {
 	c.strategy = s
 }
+
+func main() {
+	var context Context = Context{}
+	context.Content(&LNR{})
+	var l Node = Node{Data: 5}
+	var r Node = Node{Data: 2}
+	var n Node = Node{Data: 11, Left: &l, Right: &r}
+	context.strategy.Order(n)
+	context.Content(&NLR{})
+	context.strategy.Order(n)
+
+}

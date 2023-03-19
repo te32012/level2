@@ -51,3 +51,13 @@ func (r *Receiver) Receiver() {
 func (r *Receiver) SetPartMessage(msg PartMessage) {
 	r.message = msg
 }
+
+func main() {
+	var resiver Receiver = Receiver{}
+	resiver.Receiver()
+	resiver.message.DecodeAndUseMessage()
+	resiver.SetPartMessage(&MainPartMessage{})
+	resiver.message.DecodeAndUseMessage()
+	resiver.SetPartMessage(&EndPartMessage{})
+	resiver.message.DecodeAndUseMessage()
+}

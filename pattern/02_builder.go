@@ -46,3 +46,9 @@ func (wh *unfinishedwoodhouse) buildallhouse() finishedhouse {
 	wh.nameHouse.peopleliveinthishouse = "people live in house " + wh.nameHouse.peopleliveinthishouse
 	return &wh.nameHouse
 }
+
+func main() {
+	var unfhouse unfinishedHouse
+	var finhouse finishedhouse
+	finhouse = unfhouse.buildARoof().buildAwindow().buildallhouse()
+}

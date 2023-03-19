@@ -70,5 +70,6 @@ type Text struct {
 }
 
 func (t *Text) sell() {
-
+	var person Person
+	var content Content = person.createContent("video")
 }

@@ -43,7 +43,7 @@ import (
 */
 
 type Graph interface {
-	pritValue() string
+	printValue(Data) string
 }
 
 type Data interface {
@@ -57,23 +57,33 @@ type Person struct {
 	age       int
 }
 
-func (person *Person) meetsWith() string {
+func (person Person) meetsWith() string {
 	return person.firstname + " " + person.lastname + " meets with "
 }
-func (person *Person) sayFirstnameLastname() string {
+func (person Person) sayFirstnameLastname() string {
 	return person.firstname + " " + person.lastname
 }
 
-type Node struct {
-	Left    *Graph
-	Right   *Graph
+type Leaf struct {
 	persons []Data
 }
 
-func (node *Node) printValue(person Data) string {
+func (node Leaf) printValue(person Data) string {
 	var sb strings.Builder
 	for _, x := range node.persons {
 		sb.WriteString(person.meetsWith() + x.sayFirstnameLastname())
 	}
 	return sb.String()
+}
+
+func main() {
+	var pers Data
+	pers = Person{firstname: "ivan", lastname: "ivanov", age: 20}
+	var graph Graph
+	var per []Data = make([]Data, 0)
+	per = append(per, Person{firstname: "jane", lastname: "jane", age: 17})
+	per = append(per, Person{firstname: "kate", lastname: "kate", age: 21})
+	leaf := Leaf{persons: per}
+	graph = leaf
+	graph.printValue(pers)
 }

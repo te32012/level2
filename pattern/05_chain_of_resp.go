@@ -55,3 +55,10 @@ func (hpnf *HandlerOk) getResponse(status int) {
 	}
 
 }
+
+func main() {
+	var ok HandlerHttpResponse = &HandlerOk{next: &HandlerPageNotFound{}}
+	ok.getResponse(200)
+	ok.getResponse(500)
+	ok.getResponse(404)
+}

@@ -47,7 +47,8 @@ package pattern
 */
 
 type UiElement interface {
-	pressUiElement() string
+	pressUiElement()
+	setDevice(Device)
 }
 
 type UiMenu struct {
@@ -56,6 +57,10 @@ type UiMenu struct {
 
 func (c *UiMenu) pressUiElement() {
 	c.hardwareDevice.pressKey()
+}
+
+func (c *UiMenu) setDevice(d Device) {
+	c.hardwareDevice = d
 }
 
 type Device interface {
@@ -92,4 +97,15 @@ func (sm *SomeMan) lookAtNextUIMenu() {
 }
 func (sm *SomeMan) lookAtPreviousUIMenu() {
 	sm.lookAtMonitor = true
+}
+
+func main() {
+	var menu UiElement
+	var user User = &SomeMan{}
+	var keyword Device = &Keyword{someUser: user}
+	var mouse Device = &Mouse{someUser: user}
+	menu = &UiMenu{hardwareDevice: mouse}
+	menu.pressUiElement()
+	menu.setDevice(keyword)
+	menu.pressUiElement()
 }
